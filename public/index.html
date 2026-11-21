@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="ONE PIECEカードの通販販売価格を比較。ショップ別の在庫と確認日時をまとめてチェック。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>ワンピ比較 | ONE PIECEカード通販価格比較</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="./"><span class="brand-icon" aria-hidden="true">W</span><span>ワンピ比較<small>ONE PIECE CARD PRICES</small></span></a>
+    <p class="nav-label">マイリサーチ</p>
+    <nav aria-label="メインメニュー">
+      <button class="nav-button active" data-view="compare"><span aria-hidden="true">▦</span> 価格を比較</button>
+      <button class="nav-button" data-view="favorites"><span aria-hidden="true">☆</span> お気に入り <span id="favoriteCount" class="nav-count">0</span></button>
+      <button class="nav-button" data-view="shops"><span aria-hidden="true">▤</span> ショップ・取得状況</button>
+    </nav>
+    <div class="sidebar-foot"><div class="leaf">LOW IMPACT</div><strong>お店にやさしい価格比較</strong><p>保存済みの価格を比較。<br>検索するたびにショップへ<br>アクセスすることはありません。</p><button class="text-button" id="policyButton">取得の仕組みを見る</button></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>ONE PIECE CARD GAME <span class="divider">/</span> 通販価格比較</span><span class="badge">販売価格・税込</span></header>
+    <main>
+      <section class="page-heading"><div><p class="eyebrow">FIND YOUR NEXT CARD</p><h1 id="pageTitle">欲しいカードを、いい価格で。</h1><p class="subtitle">ショップごとの販売価格と在庫を、ひとつの画面で。</p></div><div class="heading-action"><button class="secondary" id="reloadButton">保存データを再読込</button><span id="updatedAt">データを読み込んでいます</span></div></section>
+      <div id="errorBox" class="error" hidden></div>
+      <section id="summary" class="summary" aria-label="収集状況"></section>
+      <section id="compareView">
+        <section class="search-panel" aria-label="検索条件">
+          <label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="カード名・型番で検索  例：ルフィ、OP17-093" aria-label="カード名または型番"></label>
+          <div class="filters"><label>収録シリーズ<select id="edition"><option value="">すべてのシリーズ</option></select></label><label>比較する商品<select id="variant"><option value="normal">通常版（自動照合済み）</option><option value="all">すべての商品</option><option value="parallel">パラレル・特別版</option></select></label><label>並び順<select id="sort"><option value="shops">比較ショップ数が多い順</option><option value="low">最安値が安い順</option><option value="gap">価格差が大きい順</option><option value="number">型番順</option></select></label><button class="text-button reset" id="resetButton">条件をリセット</button></div>
+          <div class="shop-select"><span>比較ショップ</span><div id="shopFilters"></div></div>
+        </section>
+        <div class="result-toolbar"><div><strong id="resultCount">読み込み中</strong><span class="result-hint">商品代金のみ・送料別</span></div><div class="result-options"><label class="check"><input id="stockOnly" type="checkbox" checked>在庫あり</label><label class="check"><input id="comparableOnly" type="checkbox">2店以上で比較</label><button class="secondary compact" id="csvButton">CSV保存</button></div></div>
+        <p class="coverage" id="coverage"></p>
+        <div class="table-wrap" id="results" aria-live="polite"></div>
+        <div class="pagination"><button class="secondary compact" id="prevButton">前のページ</button><span id="pageInfo"></span><button class="secondary compact" id="nextButton">次のページ</button></div>
+      </section>
+      <section id="shopsView" hidden><div class="section-heading"><h2>ショップとデータ取得状況</h2><p>取得できないショップも登録を維持し、対応状況を表示します。</p></div><div id="shopCards" class="shop-cards"></div><div class="import-panel"><div><h3>更新データの取り込み</h3><p>収集ツールで生成した prices.json を読み込むと、このブラウザの比較データを更新できます。</p><small>ファイルは外部に送信されません。大きなデータはブラウザを閉じるまで保持します。</small></div><label class="secondary file-button">価格JSONを取り込む<input id="importFile" type="file" accept="application/json,.json"></label><button id="clearImport" class="text-button">配信データに戻す</button></div></section>
+      <footer><span>非公式の価格比較ツールです。各ショップ・権利者とは関係ありません。</span><span>ご購入前にリンク先で版・状態・価格・送料をご確認ください。</span></footer>
+    </main>
+  </div>
+  <dialog id="detailDialog"><div class="dialog-heading"><div id="detailHeading"></div><button class="close" data-close="detailDialog" aria-label="閉じる">×</button></div><div id="detailBody"></div></dialog>
+  <dialog id="policyDialog"><div class="dialog-heading"><h2>ショップへのアクセスを抑える仕組み</h2><button class="close" data-close="policyDialog" aria-label="閉じる">×</button></div><div class="policy-content"><p>検索・絞り込み・再読込は、このツールの保存データだけを使います。ショップへのアクセスは、商品リンクを開いたときと収集ツールの実行時だけです。</p><ul><li>同じURLは12時間キャッシュ。更新時はETag / Last-Modifiedを利用。</li><li>ショップごとに10秒以上の間隔。同時収集は1処理だけ。</li><li>ショップごとに24時間あたり最大20リクエスト。robots.txtも上限に含めます。</li><li>robots.txtを確認。403・429・503・認証画面を検出した場合は24時間以上停止。</li><li>個別の商品ページを巡回せず、商品一覧からまとめて取得。</li><li>カード画像は同梱。ショップ画像の直リンクは使用しません。</li></ul><p>36時間を超えた価格は最安値の対象外です。版の同一性を確認できない商品は別枠で表示します。公開画面は配信時のスナップショットで、自動更新はローカルの起動中に行います。</p></div></dialog>
+  <div id="toast" role="status" hidden></div>
+</body></html>
