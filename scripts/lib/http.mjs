@@ -48,16 +48,20 @@ export class PoliteClient {
     const cached=previous ? await readJson(path.join(this.dir,`${key}.json`),null) : null;
     const ttl=Math.max(12,this.policy.cacheTtlHours)*3600000;
     if(cached && this.now()-previous.checkedAt<ttl) return {...cached,cacheHit:true,checkedAt:previous.checkedAt};
+    if(!cached && previous && this.now()-previous.checkedAt<ttl) throw new Error('本文キャッシュがありません。前回取得から12時間以上経過するまで再取得しません');
     const host=this.state.hosts[u.origin] ||= {windowStart:this.now(),count:0,last:0,cooldown:0};
     if(host.cooldown>this.now()) throw new Error(`取得休止中（${new Date(host.cooldown).toISOString()}まで）`);
-    if(this.now()-host.windowStart>=86400000) {host.windowStart=this.now();host.count=0;}
+    // Migrate old counters conservatively: all old requests count from the last request.
+    host.requests ||= Array.from({length:host.count||0},()=>host.last||host.windowStart);
+    host.requests=host.requests.filter(t=>this.now()-t<86400000);
+    host.count=host.requests.length;
     if(host.count>=Math.min(20,this.policy.maxRequestsPerShopPerDay)) throw new Error('24時間のアクセス上限に達しました');
     const wait=Math.max(0,host.last+Math.max(10000,this.policy.minIntervalMs,delay)-this.now());
     if(wait) await this.sleep(wait + Math.floor(Math.random()*1000));
-    host.last=this.now(); host.count++; this.requests++; await this.save(); // Reserve budget before network, including failed requests.
+    host.last=this.now(); host.requests.push(host.last);host.count=host.requests.length; this.requests++; await this.save(); // Reserve budget before network, including failed requests.
     const headers={'User-Agent':`${BOT}/1.0 (low-frequency retail-price comparison)`,Accept:robots?'text/plain':'text/html'};
-    if(previous?.etag) headers['If-None-Match']=previous.etag;
-    if(previous?.modified) headers['If-Modified-Since']=previous.modified;
+    if(cached && previous?.etag) headers['If-None-Match']=previous.etag;
+    if(cached && previous?.modified) headers['If-Modified-Since']=previous.modified;
     let response;
     try {response=await this.fetch(url,{headers,redirect:'manual',signal:AbortSignal.timeout(this.policy.timeoutMs)});}
     catch(e){host.cooldown=this.now()+6*3600000;await this.save();throw new Error(`通信失敗、6時間停止: ${e.message}`);}

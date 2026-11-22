@@ -1,0 +1,5 @@
+{
+  "collector": "github-actions",
+  "repository": "tksaai/OP_TCG_SHOP_COMPARE",
+  "scheduleJst": ["06:17", "18:17"]
+}

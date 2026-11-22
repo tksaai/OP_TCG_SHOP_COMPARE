@@ -4,3 +4,4 @@ research/
 dist/
 *.log
 *.tar.gz
+_collector-state/

@@ -10,6 +10,8 @@ import {mergeHistory} from './lib/price-history.mjs';
 import {audit} from './audit-coverage.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export async function collect({only=null,maxPages=null,series=null,reparseOnly=false}={}) {
+  const automation=await readJson(path.join(ROOT,'config/automation.json'),{});
+  if(automation.collector==='github-actions' && process.env.GITHUB_ACTIONS!=='true' && !reparseOnly)throw new Error('収集元はGitHub Actionsに移行しました。update-prices.bat またはActionsのRun workflowで実行してください（複数環境からの重複収集を防止）');
   const dir=path.join(ROOT,'.cache');await mkdir(dir,{recursive:true});
   let lock;
   try {lock=await open(path.join(dir,'collect.lock'),'wx');await lock.writeFile(JSON.stringify({pid:process.pid,startedAt:new Date().toISOString()}));}

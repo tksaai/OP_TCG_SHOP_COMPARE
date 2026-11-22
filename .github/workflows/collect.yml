@@ -1,0 +1,82 @@
+name: Collect prices and deploy
+on:
+  schedule:
+    # UTC 21:17 / 09:17 = JST 06:17 / 18:17. Avoid the top-of-hour queue.
+    - cron: '17 9,21 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: op-card-pipeline
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/checkout@v6
+        with:
+          ref: collector-state
+          path: _collector-state
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - uses: actions/cache/restore@v4
+        with:
+          path: .cache/http
+          key: shop-http-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: shop-http-
+      - name: Restore state and reserve collection lease
+        id: reserve
+        run: |
+          node scripts/automation-state.mjs begin
+          git -C _collector-state config user.name 'github-actions[bot]'
+          git -C _collector-state config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C _collector-state add state.json
+          git -C _collector-state commit -m 'Reserve collection lease'
+          git -C _collector-state push origin HEAD:collector-state
+      - name: Collect with shared limits
+        id: collect
+        run: npm run collect
+      - name: Persist counters and observations even after failure
+        if: ${{ always() && steps.reserve.outcome == 'success' }}
+        id: checkpoint
+        run: |
+          node scripts/automation-state.mjs finish
+          git -C _collector-state add state.json
+          git -C _collector-state commit -m 'Persist collection checkpoint'
+          git -C _collector-state push origin HEAD:collector-state
+      - uses: actions/cache/save@v4
+        if: ${{ always() && steps.checkpoint.outcome == 'success' }}
+        with:
+          path: .cache/http
+          key: shop-http-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Build saved snapshot
+        run: npm run build
+      - name: Save price history to main
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data public/images
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update retail prices and price history'
+            git push origin HEAD:main
+          fi
+      # GITHUB_TOKEN pushes do not trigger pages.yml, so deploy in this run.
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deployment
