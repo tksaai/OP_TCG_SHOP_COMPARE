@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T17:13:55.576Z",
-  "snapshotGeneratedAt": "2026-11-22T17:13:55.285Z",
+  "generatedAt": "2026-11-22T18:25:32.338Z",
+  "snapshotGeneratedAt": "2026-11-22T18:25:32.020Z",
   "scope": "手元の弾マスターに登録されているOP01〜18、EB01〜05、PRB01〜02、ST01〜36の61シリーズ。プロモ・ドン・未登録の新商品は対象外。",
   "catalogSource": "https://www.onepiece-cardgame.com/cardlist/",
   "notes": [
@@ -75,161 +75,161 @@
       "label": "エクストラブースター Anime 25th collection【EB-02】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 35
+      "offers": 37
     },
     {
       "id": "EB03",
       "label": "エクストラブースター ONE PIECE Heroines Edition【EB-03】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 18
+      "offers": 20
     },
     {
       "id": "EB04",
       "label": "エクストラブースター EGGHEAD CRISIS【EB-04】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 21
+      "offers": 65
     },
     {
       "id": "EB05",
       "label": "エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 90
+      "offers": 92
     },
     {
       "id": "OP01",
       "label": "ブースターパック ROMANCE DAWN【OP-01】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 130
+      "offers": 136
     },
     {
       "id": "OP02",
       "label": "ブースターパック 頂上決戦【OP-02】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 139
+      "offers": 146
     },
     {
       "id": "OP03",
       "label": "ブースターパック 強大な敵【OP-03】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 127
+      "offers": 133
     },
     {
       "id": "OP04",
       "label": "ブースターパック 謀略の王国【OP-04】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 110
+      "offers": 114
     },
     {
       "id": "OP05",
       "label": "ブースターパック 新時代の主役【OP-05】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 88
+      "offers": 97
     },
     {
       "id": "OP06",
       "label": "ブースターパック 双璧の覇者【OP-06】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 77
+      "offers": 80
     },
     {
       "id": "OP07",
       "label": "ブースターパック 500年後の未来【OP-07】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 83
+      "offers": 89
     },
     {
       "id": "OP08",
       "label": "ブースターパック 二つの伝説【OP-08】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 56
+      "offers": 62
     },
     {
       "id": "OP09",
       "label": "ブースターパック 新たなる皇帝【OP-09】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 130
+      "offers": 134
     },
     {
       "id": "OP10",
       "label": "ブースターパック 王族の血統【OP-10】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 97
+      "offers": 108
     },
     {
       "id": "OP11",
       "label": "ブースターパック 神速の拳【OP-11】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 105
+      "offers": 115
     },
     {
       "id": "OP12",
       "label": "ブースターパック 師弟の絆【OP-12】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 106
+      "offers": 119
     },
     {
       "id": "OP13",
       "label": "ブースターパック 受け継がれる意志【OP-13】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 117
+      "offers": 130
     },
     {
       "id": "OP14",
       "label": "ブースターパック 蒼海の七傑【OP-14】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 45
+      "offers": 65
     },
     {
       "id": "OP15",
       "label": "ブースターパック 神の島の冒険【OP-15】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 138
+      "offers": 174
     },
     {
       "id": "OP16",
       "label": "ブースターパック 決戦の刻【OP-16】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 197
+      "offers": 213
     },
     {
       "id": "OP17",
       "label": "ブースターパック 世界最強の戦士【OP-17】",
       "registeredShops": 7,
-      "knownPagesCoveredShops": 1,
-      "offers": 729
+      "knownPagesCoveredShops": 2,
+      "offers": 844
     },
     {
       "id": "OP18",
       "label": "ブースターパック 神の支配【OP-18】",
       "registeredShops": 7,
       "knownPagesCoveredShops": 1,
-      "offers": 990
+      "offers": 1111
     },
     {
       "id": "PRB01",
       "label": "プレミアムブースター ONE PIECE CARD THE BEST【PRB-01】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 3
+      "offers": 4
     },
     {
       "id": "PRB02",
@@ -243,14 +243,14 @@
       "label": "スタートデッキ 麦わらの一味【ST-01】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 16
+      "offers": 17
     },
     {
       "id": "ST02",
       "label": "スタートデッキ 最悪の世代【ST-02】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 22
+      "offers": 23
     },
     {
       "id": "ST03",
@@ -264,14 +264,14 @@
       "label": "スタートデッキ 百獣海賊団【ST-04】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 3
+      "offers": 4
     },
     {
       "id": "ST05",
       "label": "スタートデッキ ONE PIECE FILM edition【ST-05】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 0
+      "offers": 1
     },
     {
       "id": "ST06",
@@ -306,7 +306,7 @@
       "label": "アルティメットデッキ “三船長”集結【ST-10】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 9
+      "offers": 10
     },
     {
       "id": "ST11",
@@ -327,7 +327,7 @@
       "label": "アルティメットデッキ 3兄弟の絆【ST-13】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 17
+      "offers": 24
     },
     {
       "id": "ST14",
@@ -341,7 +341,7 @@
       "label": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 7
+      "offers": 8
     },
     {
       "id": "ST16",
@@ -376,21 +376,21 @@
       "label": "スタートデッキ 黄 シャーロット・カタクリ【ST-20】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 1
+      "offers": 2
     },
     {
       "id": "ST21",
       "label": "スタートデッキEX ギア5【ST-21】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 39
+      "offers": 43
     },
     {
       "id": "ST22",
       "label": "スタートデッキ エース&ニューゲート【ST-22】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 27
+      "offers": 29
     },
     {
       "id": "ST23",
@@ -439,21 +439,21 @@
       "label": "スタートデッキ EGGHEAD【ST-29】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 0
+      "offers": 3
     },
     {
       "id": "ST30",
       "label": "スタートデッキEX ルフィ&エース【ST-30】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 22
+      "offers": 24
     },
     {
       "id": "ST31",
       "label": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 6
+      "offers": 7
     },
     {
       "id": "ST32",
@@ -4021,7 +4021,7 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 2,
+      "offerCount": 3,
       "cardNumbers": 2,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4203,8 +4203,8 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 3,
-      "cardNumbers": 2,
+      "offerCount": 4,
+      "cardNumbers": 3,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.tcg-raftel.com/product-list/250"
@@ -4271,10 +4271,10 @@
       "series": "OP17",
       "shopId": "raftel",
       "shopName": "トレカラフテル",
-      "status": "partial",
+      "status": "known_pages_covered",
       "fresh": true,
-      "offerCount": 54,
-      "cardNumbers": 33,
+      "offerCount": 158,
+      "cardNumbers": 119,
       "registeredRoots": [
         "https://www.tcg-raftel.com/product-list/372"
       ],
@@ -4284,14 +4284,12 @@
       "lists": [
         {
           "root": "https://www.tcg-raftel.com/product-list/372",
-          "knownPageCount": 1,
-          "savedPageCount": 1,
+          "knownPageCount": 3,
+          "savedPageCount": 3,
           "missingPages": [],
-          "errors": [
-            "保存HTMLなし: https://www.tcg-raftel.com/product-list/372"
-          ],
-          "oldestObservedAt": "2026-11-21T16:28:22.793Z",
-          "knownPagesComplete": false
+          "errors": [],
+          "oldestObservedAt": "2026-11-22T18:24:16.067Z",
+          "knownPagesComplete": true
         }
       ]
     },
@@ -4299,10 +4297,10 @@
       "series": "OP18",
       "shopId": "raftel",
       "shopName": "トレカラフテル",
-      "status": "not_collected",
-      "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 120,
+      "cardNumbers": 94,
       "registeredRoots": [
         "https://www.tcg-raftel.com/product-list/402"
       ],
@@ -4312,13 +4310,13 @@
       "lists": [
         {
           "root": "https://www.tcg-raftel.com/product-list/402",
-          "knownPageCount": 1,
-          "savedPageCount": 0,
+          "knownPageCount": 3,
+          "savedPageCount": 2,
           "missingPages": [
-            1
+            3
           ],
           "errors": [],
-          "oldestObservedAt": null,
+          "oldestObservedAt": "2026-11-22T18:24:47.186Z",
           "knownPagesComplete": false
         }
       ]
@@ -4718,8 +4716,8 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "offerCount": 1,
+      "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
       "lists": []
@@ -4804,7 +4802,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 3,
+      "offerCount": 5,
       "cardNumbers": 2,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4818,7 +4816,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 1,
+      "offerCount": 3,
       "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4832,8 +4830,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 1,
-      "cardNumbers": 1,
+      "offerCount": 5,
+      "cardNumbers": 3,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.mercardop.jp/product-group/70"
@@ -4846,8 +4844,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "offerCount": 2,
+      "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.mercardop.jp/product-group/84"
@@ -4860,7 +4858,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 18,
+      "offerCount": 24,
       "cardNumbers": 8,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4874,7 +4872,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 17,
+      "offerCount": 24,
       "cardNumbers": 8,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4888,7 +4886,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 19,
+      "offerCount": 25,
       "cardNumbers": 8,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4902,7 +4900,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 12,
+      "offerCount": 16,
       "cardNumbers": 6,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4916,7 +4914,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 17,
+      "offerCount": 26,
       "cardNumbers": 7,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4930,7 +4928,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 14,
+      "offerCount": 17,
       "cardNumbers": 6,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4944,7 +4942,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 13,
+      "offerCount": 19,
       "cardNumbers": 6,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4958,7 +4956,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 14,
+      "offerCount": 20,
       "cardNumbers": 7,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4972,7 +4970,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 22,
+      "offerCount": 26,
       "cardNumbers": 8,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4986,7 +4984,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 14,
+      "offerCount": 25,
       "cardNumbers": 7,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -5000,7 +4998,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 14,
+      "offerCount": 23,
       "cardNumbers": 7,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -5014,8 +5012,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 16,
-      "cardNumbers": 9,
+      "offerCount": 28,
+      "cardNumbers": 10,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.mercardop.jp/product-group/56"
@@ -5028,7 +5026,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 20,
+      "offerCount": 33,
       "cardNumbers": 10,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -5042,8 +5040,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 1,
-      "cardNumbers": 1,
+      "offerCount": 21,
+      "cardNumbers": 9,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.mercardop.jp/product-group/68"
@@ -5056,8 +5054,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 6,
-      "cardNumbers": 6,
+      "offerCount": 22,
+      "cardNumbers": 13,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.mercardop.jp/product-group/71"
@@ -5070,8 +5068,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 9,
-      "cardNumbers": 9,
+      "offerCount": 25,
+      "cardNumbers": 14,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.mercardop.jp/product-group/74"
@@ -5084,8 +5082,8 @@
       "shopName": "メルカード",
       "status": "partial",
       "fresh": true,
-      "offerCount": 44,
-      "cardNumbers": 28,
+      "offerCount": 55,
+      "cardNumbers": 37,
       "registeredRoots": [
         "https://www.mercardop.jp/product-group/75"
       ],
@@ -5112,7 +5110,7 @@
       "shopName": "メルカード",
       "status": "partial",
       "fresh": true,
-      "offerCount": 153,
+      "offerCount": 154,
       "cardNumbers": 120,
       "registeredRoots": [
         "https://www.mercardop.jp/product-group/88"
@@ -5142,7 +5140,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 2,
+      "offerCount": 3,
       "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -5170,7 +5168,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 3,
+      "offerCount": 4,
       "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -5182,7 +5180,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 2,
+      "offerCount": 3,
       "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -5206,7 +5204,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 1,
+      "offerCount": 2,
       "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -5218,8 +5216,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "offerCount": 1,
+      "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
       "lists": []
@@ -5278,7 +5276,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 3,
+      "offerCount": 4,
       "cardNumbers": 3,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -5314,7 +5312,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 17,
+      "offerCount": 24,
       "cardNumbers": 3,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -5338,8 +5336,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "offerCount": 1,
+      "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
       "lists": []
@@ -5398,8 +5396,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "offerCount": 1,
+      "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
       "lists": []
@@ -5410,7 +5408,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 2,
+      "offerCount": 6,
       "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -5422,7 +5420,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 2,
+      "offerCount": 4,
       "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -5506,8 +5504,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "offerCount": 3,
+      "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
       "lists": []
@@ -5518,8 +5516,8 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 1,
-      "cardNumbers": 1,
+      "offerCount": 3,
+      "cardNumbers": 2,
       "registeredRoots": [],
       "discoveredRoots": [],
       "lists": []
@@ -6389,8 +6387,8 @@
       "shopName": "トレカ侍",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 1,
-      "cardNumbers": 1,
+      "offerCount": 40,
+      "cardNumbers": 31,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.torezamunet.com/product-list/679"
@@ -6557,8 +6555,8 @@
       "shopName": "トレカ侍",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 2,
-      "cardNumbers": 2,
+      "offerCount": 3,
+      "cardNumbers": 3,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.torezamunet.com/product-list/634"
@@ -6613,8 +6611,8 @@
       "shopName": "トレカ侍",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 78,
-      "cardNumbers": 59,
+      "offerCount": 98,
+      "cardNumbers": 78,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.torezamunet.com/product-list/680"
