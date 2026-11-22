@@ -1,14 +1,172 @@
 {
-  "policy": { "minIntervalMs": 10000, "cacheTtlHours": 12, "maxRequestsPerShopPerDay": 20, "maxPagesPerShopPerRun": 5, "staleAfterHours": 36, "timeoutMs": 20000 },
+  "policy": {
+    "minIntervalMs": 10000,
+    "cacheTtlHours": 12,
+    "maxRequestsPerShopPerDay": 20,
+    "maxPagesPerShopPerRun": 5,
+    "staleAfterHours": 36,
+    "timeoutMs": 20000
+  },
   "shops": [
-    { "id": "cardrush", "name": "カードラッシュ", "origin": "https://www.cardrush-op.jp", "adapter": "cart", "enabled": true, "seeds": ["/product-group/134", "/product-list"], "note": "OP17・総合一覧から順次収集" },
-    { "id": "yuyutei", "name": "遊々亭", "origin": "https://yuyu-tei.jp", "adapter": "yuyutei", "enabled": true, "seeds": ["/sell/opc/s/op17", "/sell/opc/s/eb05", "/sell/opc/s/op16", "/sell/opc/s/op15", "/sell/opc/s/op14", "/sell/opc/s/op13", "/sell/opc/s/op12", "/sell/opc/s/op11", "/sell/opc/s/op10", "/sell/opc/s/op09", "/sell/opc/s/op08", "/sell/opc/s/op07", "/sell/opc/s/op06", "/sell/opc/s/op05", "/sell/opc/s/op04", "/sell/opc/s/op03", "/sell/opc/s/op02", "/sell/opc/s/op01"], "note": "ブースター別一覧を順番に巡回" },
-    { "id": "fullahead", "name": "フルアヘッド", "origin": "https://fullahead-onepiece-cardgame.com", "adapter": "makeshop", "enabled": true, "seeds": ["/shopbrand/opc-op17/", "/shopbrand/onepiece/"], "note": "OP17・総合一覧から順次収集" },
-    { "id": "dorasuta", "name": "ドラゴンスター", "origin": "https://dorasuta.jp", "adapter": "manual", "enabled": false, "seeds": [], "note": "アクセス制限を検出したため自動取得を停止。JSON取込に対応" },
-    { "id": "raftel", "name": "トレカラフテル", "origin": "https://www.tcg-raftel.com", "adapter": "cart", "enabled": true, "seeds": ["/product-list/372", "/product-list"], "note": "OP17・総合一覧から順次収集" },
-    { "id": "mercard", "name": "メルカード", "origin": "https://www.mercardop.jp", "adapter": "cart", "enabled": true, "seeds": ["/product-group/75", "/product-list"], "note": "販売専用サイトを使用（買取価格は含まない）" },
-    { "id": "hobby", "name": "ホビーステーション", "origin": "https://www.hobbystation-single.jp", "adapter": "manual", "enabled": false, "seeds": [], "note": "販売一覧で接続確認画面を検出したため自動取得を停止。JSON取込に対応" },
-    { "id": "samurai", "name": "トレカ侍", "origin": "https://www.torezamunet.com", "adapter": "cart", "enabled": true, "seeds": ["/product-list/686", "/product-list/346"], "note": "ワンピースのカテゴリのみ収集" },
-    { "id": "onehappy", "name": "ワンハッピー", "origin": "https://www.onehappy.co.jp", "adapter": "onehappy", "enabled": true, "seeds": ["/view/category/ct689", "/"], "note": "OP17・新着一覧から順次収集" }
+    {
+      "id": "cardrush",
+      "name": "カードラッシュ",
+      "origin": "https://www.cardrush-op.jp",
+      "adapter": "cardrush",
+      "enabled": true,
+      "seeds": [
+        "/product-group/143",
+        "/product-group/134",
+        "/product-list"
+      ],
+      "note": "OP18・OP17・総合一覧から順次収集",
+      "seriesSeeds": {
+        "OP18": [
+          "/product-group/143"
+        ]
+      }
+    },
+    {
+      "id": "yuyutei",
+      "name": "遊々亭",
+      "origin": "https://yuyu-tei.jp",
+      "adapter": "yuyutei",
+      "enabled": true,
+      "seeds": [
+        "/sell/opc/s/op18",
+        "/sell/opc/s/op17",
+        "/sell/opc/s/eb05",
+        "/sell/opc/s/op16",
+        "/sell/opc/s/op15",
+        "/sell/opc/s/op14",
+        "/sell/opc/s/op13",
+        "/sell/opc/s/op12",
+        "/sell/opc/s/op11",
+        "/sell/opc/s/op10",
+        "/sell/opc/s/op09",
+        "/sell/opc/s/op08",
+        "/sell/opc/s/op07",
+        "/sell/opc/s/op06",
+        "/sell/opc/s/op05",
+        "/sell/opc/s/op04",
+        "/sell/opc/s/op03",
+        "/sell/opc/s/op02",
+        "/sell/opc/s/op01"
+      ],
+      "note": "ブースター別一覧を順番に巡回",
+      "seriesSeeds": {
+        "OP18": [
+          "/sell/opc/s/op18"
+        ]
+      }
+    },
+    {
+      "id": "fullahead",
+      "name": "フルアヘッド",
+      "origin": "https://fullahead-onepiece-cardgame.com",
+      "adapter": "fullahead",
+      "enabled": true,
+      "seeds": [
+        "/shopbrand/opc-op18/",
+        "/shopbrand/opc-op17/",
+        "/shopbrand/onepiece/"
+      ],
+      "note": "OP18・OP17・総合一覧から順次収集",
+      "seriesSeeds": {
+        "OP18": [
+          "/shopbrand/opc-op18/"
+        ]
+      }
+    },
+    {
+      "id": "dorasuta",
+      "name": "ドラゴンスター",
+      "origin": "https://dorasuta.jp",
+      "adapter": "manual",
+      "enabled": false,
+      "seeds": [],
+      "note": "アクセス制限を検出したため自動取得を停止。JSON取込に対応"
+    },
+    {
+      "id": "raftel",
+      "name": "トレカラフテル",
+      "origin": "https://www.tcg-raftel.com",
+      "adapter": "raftel",
+      "enabled": true,
+      "seeds": [
+        "/product-list/402",
+        "/product-list/372",
+        "/product-list"
+      ],
+      "note": "OP18・OP17・総合一覧から順次収集",
+      "seriesSeeds": {
+        "OP18": [
+          "/product-list/402"
+        ]
+      }
+    },
+    {
+      "id": "mercard",
+      "name": "メルカード",
+      "origin": "https://www.mercardop.jp",
+      "adapter": "mercard",
+      "enabled": true,
+      "seeds": [
+        "/product-group/88",
+        "/product-group/75",
+        "/product-list"
+      ],
+      "note": "販売専用サイトを使用（買取価格は含まない）",
+      "seriesSeeds": {
+        "OP18": [
+          "/product-group/88"
+        ]
+      }
+    },
+    {
+      "id": "hobby",
+      "name": "ホビーステーション",
+      "origin": "https://www.hobbystation-single.jp",
+      "adapter": "manual",
+      "enabled": false,
+      "seeds": [],
+      "note": "販売一覧で接続確認画面を検出したため自動取得を停止。JSON取込に対応"
+    },
+    {
+      "id": "samurai",
+      "name": "トレカ侍",
+      "origin": "https://www.torezamunet.com",
+      "adapter": "samurai",
+      "enabled": true,
+      "seeds": [
+        "/product-list/691",
+        "/product-list/686",
+        "/product-list/346"
+      ],
+      "note": "ワンピースのカテゴリのみ収集",
+      "seriesSeeds": {
+        "OP18": [
+          "/product-list/691"
+        ]
+      }
+    },
+    {
+      "id": "onehappy",
+      "name": "ワンハッピー",
+      "origin": "https://www.onehappy.co.jp",
+      "adapter": "onehappy",
+      "enabled": true,
+      "seeds": [
+        "/view/category/OP18_ALL",
+        "/view/category/ct689",
+        "/"
+      ],
+      "note": "OP18・OP17・新着一覧から順次収集",
+      "seriesSeeds": {
+        "OP18": [
+          "/view/category/OP18_ALL"
+        ]
+      }
+    }
   ]
 }

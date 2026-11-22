@@ -1,4 +1,12 @@
 // Every adapter is pure: HTML in, offers + allowed next pages out. Network policy lives elsewhere.
+import {canonicalPage,listKey} from './crawl-plan.mjs';
+import cardrush from './sources/cardrush.mjs';
+import raftel from './sources/raftel.mjs';
+import mercard from './sources/mercard.mjs';
+import samurai from './sources/samurai.mjs';
+import parseYuyutei from './sources/yuyutei.mjs';
+import fullahead from './sources/fullahead.mjs';
+import parseOnehappy from './sources/onehappy.mjs';
 export function clean(value = '') {
   return String(value).replace(/<[^>]*>/g, ' ').replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&(amp|lt|gt|quot|apos|nbsp|yen);/g, (_, k) => ({amp:'&',lt:'<',gt:'>',quot:'"',apos:"'",nbsp:' ',yen:'¥'}[k]))
@@ -41,7 +49,7 @@ function onehappy(html, pageUrl) {
     return { title, model:'', price: money(match(b, /class="product-card__price-(?:regular|sale)"[^>]*>([\s\S]*?)<\/span>/)), stock: stockOf(b), url: absolute(match(b, /href="([^"<>]*\/view\/item\/[^"<>]+)"/), pageUrl) };
   });
 }
-export const adapters = { cart, yuyutei, makeshop, onehappy };
+export const adapters = {cart,makeshop,cardrush,raftel,mercard,samurai,yuyutei:parseYuyutei,fullahead,onehappy:parseOnehappy};
 export function parsePage(shop, html, pageUrl) {
   if (/安全な接続を確認|Just a moment|cf-chl-|captcha/i.test(html)) throw new Error('アクセス確認画面を検出');
   const adapter = adapters[shop.adapter];
@@ -53,10 +61,10 @@ export function parsePage(shop, html, pageUrl) {
     if (!href) continue;
     const u = new URL(href), current = new URL(pageUrl);
     // Only pagination within this exact list; never follow arbitrary detail or cart links.
-    const samePath = u.pathname === current.pathname;
-    const msPath = u.pathname.replace(/\/page\d+\/[^/]+\/?$/, '/');
-    const currentMs = current.pathname.replace(/\/page\d+\/[^/]+\/?$/, '/');
-    if ((samePath && u.searchParams.has('page') && /^\d+$/.test(u.searchParams.get('page'))) || (msPath === currentMs && /\/page\d+\//.test(u.pathname))) nextPages.push(href);
+    const isPagination = /^\d+$/.test(u.searchParams.get('page')||'') || /\/page\d+\//.test(u.pathname);
+    if(isPagination && listKey(href)===listKey(current.href))nextPages.push(canonicalPage(href));
   }
-  return { offers: [...new Map(offers.map(x => [x.url, x])).values()], nextPages: [...new Set(nextPages)].slice(0, 100) };
+  const sourceSeries=Object.entries(shop.seriesSeeds||{}).find(([,seeds])=>seeds.some(seed=>listKey(new URL(seed,shop.origin).href)===listKey(pageUrl)))?.[0];
+  const enriched=offers.map(o=>({...o,productId:new URL(o.url).pathname.match(/\/(?:shopdetail|product|view\/item)\/(\d+)/)?.[1]||new URL(o.url).pathname,...(sourceSeries?{sourceSeries}:{})}));
+  return { offers: [...new Map(enriched.map(x => [x.productId, x])).values()], nextPages: [...new Set(nextPages)].slice(0, 100) };
 }
