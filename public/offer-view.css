@@ -1,0 +1,37 @@
+#results{border:0;background:transparent;overflow:visible}
+.comparison-card{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:22px}
+.comparison-card-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px;border-bottom:1px solid var(--line)}
+.comparison-card-heading .product{flex:1;min-width:0;max-width:640px}
+.comparison-card-heading .card-title{max-width:none;font-size:16px}
+.card-price-summary{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0;color:var(--green)}
+.card-price-summary span{font-size:13px}.card-price-summary strong{font-size:23px;font-variant-numeric:tabular-nums}
+.offer-table{display:table;width:100%;table-layout:fixed;border-collapse:collapse;font-size:15px}
+.offer-table thead{display:table-header-group}.offer-table tbody{display:table-row-group}
+.offer-table tr{display:table-row;border:0;border-radius:0;margin:0;padding:0}
+.offer-table th,.offer-table td{display:table-cell;position:static;min-width:0;text-align:left;vertical-align:middle;padding:12px 20px;border-bottom:1px solid var(--line);background:transparent;white-space:normal;overflow-wrap:anywhere}
+.offer-table th:first-child,.offer-table td:first-child{position:static;min-width:0;width:40%;background:transparent;text-align:left}
+.offer-table th:nth-child(2),.offer-table td:nth-child(2){min-width:0;width:28%;background:transparent;text-align:left}
+.offer-table th:nth-child(3),.offer-table td:nth-child(3){width:32%}
+.offer-table thead th{font-size:14px;background:#f8fafc;font-weight:700;color:var(--muted)}
+.offer-table tbody th{font-size:15px;font-weight:600;color:var(--ink)}
+.offer-table tbody tr:last-child th,.offer-table tbody tr:last-child td{border-bottom:0}
+.offer-table .amount{font-size:17px}.offer-table .offer-best .amount{color:var(--green)}
+.offer-unit,.offer-status,.offer-stale-note,.offer-product-name{display:block;font-weight:400;line-height:1.6;font-size:13px;margin-top:4px;color:var(--muted)}
+.offer-stale-note{color:#8b601d}.offer-product-name{margin-top:7px}.offer-muted{font-size:14px;color:var(--muted)}
+.offer-date{display:flex;flex-wrap:wrap;gap:3px 10px;line-height:1.6;font-size:14px;font-variant-numeric:tabular-nums}
+.offer-date span{white-space:nowrap}
+@media(max-width:760px){
+  .comparison-card-heading{padding:15px 12px;gap:12px;align-items:flex-start}
+  .comparison-card-heading .card-title{font-size:15px}
+  .comparison-card-heading .product{gap:8px;flex-wrap:wrap}
+  .comparison-card-heading .card-info{flex-basis:80px}
+  .card-price-summary{gap:4px}.card-price-summary strong{font-size:21px}.card-price-summary span{font-size:12px}
+  .offer-table th,.offer-table td{padding:11px 8px}
+  .offer-table th:first-child,.offer-table td:first-child{width:35%;padding-left:12px}
+  .offer-table th:nth-child(2),.offer-table td:nth-child(2){width:29%;padding:11px 8px}
+  .offer-table th:nth-child(3),.offer-table td:nth-child(3){width:36%;padding-right:12px}
+  .offer-table tbody th,.offer-table thead th{font-size:14px}
+  .offer-table .amount{font-size:16px}.offer-unit,.offer-status,.offer-stale-note,.offer-product-name{font-size:12px}
+  .offer-date{flex-direction:column;gap:0;font-size:13px}
+  #detailBody>.offer-table th,#detailBody>.offer-table td{padding-left:5px;padding-right:5px}
+}

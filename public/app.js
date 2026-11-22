@@ -1,9 +1,10 @@
 import {normalise,isFresh,bestOffers,groupOffers,validateSnapshot} from './compare.js';
 import {mountHistory,resetHistoryCache} from './history-view.js';
 import {mountCoverage} from './coverage-view.js';
+import {offerTable} from './offer-view.js';
 const $=s=>document.querySelector(s), escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const yen=n=>`¥${n.toLocaleString('ja-JP')}`;
-const date=s=>s?new Intl.DateTimeFormat('ja-JP',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(s)):'未取得';
+const date=s=>s?new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(s)):'未取得';
 const state={data:null,catalog:{},groups:[],selected:new Set(),favorites:new Set(),view:'compare',page:1,filtered:[],size:20,imported:false};
 try{state.favorites=new Set(JSON.parse(localStorage.getItem('op-compare-favorites')||'[]'));}catch{}
 let toastTimer;
@@ -65,31 +66,25 @@ function render(){
   $('#resultCount').textContent=`${count.toLocaleString()} 件`;
   $('#coverage').textContent=`${state.data.scope} 36時間を超えた価格は最安値の対象外です。${variant!=='normal'?'「版・状態を要確認」は店舗をまたいで自動比較しません。':''}`;
   const shops=state.data.shops.filter(s=>state.selected.has(s.id));
-  $('#results').innerHTML=count?`<table><thead><tr><th scope="col">カード</th><th scope="col">在庫あり最安</th>${shops.map(s=>`<th scope="col">${escape(s.name)}</th>`).join('')}</tr></thead><tbody>${rows.slice((state.page-1)*state.size,state.page*state.size).map(g=>row(g,shops)).join('')}</tbody></table>`:`<div class="empty"><strong>${state.selected.size?'該当するカードがありません':'比較するショップを選んでください'}</strong><p>${state.view==='favorites'?'カード横の☆を押すと、ここに保存できます。<br>':'検索条件を減らすか、「在庫あり」を外してお試しください。<br>'}取得していないカードや古い価格は、最安値として表示しません。</p></div>`;
+  $('#results').innerHTML=count?rows.slice((state.page-1)*state.size,state.page*state.size).map(g=>row(g,shops)).join(''):`<div class="empty"><strong>${state.selected.size?'該当するカードがありません':'比較するショップを選んでください'}</strong><p>${state.view==='favorites'?'カード横の☆を押すと、ここに保存できます。<br>':'検索条件を減らすか、「在庫あり」を外してお試しください。<br>'}取得していないカードや古い価格は、最安値として表示しません。</p></div>`;
   $('#pageInfo').textContent=`${count?((state.page-1)*state.size+1):0}–${Math.min(state.page*state.size,count)} / ${count} 件`;
   $('#prevButton').disabled=state.page<=1;$('#nextButton').disabled=state.page>=pages;
 }
-function shopCell(g,s,mobile=false){
+function shopEntry(g,s){
   const list=g.selectedOffers.filter(o=>o.shopId===s.id),best=g.best.find(o=>o.shopId===s.id);
   const o=best||[...list].sort((a,b)=>b.observedAt.localeCompare(a.observedAt))[0];
   const lowest=best&&best.price===g.min;
-  if(mobile){if(!best)return '';return `<a class="mobile-offer ${lowest?'best':''}" href="${escape(best.url)}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">${escape(s.name)}<b>${yen(best.price)}</b></a>`;}
-  if(!o)return `<td class="price-cell desktop-price"><span class="unavailable">—</span><span class="stock">${s.enabled?'未取得':'取得停止中'}</span></td>`;
-  const fresh=isFresh(o,state.data.policy),stock=o.stock==='out'?'在庫なし':o.stock==='unknown'?'在庫未確認':'在庫あり';
-  return `<td class="price-cell desktop-price ${lowest?'best':''}"><a class="amount ${!fresh?'stale':''}" href="${escape(o.url)}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" title="${escape(o.title)} / 確認 ${date(o.observedAt)} JST">${yen(o.price)}</a><span class="stock">${fresh?stock:'期限切れ・参考価格'}</span></td>`;
+  return {shop:s,offer:o,fresh:o?isFresh(o,state.data.policy):false,lowest};
 }
 function row(g,shops){
   const image=g.verified&&g.variant==='normal'&&g.meta.image?`<img class="thumb" src="${escape(g.meta.image)}" alt="${escape(g.name)} 通常版" loading="lazy" width="46" height="65">`:`<span class="thumb no-image">${escape(g.edition)}<br>${g.verified?'CARD':'版確認'}</span>`;
-  return `<tr><td><div class="product">${image}<div class="card-info"><div class="card-number">${escape(g.number)}${g.meta.rarity?` ・ ${escape(g.meta.rarity)}`:''}</div><button class="card-title" data-detail="${escape(g.key)}">${escape(g.name)}</button><span class="card-tag ${g.verified?'':'warn'}">${g.verified?'通常版':'版・状態を要確認'}</span></div><button class="favorite ${state.favorites.has(g.key)?'on':''}" data-favorite="${escape(g.key)}" aria-label="${escape(g.name)}をお気に入り${state.favorites.has(g.key)?'から削除':'に追加'}" aria-pressed="${state.favorites.has(g.key)}">${state.favorites.has(g.key)?'★':'☆'}</button></div></td><td class="lowest">${g.best.length?`<span class="amount">${yen(g.min)}</span><span class="stock">${g.best.length}店で在庫あり</span>${g.gap?`<span class="gap">最大 ${yen(g.gap)} の差</span>`:''}`:'<span class="unavailable">比較対象なし</span>'}</td>${shops.map(s=>shopCell(g,s)).join('')}<td class="mobile-offers">${shops.map(s=>shopCell(g,s,true)).join('')||'<span class="unavailable">現在の在庫あり価格はありません。カード名から参考価格を確認できます。</span>'}</td></tr>`;
+  return `<article class="comparison-card"><header class="comparison-card-heading"><div class="product">${image}<div class="card-info"><div class="card-number">${escape(g.number)}${g.meta.rarity?` ・ ${escape(g.meta.rarity)}`:''}</div><button class="card-title" data-detail="${escape(g.key)}">${escape(g.name)}</button><span class="card-tag ${g.verified?'':'warn'}">${g.verified?'通常版':'版・状態を要確認'}</span></div><button class="favorite ${state.favorites.has(g.key)?'on':''}" data-favorite="${escape(g.key)}" aria-label="${escape(g.name)}をお気に入り${state.favorites.has(g.key)?'から削除':'に追加'}" aria-pressed="${state.favorites.has(g.key)}">${state.favorites.has(g.key)?'★':'☆'}</button></div><div class="card-price-summary"><span>在庫あり最安</span>${g.best.length?`<strong>${yen(g.min)}</strong><span>${g.best.length}店で在庫あり</span>${g.gap?`<span>最大 ${yen(g.gap)} の差</span>`:''}`:'<span>比較対象なし</span>'}</div></header>${offerTable(shops.map(s=>shopEntry(g,s)))}</article>`;
 }
 function detail(key){
   const g=state.groups.find(g=>g.key===key);if(!g)return;
   $('#detailHeading').innerHTML=`<span class="card-number">${escape(g.number)} / ${g.verified?'通常版':'版・状態を要確認'}</span><h2>${escape(g.name)}</h2>`;
   const offers=[...g.offers].sort((a,b)=>a.price-b.price);
-  $('#detailBody').innerHTML=`<p class="detail-note">${g.verified?'同じ通常版として照合した商品です。':'同一の版か確認できないため、この商品は他店の最安値と合算していません。商品名・イラスト・状態をリンク先でご確認ください。'}<br>価格は税込・送料別。価格や在庫は確認後に変わることがあります。</p>${offers.map(o=>{
-    const s=state.data.shops.find(s=>s.id===o.shopId),fresh=isFresh(o,state.data.policy);
-    return `<article class="detail-offer"><div><strong>${escape(s.name)}</strong><div class="offer-title">${escape(o.title)} ${escape(o.model)}</div><small>${o.stock==='in'?'在庫あり':o.stock==='out'?'在庫なし':'在庫未確認'} · ${date(o.observedAt)} JST 確認${fresh?'':' · 期限切れ（最安値対象外）'}${o.manual?' · 手動取込':''}</small></div><div><a class="amount" href="${escape(o.url)}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">${yen(o.price)}</a><small>商品ページを見る</small></div></article>`;
-  }).join('')}`;
+  $('#detailBody').innerHTML=`<p class="detail-note">${g.verified?'同じ通常版として照合した商品です。':'同一の版か確認できないため、この商品は他店の最安値と合算していません。商品名・イラスト・状態をリンク先でご確認ください。'}<br>価格は税込・送料別。取得日は価格を確認した日時です。価格や在庫は確認後に変わることがあります。</p>${offerTable(offers.map(o=>({shop:state.data.shops.find(s=>s.id===o.shopId),offer:o,fresh:isFresh(o,state.data.policy)})),{showTitle:true})}`;
   const historyContainer=document.createElement('section');historyContainer.className='history-panel';$('#detailBody').append(historyContainer);
   mountHistory(historyContainer,g,state.data.shops,state.data.policy,{imported:state.imported});
   $('#detailDialog').showModal();

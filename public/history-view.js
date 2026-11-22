@@ -1,4 +1,5 @@
 import {validateHistory,trendsFor} from './history.js';
+import {observedTime} from './offer-view.js';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const money=n=>`¥${n.toLocaleString('ja-JP')}`;
 const stamp=t=>new Intl.DateTimeFormat('ja-JP',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(t));
@@ -16,7 +17,7 @@ export async function mountHistory(container,group,shops,policy,{imported=false}
       const days=container.querySelector('[data-history-range]').value,now=Date.now();
       const data=trendsFor(history,group.key,{from:days==='all'?-Infinity:now-Number(days)*86400000,to:now,shopId:container.querySelector('[data-history-shop]').value,staleAfterHours:policy.staleAfterHours});
       container.querySelector('[data-history-chart]').innerHTML=chart(data,shops);
-      container.querySelector('[data-history-records]').innerHTML=`<details class="history-records"><summary>取得履歴 ${data.records.length}件（在庫なし・不明も含む）</summary><div class="audit-scroll"><table class="audit-table"><thead><tr><th>確認日時 JST</th><th>ショップ</th><th>価格</th><th>在庫</th></tr></thead><tbody>${data.records.map(r=>`<tr><td>${stamp(r.time)}</td><td>${esc(shops.find(s=>s.id===r.shopId)?.name||r.shopId)}</td><td>${money(r.price)}</td><td>${r.stock==='in'?'あり':r.stock==='out'?'なし':'不明'}</td></tr>`).join('')}</tbody></table></div></details>`;
+      container.querySelector('[data-history-records]').innerHTML=`<details class="history-records"><summary>取得履歴 ${data.records.length}件（在庫なし・不明も含む）</summary><div class="audit-scroll"><table class="offer-table"><thead><tr><th scope="col">店舗</th><th scope="col">価格</th><th scope="col">取得日<span class="offer-unit">日本時間</span></th></tr></thead><tbody>${data.records.map(r=>`<tr><th scope="row">${esc(shops.find(s=>s.id===r.shopId)?.name||r.shopId)}</th><td>${money(r.price)}<span class="offer-status">${r.stock==='in'?'在庫あり':r.stock==='out'?'在庫なし':'在庫未確認'}</span></td><td>${observedTime(r.time)}</td></tr>`).join('')}</tbody></table></div></details>`;
     };
     container.querySelectorAll('select').forEach(s=>s.addEventListener('change',draw));draw();
   }catch(e){if(container.isConnected)container.innerHTML=`<h3>価格推移</h3><p class="detail-note">${esc(e.message)}。保存データの再読込をお試しください。</p>`;}
