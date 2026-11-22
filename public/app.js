@@ -1,4 +1,6 @@
 import {normalise,isFresh,bestOffers,groupOffers,validateSnapshot} from './compare.js';
+import {mountHistory,resetHistoryCache} from './history-view.js';
+import {mountCoverage} from './coverage-view.js';
 const $=s=>document.querySelector(s), escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const yen=n=>`¥${n.toLocaleString('ja-JP')}`;
 const date=s=>s?new Intl.DateTimeFormat('ja-JP',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(s)):'未取得';
@@ -15,6 +17,7 @@ function setData(data){
   renderChips();renderSummary();renderShops();render();
 }
 async function load(){
+  resetHistoryCache();
   $('#errorBox').hidden=true;$('#reloadButton').disabled=true;
   try{
     const [response,catalog]=await Promise.all([fetch('data/prices.json',{cache:'no-cache'}),fetch('data/catalog.json').then(r=>r.ok?r.json():{}).catch(()=>({}))]);
@@ -87,9 +90,11 @@ function detail(key){
     const s=state.data.shops.find(s=>s.id===o.shopId),fresh=isFresh(o,state.data.policy);
     return `<article class="detail-offer"><div><strong>${escape(s.name)}</strong><div class="offer-title">${escape(o.title)} ${escape(o.model)}</div><small>${o.stock==='in'?'在庫あり':o.stock==='out'?'在庫なし':'在庫未確認'} · ${date(o.observedAt)} JST 確認${fresh?'':' · 期限切れ（最安値対象外）'}${o.manual?' · 手動取込':''}</small></div><div><a class="amount" href="${escape(o.url)}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">${yen(o.price)}</a><small>商品ページを見る</small></div></article>`;
   }).join('')}`;
+  const historyContainer=document.createElement('section');historyContainer.className='history-panel';$('#detailBody').append(historyContainer);
+  mountHistory(historyContainer,g,state.data.shops,state.data.policy,{imported:state.imported});
   $('#detailDialog').showModal();
 }
-function setView(view){state.view=view;state.page=1;document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));$('#compareView').hidden=view==='shops';$('#shopsView').hidden=view!=='shops';$('#pageTitle').textContent=view==='favorites'?'気になるカードを、まとめて。':view==='shops'?'価格データの出どころ。':'欲しいカードを、いい価格で。';render();}
+function setView(view){state.view=view;state.page=1;document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));$('#compareView').hidden=view==='shops';$('#shopsView').hidden=view!=='shops';$('#pageTitle').textContent=view==='favorites'?'気になるカードを、まとめて。':view==='shops'?'価格データの出どころ。':'欲しいカードを、いい価格で。';render();if(view==='shops'&&state.data){let panel=$('#coveragePanel');if(!panel){panel=document.createElement('section');panel.id='coveragePanel';panel.className='coverage-panel';$('#shopCards').after(panel);}mountCoverage(panel,state.data.shops);}}
 document.addEventListener('click',e=>{
   const b=e.target.closest('button');if(!b)return;
   if(b.dataset.view)setView(b.dataset.view);

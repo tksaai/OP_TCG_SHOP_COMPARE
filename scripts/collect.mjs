@@ -6,6 +6,8 @@ import {PoliteClient,readJson,atomicJson} from './lib/http.mjs';
 import {parsePage} from './lib/adapters.mjs';
 import {identify} from './lib/identity.mjs';
 import {mergeQueue,nextPage,addDiscovered} from './lib/crawl-plan.mjs';
+import {mergeHistory} from './lib/price-history.mjs';
+import {audit} from './audit-coverage.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export async function collect({only=null,maxPages=null,series=null,reparseOnly=false}={}) {
   const dir=path.join(ROOT,'.cache');await mkdir(dir,{recursive:true});
@@ -74,7 +76,13 @@ export async function collect({only=null,maxPages=null,series=null,reparseOnly=f
     const manual=await readJson(path.join(ROOT,'config/manual-offers.json'),[]);
     for(const raw of manual){const shop=config.shops.find(s=>s.id===raw.shopId);if(!shop || !Number.isInteger(raw.price)||raw.price<=0||!['in','out','unknown'].includes(raw.stock)||!Number.isFinite(Date.parse(raw.observedAt))||Date.parse(raw.observedAt)>Date.now()+60000||new URL(raw.url).origin!==shop.origin)throw new Error('手動価格データが不正です');const idn=identify(raw,shop,raw.url,overrides);if(idn)offers.set(`manual:${shop.id}:${raw.url}`,{...raw,...idn,id:`manual:${shop.id}:${raw.url}`,manual:true});}
     const snapshot={schemaVersion:1,generatedAt:new Date().toISOString(),policy:config.policy,scope:'OP18・OP17などの収集済み商品一覧を比較。全在庫の網羅ではありません。',shops:config.shops.map(s=>({...statuses.get(s.id),...s,count:[...offers.values()].filter(o=>o.shopId===s.id).length})),offers:[...offers.values()]};
+    const historyPath=path.join(ROOT,'public/data/history.json');
+    let history=await readJson(historyPath,null);
+    history=mergeHistory(history,previous,config,overrides);
+    history=mergeHistory(history,snapshot,config,overrides);
+    await atomicJson(historyPath,history);
     await atomicJson(path.join(ROOT,'public/data/prices.json'),snapshot);
+    await audit({quiet:true});
     console.log(`保存: ${snapshot.offers.length}商品 / 今回のHTTP要求 ${client.requests}回`);
     return snapshot;
   } finally {await lock.close();await unlink(path.join(dir,'collect.lock'));}

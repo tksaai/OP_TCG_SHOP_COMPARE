@@ -1,0 +1,11 @@
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const labels={paused:'停止中',not_configured:'未登録',not_collected:'未取得',partial:'一部取得',known_pages_covered:'既知ページ取得'};
+export async function mountCoverage(container,shops){
+  container.innerHTML='<h3>全弾の収集チェック</h3><p class="detail-note">保存済みの検証結果を読み込んでいます…</p>';
+  try{
+    const response=await fetch('data/coverage.json',{cache:'no-cache'});if(!response.ok)throw new Error('検証結果がありません');
+    const r=await response.json();if(!r.summary||!Array.isArray(r.rows))throw new Error('検証結果の形式が不正です');
+    if(!container.isConnected)return;
+    container.innerHTML=`<h3>全弾の収集チェック <span class="status-pill ${r.summary.allSeriesCheckPassed?'':'partial'}">${r.summary.allSeriesCheckPassed?'確認済み':'不足あり'}</span></h3><p class="detail-note">${esc(r.scope)}<br>少なくとも1店で登録一覧の既知ページを取得できた弾：${r.summary.seriesCoveredAtAnyShop} / ${r.summary.seriesCount}。専用の収集先が未登録：${r.summary.unconfiguredSeries.length}シリーズ。<br>総合一覧に一部の商品があるだけでは、その弾を取得済みと判定しません。全カード・全パラレルの網羅を保証するものではありません。</p><details><summary>弾別・ショップ別の結果を開く</summary><div class="audit-scroll"><table class="audit-table coverage-matrix"><thead><tr><th>シリーズ</th>${shops.map(s=>`<th>${esc(s.name)}</th>`).join('')}</tr></thead><tbody>${r.series.map(series=>`<tr><th>${esc(series.id)}</th>${shops.map(shop=>{const row=r.rows.find(x=>x.series===series.id&&x.shopId===shop.id);if(!row)return '<td>未検証</td>';const missing=row.lists.flatMap(l=>l.missingPages).length;return `<td title="${row.offerCount}商品・登録一覧${row.registeredRoots.length}・未取得ページ${missing}"><span class="coverage-state ${row.status==='known_pages_covered'?'covered':''}">${esc(labels[row.status]||row.status)}</span><small>${row.offerCount}商品${row.status==='known_pages_covered'&&!row.fresh?'・期限切れ':''}</small></td>`;}).join('')}</tr>`).join('')}</tbody></table></div></details><p class="detail-note">検証日時：${esc(new Date(r.generatedAt).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'}))} JST。検証後の取得は次回テスト実行時に反映されます。<a href="data/coverage.json" download="series-coverage.json">検証結果JSON</a></p>`;
+  }catch(e){container.innerHTML=`<h3>全弾の収集チェック</h3><p class="detail-note">${esc(e.message)}。収集スクリプトの全弾テストを実行してから公開データを更新してください。</p>`;}
+}

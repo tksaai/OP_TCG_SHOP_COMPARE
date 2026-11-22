@@ -1,0 +1,8032 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-22T07:06:18.516Z",
+  "snapshotGeneratedAt": "2026-11-21T23:52:07.986Z",
+  "scope": "手元の弾マスターに登録されているOP01〜18、EB01〜05、PRB01〜02、ST01〜36の61シリーズ。プロモ・ドン・未登録の新商品は対象外。",
+  "catalogSource": "https://www.onepiece-cardgame.com/cardlist/",
+  "notes": [
+    "全カード・全パラレルの在庫網羅を保証するものではありません。",
+    "known_pages_coveredは登録した一覧の保存HTMLで確認できたページ範囲です。",
+    "総合一覧で少数の商品が見つかっただけでは、その弾を取得済みと判定しません。"
+  ],
+  "summary": {
+    "seriesCount": 61,
+    "shops": 9,
+    "enabledShops": 7,
+    "pausedShops": 2,
+    "seriesCoveredAtAnyShop": 2,
+    "seriesCoveredAtAllEnabledShops": 0,
+    "unconfiguredSeries": [
+      "EB01",
+      "EB02",
+      "EB03",
+      "EB04",
+      "PRB01",
+      "PRB02",
+      "ST01",
+      "ST02",
+      "ST03",
+      "ST04",
+      "ST05",
+      "ST06",
+      "ST07",
+      "ST08",
+      "ST09",
+      "ST10",
+      "ST11",
+      "ST12",
+      "ST13",
+      "ST14",
+      "ST15",
+      "ST16",
+      "ST17",
+      "ST18",
+      "ST19",
+      "ST20",
+      "ST21",
+      "ST22",
+      "ST23",
+      "ST24",
+      "ST25",
+      "ST26",
+      "ST27",
+      "ST28",
+      "ST29",
+      "ST30",
+      "ST31",
+      "ST32",
+      "ST33",
+      "ST34",
+      "ST35",
+      "ST36"
+    ],
+    "allSeriesCheckPassed": false
+  },
+  "series": [
+    {
+      "id": "EB01",
+      "label": "エクストラブースター メモリアルコレクション【EB-01】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 5
+    },
+    {
+      "id": "EB02",
+      "label": "エクストラブースター Anime 25th collection【EB-02】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 8
+    },
+    {
+      "id": "EB03",
+      "label": "エクストラブースター ONE PIECE Heroines Edition【EB-03】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 1
+    },
+    {
+      "id": "EB04",
+      "label": "エクストラブースター EGGHEAD CRISIS【EB-04】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 3
+    },
+    {
+      "id": "EB05",
+      "label": "エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 3
+    },
+    {
+      "id": "OP01",
+      "label": "ブースターパック ROMANCE DAWN【OP-01】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 25
+    },
+    {
+      "id": "OP02",
+      "label": "ブースターパック 頂上決戦【OP-02】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 25
+    },
+    {
+      "id": "OP03",
+      "label": "ブースターパック 強大な敵【OP-03】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 5
+    },
+    {
+      "id": "OP04",
+      "label": "ブースターパック 謀略の王国【OP-04】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 5
+    },
+    {
+      "id": "OP05",
+      "label": "ブースターパック 新時代の主役【OP-05】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 8
+    },
+    {
+      "id": "OP06",
+      "label": "ブースターパック 双璧の覇者【OP-06】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 6
+    },
+    {
+      "id": "OP07",
+      "label": "ブースターパック 500年後の未来【OP-07】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 6
+    },
+    {
+      "id": "OP08",
+      "label": "ブースターパック 二つの伝説【OP-08】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 10
+    },
+    {
+      "id": "OP09",
+      "label": "ブースターパック 新たなる皇帝【OP-09】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 34
+    },
+    {
+      "id": "OP10",
+      "label": "ブースターパック 王族の血統【OP-10】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 13
+    },
+    {
+      "id": "OP11",
+      "label": "ブースターパック 神速の拳【OP-11】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 11
+    },
+    {
+      "id": "OP12",
+      "label": "ブースターパック 師弟の絆【OP-12】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 33
+    },
+    {
+      "id": "OP13",
+      "label": "ブースターパック 受け継がれる意志【OP-13】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 44
+    },
+    {
+      "id": "OP14",
+      "label": "ブースターパック 蒼海の七傑【OP-14】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 10
+    },
+    {
+      "id": "OP15",
+      "label": "ブースターパック 神の島の冒険【OP-15】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 8
+    },
+    {
+      "id": "OP16",
+      "label": "ブースターパック 決戦の刻【OP-16】",
+      "registeredShops": 1,
+      "knownPagesCoveredShops": 0,
+      "offers": 14
+    },
+    {
+      "id": "OP17",
+      "label": "ブースターパック 世界最強の戦士【OP-17】",
+      "registeredShops": 7,
+      "knownPagesCoveredShops": 1,
+      "offers": 502
+    },
+    {
+      "id": "OP18",
+      "label": "ブースターパック 神の支配【OP-18】",
+      "registeredShops": 7,
+      "knownPagesCoveredShops": 6,
+      "offers": 992
+    },
+    {
+      "id": "PRB01",
+      "label": "プレミアムブースター ONE PIECE CARD THE BEST【PRB-01】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "PRB02",
+      "label": "プレミアムブースター ONE PIECE CARD THE BEST vol.2【PRB-02】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 8
+    },
+    {
+      "id": "ST01",
+      "label": "スタートデッキ 麦わらの一味【ST-01】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 4
+    },
+    {
+      "id": "ST02",
+      "label": "スタートデッキ 最悪の世代【ST-02】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST03",
+      "label": "スタートデッキ 王下七武海【ST-03】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST04",
+      "label": "スタートデッキ 百獣海賊団【ST-04】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 1
+    },
+    {
+      "id": "ST05",
+      "label": "スタートデッキ ONE PIECE FILM edition【ST-05】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST06",
+      "label": "スタートデッキ 海軍【ST-06】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST07",
+      "label": "スタートデッキ ビッグ・マム海賊団【ST-07】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 1
+    },
+    {
+      "id": "ST08",
+      "label": "スタートデッキ Side モンキー・D・ルフィ【ST-08】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST09",
+      "label": "スタートデッキ Side ヤマト【ST-09】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST10",
+      "label": "アルティメットデッキ “三船長”集結【ST-10】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 4
+    },
+    {
+      "id": "ST11",
+      "label": "スタートデッキ Side ウタ【ST-11】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST12",
+      "label": "スタートデッキ ゾロ&サンジ【ST-12】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 1
+    },
+    {
+      "id": "ST13",
+      "label": "アルティメットデッキ 3兄弟の絆【ST-13】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST14",
+      "label": "スタートデッキ 3D2Y【ST-14】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST15",
+      "label": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 2
+    },
+    {
+      "id": "ST16",
+      "label": "スタートデッキ 緑 ウタ【ST-16】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST17",
+      "label": "スタートデッキ 青 ドンキホーテ・ドフラミンゴ【ST-17】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST18",
+      "label": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 1
+    },
+    {
+      "id": "ST19",
+      "label": "スタートデッキ 黒 スモーカー【ST-19】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST20",
+      "label": "スタートデッキ 黄 シャーロット・カタクリ【ST-20】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 1
+    },
+    {
+      "id": "ST21",
+      "label": "スタートデッキEX ギア5【ST-21】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 5
+    },
+    {
+      "id": "ST22",
+      "label": "スタートデッキ エース&ニューゲート【ST-22】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST23",
+      "label": "スタートデッキ 赤 シャンクス【ST-23】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 5
+    },
+    {
+      "id": "ST24",
+      "label": "スタートデッキ 緑 ジュエリー・ボニー【ST-24】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST25",
+      "label": "スタートデッキ 青 バギー【ST-25】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST26",
+      "label": "スタートデッキ 紫黒 モンキー・D・ルフィ【ST-26】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST27",
+      "label": "スタートデッキ 黒 マーシャル・D・ティーチ【ST-27】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 3
+    },
+    {
+      "id": "ST28",
+      "label": "スタートデッキ 緑黄 ヤマト【ST-28】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST29",
+      "label": "スタートデッキ EGGHEAD【ST-29】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST30",
+      "label": "スタートデッキEX ルフィ&エース【ST-30】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 1
+    },
+    {
+      "id": "ST31",
+      "label": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 1
+    },
+    {
+      "id": "ST32",
+      "label": "スタートデッキ 緑 ロロノア・ゾロ【ST-32】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 2
+    },
+    {
+      "id": "ST33",
+      "label": "スタートデッキ 青 クザン【ST-33】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST34",
+      "label": "スタートデッキ 紫 シャーロット・カタクリ【ST-34】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST35",
+      "label": "スタートデッキ 赤黒 サボ【ST-35】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    },
+    {
+      "id": "ST36",
+      "label": "スタートデッキ 黄 ユースタス・キッド【ST-36】",
+      "registeredShops": 0,
+      "knownPagesCoveredShops": 0,
+      "offers": 0
+    }
+  ],
+  "rows": [
+    {
+      "series": "EB01",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 4,
+      "cardNumbers": 3,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/40"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 7,
+      "cardNumbers": 3,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/59"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB03",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/112"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/117"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/142"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/27"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/28"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/29"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/30"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 6,
+      "cardNumbers": 5,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/31"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/35"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 4,
+      "cardNumbers": 3,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/41"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 7,
+      "cardNumbers": 5,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/44"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 28,
+      "cardNumbers": 10,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/53"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP10",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 12,
+      "cardNumbers": 7,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/54"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 8,
+      "cardNumbers": 5,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/89"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 30,
+      "cardNumbers": 23,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/93"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 33,
+      "cardNumbers": 22,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/103"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/113"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/119"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/124"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 94,
+      "cardNumbers": 93,
+      "registeredRoots": [
+        "https://www.cardrush-op.jp/product-group/134"
+      ],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/134"
+      ],
+      "lists": [
+        {
+          "root": "https://www.cardrush-op.jp/product-group/134",
+          "knownPageCount": 4,
+          "savedPageCount": 1,
+          "missingPages": [
+            2,
+            3,
+            4
+          ],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T16:25:18.832Z",
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP18",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 202,
+      "cardNumbers": 125,
+      "registeredRoots": [
+        "https://www.cardrush-op.jp/product-group/143"
+      ],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/143"
+      ],
+      "lists": [
+        {
+          "root": "https://www.cardrush-op.jp/product-group/143",
+          "knownPageCount": 3,
+          "savedPageCount": 3,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T23:46:33.469Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "PRB01",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/52"
+      ],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 8,
+      "cardNumbers": 4,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/102"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 3,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/39"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/45"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 3,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/55"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/90"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 5,
+      "cardNumbers": 5,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/95"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/123"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.cardrush-op.jp/product-group/125"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "cardrush",
+      "shopName": "カードラッシュ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB03",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/eb05"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/eb05"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/eb05",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP01",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op01"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op01"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op01",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP02",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op02"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op02"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op02",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP03",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op03"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op03"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op03",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP04",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op04"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op04"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op04",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP05",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op05"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op05"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op05",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP06",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op06"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op06"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op06",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP07",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op07"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op07"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op07",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP08",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op08"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op08"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op08",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP09",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op09"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op09"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op09",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP10",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op10"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op10"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op10",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP11",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op11"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op11"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op11",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP12",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op12"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op12"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op12",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP13",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op13"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op13"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op13",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP14",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op14"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op14"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op14",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP15",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op15"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op15"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op15",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP16",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op16"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op16"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op16",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP17",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 169,
+      "cardNumbers": 130,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op17"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op17"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op17",
+          "knownPageCount": 1,
+          "savedPageCount": 1,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T16:24:15.812Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "OP18",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 159,
+      "cardNumbers": 125,
+      "registeredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op18"
+      ],
+      "discoveredRoots": [
+        "https://yuyu-tei.jp/sell/opc/s/op18"
+      ],
+      "lists": [
+        {
+          "root": "https://yuyu-tei.jp/sell/opc/s/op18",
+          "knownPageCount": 1,
+          "savedPageCount": 1,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T23:46:54.974Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "PRB01",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "yuyutei",
+      "shopName": "遊々亭",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-eb01"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-eb02"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB03",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-eb03"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-eb04"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-eb05"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 19,
+      "cardNumbers": 19,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op01"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 22,
+      "cardNumbers": 22,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op02"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op03"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op04"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op05"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op06"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op07"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op08"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op09"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP10",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op10"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op11"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op12"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op13"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op14"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op15"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op16"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 44,
+      "cardNumbers": 31,
+      "registeredRoots": [
+        "https://fullahead-onepiece-cardgame.com/shopbrand/opc-op17/"
+      ],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op17",
+        "https://fullahead-onepiece-cardgame.com/shopbrand/opc-op17/"
+      ],
+      "lists": [
+        {
+          "root": "https://fullahead-onepiece-cardgame.com/shopbrand/opc-op17/",
+          "knownPageCount": 4,
+          "savedPageCount": 1,
+          "missingPages": [
+            2,
+            3,
+            4
+          ],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T16:25:19.830Z",
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP18",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 159,
+      "cardNumbers": 125,
+      "registeredRoots": [
+        "https://fullahead-onepiece-cardgame.com/shopbrand/opc-op18/"
+      ],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-op18",
+        "https://fullahead-onepiece-cardgame.com/shopbrand/opc-op18/"
+      ],
+      "lists": [
+        {
+          "root": "https://fullahead-onepiece-cardgame.com/shopbrand/opc-op18/",
+          "knownPageCount": 4,
+          "savedPageCount": 4,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T23:46:55.881Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "PRB01",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-prb01"
+      ],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-prb02"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st01"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st02"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st03"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st04"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st05"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st06"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st07"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st08"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st09"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st10"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st11"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st12"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st13"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st14"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st15"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st16"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st17"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st18"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st19"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st20"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st21"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st22"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st23"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st24"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st25"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st26"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st27"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st28"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st29"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st30"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st31"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st32"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st33"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st34"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st35"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "fullahead",
+      "shopName": "フルアヘッド",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://fullahead-onepiece-cardgame.com/view/category/opc-st36"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB03",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP10",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP18",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "PRB01",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "dorasuta",
+      "shopName": "ドラゴンスター",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/16"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/223"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB03",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/299"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/327"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/390"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 5,
+      "cardNumbers": 5,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/1"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/11"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/12"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/13"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/14"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/15"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/115"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 3,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/149"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 5,
+      "cardNumbers": 4,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/187"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP10",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/202"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/236"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/250"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/283"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 4,
+      "cardNumbers": 3,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/311"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/338"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/352"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 54,
+      "cardNumbers": 33,
+      "registeredRoots": [
+        "https://www.tcg-raftel.com/product-list/372"
+      ],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/372"
+      ],
+      "lists": [
+        {
+          "root": "https://www.tcg-raftel.com/product-list/372",
+          "knownPageCount": 3,
+          "savedPageCount": 1,
+          "missingPages": [
+            2,
+            3
+          ],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T16:28:22.793Z",
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP18",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://www.tcg-raftel.com/product-list/402"
+      ],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/402"
+      ],
+      "lists": [
+        {
+          "root": "https://www.tcg-raftel.com/product-list/402",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "PRB01",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/171"
+      ],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.tcg-raftel.com/product-list/269",
+        "https://www.tcg-raftel.com/product-list/280"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "raftel",
+      "shopName": "トレカラフテル",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/30"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/49"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB03",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/66"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/70"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/84"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/1"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/11"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/15"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/18"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/20"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/26"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/31"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/33"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/41"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP10",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/42"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/50"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/56"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 8,
+      "cardNumbers": 7,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/65"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/68"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 6,
+      "cardNumbers": 6,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/71"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 9,
+      "cardNumbers": 9,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/74"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 38,
+      "cardNumbers": 28,
+      "registeredRoots": [
+        "https://www.mercardop.jp/product-group/75"
+      ],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/75"
+      ],
+      "lists": [
+        {
+          "root": "https://www.mercardop.jp/product-group/75",
+          "knownPageCount": 4,
+          "savedPageCount": 1,
+          "missingPages": [
+            2,
+            3,
+            4
+          ],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T16:28:23.241Z",
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP18",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 153,
+      "cardNumbers": 120,
+      "registeredRoots": [
+        "https://www.mercardop.jp/product-group/88"
+      ],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/88"
+      ],
+      "lists": [
+        {
+          "root": "https://www.mercardop.jp/product-group/88",
+          "knownPageCount": 3,
+          "savedPageCount": 3,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T23:47:36.864Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "PRB01",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/40"
+      ],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/63"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/76",
+        "https://www.mercardop.jp/product-group/77"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/79"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/80"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/81"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/82"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "mercard",
+      "shopName": "メルカード",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.mercardop.jp/product-group/78"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB03",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP10",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP18",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "PRB01",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "hobby",
+      "shopName": "ホビーステーション",
+      "status": "paused",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/507"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/624"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB03",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/672"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/679"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/689"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/347"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/348"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/349"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/350"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/351"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/434"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/515"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/545"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/590"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP10",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/612"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/634"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/656"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/669"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/675"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/680"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/684"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 54,
+      "cardNumbers": 39,
+      "registeredRoots": [
+        "https://www.torezamunet.com/product-list/686"
+      ],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/686"
+      ],
+      "lists": [
+        {
+          "root": "https://www.torezamunet.com/product-list/686",
+          "knownPageCount": 3,
+          "savedPageCount": 1,
+          "missingPages": [
+            2,
+            3
+          ],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T16:28:23.606Z",
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP18",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 159,
+      "cardNumbers": 125,
+      "registeredRoots": [
+        "https://www.torezamunet.com/product-list/691"
+      ],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/691"
+      ],
+      "lists": [
+        {
+          "root": "https://www.torezamunet.com/product-list/691",
+          "knownPageCount": 3,
+          "savedPageCount": 3,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T23:47:57.740Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "PRB01",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/582"
+      ],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/486"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/655"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/658"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.torezamunet.com/product-list/682"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "samurai",
+      "shopName": "トレカ侍",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct262"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct263"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB03",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct668"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct675"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 3,
+      "cardNumbers": 3,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct691"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct22"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct21"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct20"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct19"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct18"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct17"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct16"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct172"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct219"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP10",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct235"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/OP-11_ALL"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct650"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct665"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 3,
+      "cardNumbers": 3,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct670"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct676"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 2,
+      "cardNumbers": 2,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct680"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 49,
+      "cardNumbers": 45,
+      "registeredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct689"
+      ],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct689"
+      ],
+      "lists": [
+        {
+          "root": "https://www.onehappy.co.jp/view/category/ct689",
+          "knownPageCount": 4,
+          "savedPageCount": 1,
+          "missingPages": [
+            2,
+            3,
+            4
+          ],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T16:26:36.789Z",
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP18",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 160,
+      "cardNumbers": 125,
+      "registeredRoots": [
+        "https://www.onehappy.co.jp/view/category/OP18_ALL"
+      ],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/OP18_ALL"
+      ],
+      "lists": [
+        {
+          "root": "https://www.onehappy.co.jp/view/category/OP18_ALL",
+          "knownPageCount": 4,
+          "savedPageCount": 4,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-21T23:48:18.522Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "PRB01",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct204"
+      ],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct663"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct39"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct38"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct37"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct36"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct35"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct34"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct33"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct32"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct31"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct29"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct28"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct27"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct26"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct168"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct181"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct184"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct187"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct190"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct193"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct196"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct244"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct357"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct652"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct653"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct654"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct655"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct656"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct657"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct674"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct679"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 1,
+      "cardNumbers": 1,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct682"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct683"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct684"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct685"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct686"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "onehappy",
+      "shopName": "ワンハッピー",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://www.onehappy.co.jp/view/category/ct687"
+      ],
+      "lists": []
+    }
+  ]
+}
