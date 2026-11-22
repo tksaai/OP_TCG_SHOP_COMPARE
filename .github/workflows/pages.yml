@@ -14,6 +14,7 @@ jobs:
     timeout-minutes: 10
     permissions:
       contents: read
+      actions: read
       pages: write
       id-token: write
     environment:
@@ -30,5 +31,16 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+      - name: Wait for artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in {1..6}; do
+            artifact_id=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" --jq '.artifacts[] | select(.name == "github-pages") | .id')
+            if [ -n "$artifact_id" ]; then exit 0; fi
+            sleep 10
+          done
+          echo 'Pages artifact is not yet available; collection does not need to be repeated.' >&2
+          exit 1
       - uses: actions/deploy-pages@v4
         id: deployment
