@@ -1,7 +1,7 @@
 {
   "policy": {
     "minIntervalMs": 10000,
-    "cacheTtlHours": 12,
+    "cacheTtlHours": 3,
     "maxRequestsPerShopPerDay": 20,
     "maxPagesPerShopPerRun": 5,
     "staleAfterHours": 36,

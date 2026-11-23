@@ -35,6 +35,22 @@ test('durable counters override an older cache; finishing saves partial progress
   }finally{await rm(root,{recursive:true,force:true});}
 });
 const policy={cacheTtlHours:12,minIntervalMs:10000,maxRequestsPerShopPerDay:2,timeoutMs:1000};
+test('three-hour schedule revalidates after three hours while preserving the daily budget',async()=>{
+  const root=await mkdtemp(path.join(os.tmpdir(),'op-ci-three-hour-'));let now=Date.now(),calls=0;
+  const options={now:()=>now,fetch:async(_url,opt)=>{
+    calls++;if(calls===1)return new Response('saved',{headers:{etag:'version-1'}});
+    assert.equal(opt.headers['If-None-Match'],'version-1');return new Response(null,{status:304});
+  }};
+  try{
+    const client=await new PoliteClient(root,{...policy,cacheTtlHours:3},options).init();
+    await client.get('https://example.com/list');
+    now+=3*3600000-1;await client.get('https://example.com/list');assert.equal(calls,1);
+    now+=1;const next=await new PoliteClient(root,{...policy,cacheTtlHours:3},options).init();
+    const result=await next.get('https://example.com/list');
+    assert.equal(calls,2);assert.equal(result.body,'saved');assert.equal(result.checkedAt,now);
+    await assert.rejects(next.get('https://example.com/another'),/上限/);assert.equal(calls,2);
+  }finally{await rm(root,{recursive:true,force:true});}
+});
 test('evicted body cache never causes an early request; no conditional header without body',async()=>{
   const root=await mkdtemp(path.join(os.tmpdir(),'op-ci-http-'));let now=Date.now(),calls=0;
   try{

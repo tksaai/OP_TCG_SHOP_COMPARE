@@ -46,9 +46,9 @@ export class PoliteClient {
     const key=createHash('sha256').update(url).digest('hex');
     const previous=this.state.pages[url];
     const cached=previous ? await readJson(path.join(this.dir,`${key}.json`),null) : null;
-    const ttl=Math.max(12,this.policy.cacheTtlHours)*3600000;
+    const ttl=Math.max(3,this.policy.cacheTtlHours)*3600000;
     if(cached && this.now()-previous.checkedAt<ttl) return {...cached,cacheHit:true,checkedAt:previous.checkedAt};
-    if(!cached && previous && this.now()-previous.checkedAt<ttl) throw new Error('本文キャッシュがありません。前回取得から12時間以上経過するまで再取得しません');
+    if(!cached && previous && this.now()-previous.checkedAt<ttl) throw new Error(`本文キャッシュがありません。前回取得から${ttl/3600000}時間以上経過するまで再取得しません`);
     const host=this.state.hosts[u.origin] ||= {windowStart:this.now(),count:0,last:0,cooldown:0};
     if(host.cooldown>this.now()) throw new Error(`取得休止中（${new Date(host.cooldown).toISOString()}まで）`);
     // Migrate old counters conservatively: all old requests count from the last request.

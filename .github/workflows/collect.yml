@@ -1,8 +1,8 @@
 name: Collect prices and deploy
 on:
   schedule:
-    # UTC 21:17 / 09:17 = JST 06:17 / 18:17. Avoid the top-of-hour queue.
-    - cron: '17 9,21 * * *'
+    # Every 3 hours, at :17 (JST 00:17, 03:17, ..., 21:17).
+    - cron: '17 */3 * * *'
   workflow_dispatch:
 permissions:
   contents: write
