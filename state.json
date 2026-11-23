@@ -1,7 +1,10 @@
 {
   "schemaVersion": 1,
   "savedAt": "2026-11-22T18:25:32.645Z",
-  "lease": null,
+  "lease": {
+    "runId": "45096289631",
+    "until": "2026-11-24T03:45:04.428Z"
+  },
   "files": {
     ".cache/http/http.json": {
       "hosts": {
