@@ -1,0 +1,16 @@
+.deck-input-panel{background:#fff;border:1px solid var(--line);border-radius:10px;padding:24px}
+.deck-input-panel p{font-size:14px;line-height:1.9;color:var(--muted)}
+.deck-input-panel label{display:block;font-weight:600;font-size:14px;margin:14px 0 8px}
+.deck-input-panel textarea{width:100%;resize:vertical;min-height:180px;max-height:650px;border:1px solid #b8c8d5;border-radius:7px;padding:14px;font:16px/1.7 Consolas,monospace;background:#f8fafc;color:var(--ink)}
+.deck-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end}.deck-actions label{margin:0;max-width:100%}.deck-actions select{display:block;max-width:100%;margin-top:8px}
+#deckCalculate{background:var(--blue);color:white;border-color:var(--blue);padding:12px 18px}
+.deck-summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0}
+.deck-summary>div{padding:22px;background:#fff;border:1px solid var(--line);border-radius:10px}
+.deck-summary p{margin:0 0 12px;font-size:15px;color:var(--muted)}.deck-summary strong{font-size:30px;color:var(--green);font-variant-numeric:tabular-nums}
+.deck-summary span{display:block;font-size:14px;margin-top:12px;color:var(--muted)}.deck-summary small{font-size:16px;color:var(--muted)}
+.deck-warning,.deck-missing{color:#865915;background:#fff6e5;padding:14px;font-size:14px;line-height:1.8;border-radius:6px}.deck-missing{margin:12px}
+.deck-store-comparison{margin:20px 0}.deck-store-comparison summary{cursor:pointer;color:var(--blue);padding:10px 0;font-size:15px}
+.deck-store-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:14px}
+.deck-store-grid>div{display:flex;flex-direction:column;gap:9px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px;font-size:14px}.deck-store-grid small{color:var(--muted);font-size:13px}
+.deck-breakdown-heading{font-size:20px;margin:30px 0 16px}.deck-card-name{margin:5px 0 0;font-size:16px}.deck-line-subtotal{display:block;font-size:16px;margin-top:6px}
+@media(max-width:760px){.sidebar nav{flex-wrap:wrap}.sidebar .nav-button{width:calc(50% - 3px);border-radius:6px;margin-bottom:4px}.deck-input-panel{padding:16px}.deck-actions{align-items:stretch}.deck-actions label{flex:1 1 100%}.deck-actions select{width:100%}.deck-summary{gap:10px}.deck-summary>div{padding:15px 12px}.deck-summary strong{font-size:23px}.deck-summary p,.deck-summary span{font-size:13px}}

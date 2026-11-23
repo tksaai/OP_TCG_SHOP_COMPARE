@@ -2,10 +2,12 @@ import {normalise,isFresh,bestOffers,groupOffers,validateSnapshot} from './compa
 import {mountHistory,resetHistoryCache} from './history-view.js';
 import {mountCoverage} from './coverage-view.js';
 import {offerTable} from './offer-view.js';
+import {mountDeck} from './deck-view.js';
 const $=s=>document.querySelector(s), escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const yen=n=>`¥${n.toLocaleString('ja-JP')}`;
 const date=s=>s?new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(s)):'未取得';
 const state={data:null,catalog:{},groups:[],selected:new Set(),favorites:new Set(),view:'compare',page:1,filtered:[],size:20,imported:false};
+const deckView=mountDeck($('#deckView'),()=>({data:state.data,catalog:state.catalog}));
 try{state.favorites=new Set(JSON.parse(localStorage.getItem('op-compare-favorites')||'[]'));}catch{}
 let toastTimer;
 function toast(t){$('#toast').textContent=t;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,4000);}
@@ -15,7 +17,7 @@ function setData(data){
   state.selected=new Set(data.shops.map(s=>s.id));state.page=1;
   $('#updatedAt').textContent=`${state.imported?'取込データ':'保存データ'}：${date(data.generatedAt)} JST`;
   $('#edition').innerHTML='<option value="">すべてのシリーズ</option>'+[...new Set(state.groups.map(g=>g.edition))].sort().reverse().map(s=>`<option value="${escape(s)}">${escape(s)}</option>`).join('');
-  renderChips();renderSummary();renderShops();render();
+  renderChips();renderSummary();renderShops();render();deckView.refresh();
 }
 async function load(){
   resetHistoryCache();
@@ -89,7 +91,7 @@ function detail(key){
   mountHistory(historyContainer,g,state.data.shops,state.data.policy,{imported:state.imported});
   $('#detailDialog').showModal();
 }
-function setView(view){state.view=view;state.page=1;document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));$('#compareView').hidden=view==='shops';$('#shopsView').hidden=view!=='shops';$('#pageTitle').textContent=view==='favorites'?'気になるカードを、まとめて。':view==='shops'?'価格データの出どころ。':'欲しいカードを、いい価格で。';render();if(view==='shops'&&state.data){let panel=$('#coveragePanel');if(!panel){panel=document.createElement('section');panel.id='coveragePanel';panel.className='coverage-panel';$('#shopCards').after(panel);}mountCoverage(panel,state.data.shops);}}
+function setView(view){state.view=view;state.page=1;document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));$('#compareView').hidden=!['compare','favorites'].includes(view);$('#shopsView').hidden=view!=='shops';$('#deckView').hidden=view!=='deck';$('#summary').hidden=view==='deck';if(view==='deck')deckView.refresh();$('#pageTitle').textContent=view==='deck'?'デッキを揃える価格を調べる。':view==='favorites'?'気になるカードを、まとめて。':view==='shops'?'価格データの出どころ。':'欲しいカードを、いい価格で。';render();if(view==='shops'&&state.data){let panel=$('#coveragePanel');if(!panel){panel=document.createElement('section');panel.id='coveragePanel';panel.className='coverage-panel';$('#shopCards').after(panel);}mountCoverage(panel,state.data.shops);}}
 document.addEventListener('click',e=>{
   const b=e.target.closest('button');if(!b)return;
   if(b.dataset.view)setView(b.dataset.view);
@@ -117,4 +119,4 @@ $('#importFile').addEventListener('change',async e=>{
 });
 load();
 // Age out offers even when the tab remains open overnight. No shop network requests.
-setInterval(()=>{if(state.data){renderSummary();renderShops();render();}},60000);
+setInterval(()=>{if(state.data){renderSummary();renderShops();render();if(state.view==='deck')deckView.refresh();}},60000);
