@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T12:51:10.135Z",
-  "snapshotGeneratedAt": "2026-11-23T12:51:09.265Z",
+  "generatedAt": "2026-11-23T12:55:31.348Z",
+  "snapshotGeneratedAt": "2026-11-23T12:55:30.528Z",
   "scope": "手元の弾マスターに登録されているOP01〜18、EB01〜05、PRB01〜02、ST01〜36の61シリーズ。プロモ・ドン・未登録の新商品は対象外。",
   "catalogSource": "https://www.onepiece-cardgame.com/cardlist/",
   "notes": [
@@ -11,10 +11,10 @@
   ],
   "summary": {
     "seriesCount": 61,
-    "shops": 9,
-    "enabledShops": 7,
+    "shops": 12,
+    "enabledShops": 10,
     "pausedShops": 2,
-    "seriesCoveredAtAnyShop": 3,
+    "seriesCoveredAtAnyShop": 4,
     "seriesCoveredAtAllEnabledShops": 0,
     "unconfiguredSeries": [
       "EB01",
@@ -72,9 +72,9 @@
     {
       "id": "EB02",
       "label": "エクストラブースター Anime 25th collection【EB-02】",
-      "registeredShops": 6,
-      "knownPagesCoveredShops": 1,
-      "offers": 213
+      "registeredShops": 9,
+      "knownPagesCoveredShops": 2,
+      "offers": 330
     },
     {
       "id": "EB03",
@@ -156,9 +156,9 @@
     {
       "id": "OP09",
       "label": "ブースターパック 新たなる皇帝【OP-09】",
-      "registeredShops": 7,
-      "knownPagesCoveredShops": 0,
-      "offers": 389
+      "registeredShops": 10,
+      "knownPagesCoveredShops": 1,
+      "offers": 458
     },
     {
       "id": "OP10",
@@ -219,9 +219,9 @@
     {
       "id": "OP18",
       "label": "ブースターパック 神の支配【OP-18】",
-      "registeredShops": 7,
-      "knownPagesCoveredShops": 2,
-      "offers": 1144
+      "registeredShops": 10,
+      "knownPagesCoveredShops": 5,
+      "offers": 1577
     },
     {
       "id": "PRB01",
@@ -8196,6 +8196,2455 @@
       "discoveredRoots": [
         "https://www.onehappy.co.jp/view/category/ct687"
       ],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/eb01"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 48,
+      "cardNumbers": 46,
+      "registeredRoots": [
+        "https://tier-one-onepiece.jp/view/category/eb02"
+      ],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/eb02"
+      ],
+      "lists": [
+        {
+          "root": "https://tier-one-onepiece.jp/view/category/eb02",
+          "knownPageCount": 3,
+          "savedPageCount": 1,
+          "missingPages": [
+            2,
+            3
+          ],
+          "errors": [],
+          "oldestObservedAt": "2026-11-23T12:53:55.059Z",
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "EB03",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/eb03"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/eb04"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/eb05"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op01"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op02"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op03"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op04"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op05"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op06"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op07"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op08"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op09"
+      ],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op09"
+      ],
+      "lists": [
+        {
+          "root": "https://tier-one-onepiece.jp/view/category/op09",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP10",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op10"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op11"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op12"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op13"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op14"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op15"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op16"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op17"
+      ],
+      "lists": []
+    },
+    {
+      "series": "OP18",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 175,
+      "cardNumbers": 125,
+      "registeredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op18"
+      ],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/op18"
+      ],
+      "lists": [
+        {
+          "root": "https://tier-one-onepiece.jp/view/category/op18",
+          "knownPageCount": 4,
+          "savedPageCount": 4,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-23T12:53:12.416Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "PRB01",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/prb01"
+      ],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/prb02"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st01"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st02"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st03"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st04"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st05"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st06"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st07"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st08"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st09"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st10"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st11"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st12"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st13"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st14"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st15"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st16"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st17"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st18"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st19"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st20"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st21"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st22"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st23"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st24"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st25"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st26"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st27"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st28"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st29"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st30"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st31"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st32"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st33"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st34"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st35"
+      ],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "tierone",
+      "shopName": "ティアワン",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [
+        "https://tier-one-onepiece.jp/view/category/st36"
+      ],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 69,
+      "cardNumbers": 48,
+      "registeredRoots": [
+        "https://onepiece.fukufukutoreka.com/products/list?category_id=405"
+      ],
+      "discoveredRoots": [
+        "https://onepiece.fukufukutoreka.com/products/list?category_id=405"
+      ],
+      "lists": [
+        {
+          "root": "https://onepiece.fukufukutoreka.com/products/list?category_id=405",
+          "knownPageCount": 1,
+          "savedPageCount": 1,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-23T12:54:26.674Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "EB03",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 69,
+      "cardNumbers": 38,
+      "registeredRoots": [
+        "https://onepiece.fukufukutoreka.com/products/list?category_id=397"
+      ],
+      "discoveredRoots": [
+        "https://onepiece.fukufukutoreka.com/products/list?category_id=397"
+      ],
+      "lists": [
+        {
+          "root": "https://onepiece.fukufukutoreka.com/products/list?category_id=397",
+          "knownPageCount": 1,
+          "savedPageCount": 1,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-23T12:54:36.765Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "OP10",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP18",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 70,
+      "cardNumbers": 62,
+      "registeredRoots": [
+        "https://onepiece.fukufukutoreka.com/products/list?category_id=435"
+      ],
+      "discoveredRoots": [
+        "https://onepiece.fukufukutoreka.com/products/list?category_id=435"
+      ],
+      "lists": [
+        {
+          "root": "https://onepiece.fukufukutoreka.com/products/list?category_id=435",
+          "knownPageCount": 1,
+          "savedPageCount": 1,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-23T12:54:16.421Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "PRB01",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "fukufuku",
+      "shopName": "福福トレカ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB01",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB02",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://www.torecolo.jp/shop/c/c10732078/"
+      ],
+      "discoveredRoots": [
+        "https://www.torecolo.jp/shop/c/c10732078/"
+      ],
+      "lists": [
+        {
+          "root": "https://www.torecolo.jp/shop/c/c10732078/",
+          "knownPageCount": 4,
+          "savedPageCount": 1,
+          "missingPages": [
+            2,
+            3,
+            4
+          ],
+          "errors": [],
+          "oldestObservedAt": "2026-11-23T12:55:30.458Z",
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "EB03",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB04",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "EB05",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP01",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP02",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP03",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP04",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP05",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP06",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP07",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP08",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP09",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_collected",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [
+        "https://www.torecolo.jp/shop/c/c10732080/"
+      ],
+      "discoveredRoots": [
+        "https://www.torecolo.jp/shop/c/c10732080/"
+      ],
+      "lists": [
+        {
+          "root": "https://www.torecolo.jp/shop/c/c10732080/",
+          "knownPageCount": 1,
+          "savedPageCount": 0,
+          "missingPages": [
+            1
+          ],
+          "errors": [],
+          "oldestObservedAt": null,
+          "knownPagesComplete": false
+        }
+      ]
+    },
+    {
+      "series": "OP10",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP11",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP12",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP13",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP14",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP15",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP16",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP17",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "OP18",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 188,
+      "cardNumbers": 123,
+      "registeredRoots": [
+        "https://www.torecolo.jp/shop/c/c10732066/"
+      ],
+      "discoveredRoots": [
+        "https://www.torecolo.jp/shop/c/c10732066/"
+      ],
+      "lists": [
+        {
+          "root": "https://www.torecolo.jp/shop/c/c10732066/",
+          "knownPageCount": 4,
+          "savedPageCount": 4,
+          "missingPages": [],
+          "errors": [],
+          "oldestObservedAt": "2026-11-23T12:54:48.733Z",
+          "knownPagesComplete": true
+        }
+      ]
+    },
+    {
+      "series": "PRB01",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "PRB02",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST01",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST02",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST03",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST04",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST05",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST06",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST07",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST08",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST09",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST10",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST11",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST12",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST13",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST14",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST15",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST16",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST17",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST18",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST19",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST20",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST21",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST22",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST23",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST24",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST25",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST26",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST27",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST28",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST29",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST30",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST31",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST32",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST33",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST34",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST35",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
+      "lists": []
+    },
+    {
+      "series": "ST36",
+      "shopId": "torecolo",
+      "shopName": "トレコロ",
+      "status": "not_configured",
+      "fresh": false,
+      "offerCount": 0,
+      "cardNumbers": 0,
+      "registeredRoots": [],
+      "discoveredRoots": [],
       "lists": []
     }
   ]
