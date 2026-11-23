@@ -3,6 +3,8 @@ export function canonicalPage(value) {
   const url=new URL(value);
   url.hash='';
   if(url.searchParams.get('page')==='1')url.searchParams.delete('page');
+  if(url.searchParams.get('pageno')==='1')url.searchParams.delete('pageno');
+  url.pathname=url.pathname.replace(/^(\/shop\/c\/c\d+)_p1\/$/,'$1/');
   url.pathname=url.pathname.replace(/\/page1\/[^/]+\/?$/, '/');
   url.searchParams.sort();
   return url.href;
@@ -10,6 +12,8 @@ export function canonicalPage(value) {
 export function listKey(value) {
   const url=new URL(canonicalPage(value));
   url.searchParams.delete('page');
+  url.searchParams.delete('pageno');
+  url.pathname=url.pathname.replace(/^(\/shop\/c\/c\d+)_p\d+\/$/,'$1/');
   url.pathname=url.pathname.replace(/\/page\d+\/[^/]+\/?$/, '/').replace(/\/$/,'')||'/';
   return url.href;
 }
@@ -30,4 +34,4 @@ export function addDiscovered(queue,urls) {
   fresh.sort((a,b)=>pageNumber(a)-pageNumber(b));
   queue.unshift(...fresh);
 }
-function pageNumber(url){const u=new URL(url);return Number(u.searchParams.get('page')||u.pathname.match(/\/page(\d+)\//)?.[1]||1);}
+export function pageNumber(url){const u=new URL(url);return Number(u.searchParams.get('page')||u.searchParams.get('pageno')||u.pathname.match(/\/page(\d+)\//)?.[1]||u.pathname.match(/^\/shop\/c\/c\d+_p(\d+)\/$/)?.[1]||1);}

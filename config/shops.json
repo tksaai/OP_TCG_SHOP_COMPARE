@@ -242,10 +242,87 @@
           "/view/category/ct219"
         ]
       }
+    },
+    {
+      "id": "tierone",
+      "name": "ティアワン",
+      "origin": "https://tier-one-onepiece.jp",
+      "adapter": "tierone",
+      "enabled": true,
+      "seeds": [
+        "/view/category/op18",
+        "/view/category/eb02",
+        "/view/category/op09"
+      ],
+      "seriesSeeds": {
+        "OP18": [
+          "/view/category/op18"
+        ],
+        "EB02": [
+          "/view/category/eb02"
+        ],
+        "OP09": [
+          "/view/category/op09"
+        ]
+      },
+      "note": "弾別一覧を低頻度で収集。売り切れの掲載価格も保存"
+    },
+    {
+      "id": "fukufuku",
+      "name": "福福トレカ",
+      "origin": "https://onepiece.fukufukutoreka.com",
+      "adapter": "fukufuku",
+      "enabled": true,
+      "seeds": [
+        "/products/list?category_id=435",
+        "/products/list?category_id=405",
+        "/products/list?category_id=397"
+      ],
+      "seriesSeeds": {
+        "OP18": [
+          "/products/list?category_id=435"
+        ],
+        "EB02": [
+          "/products/list?category_id=405"
+        ],
+        "OP09": [
+          "/products/list?category_id=397"
+        ]
+      },
+      "cardSearch": {
+        "path": "/products/list",
+        "parameter": "name"
+      },
+      "note": "型番検索と弾別一覧を収集。非表示の売り切れ価格は参考値として区別"
+    },
+    {
+      "id": "torecolo",
+      "name": "トレコロ",
+      "origin": "https://www.torecolo.jp",
+      "adapter": "torecolo",
+      "enabled": true,
+      "seeds": [
+        "/shop/c/c10732066/",
+        "/shop/c/c10732078/",
+        "/shop/c/c10732080/"
+      ],
+      "seriesSeeds": {
+        "OP18": [
+          "/shop/c/c10732066/"
+        ],
+        "EB02": [
+          "/shop/c/c10732078/"
+        ],
+        "OP09": [
+          "/shop/c/c10732080/"
+        ]
+      },
+      "note": "robots.txtに従い検索ページを使わず弾別一覧を収集。キズあり商品は別扱い"
     }
   ],
   "watchCards": [
     "EB02-017",
-    "OP09-078"
+    "OP09-078",
+    "OP18-021"
   ]
 }

@@ -1,12 +1,12 @@
 import {clean,parsePage} from './adapters.mjs';
-import {canonicalPage,listKey} from './crawl-plan.mjs';
+import {canonicalPage,listKey,pageNumber} from './crawl-plan.mjs';
 const serials=label=>[...new Set([...clean(label).normalize('NFKC').matchAll(/\b(OP|EB|PRB|ST)[-\s]?(\d{1,2})(?!\d)/gi)].map(m=>m[1].toUpperCase()+m[2].padStart(2,'0')))];
 export function discoverSeries(shop,documents){
   const result={};
   const add=(label,href)=>{
     const codes=serials(label);if(codes.length!==1)return;
     try{const u=new URL(href,shop.origin);if(u.origin!==shop.origin)return;
-      if(!/^(?:\/product-(?:list|group)(?:\/|$)|\/shopbrand\/|\/view\/category\/|\/sell\/opc\/s\/)/.test(u.pathname))return;
+      if(!/^(?:\/product-(?:list|group)(?:\/|$)|\/products\/list$|\/shop\/c\/c\d+\/|\/shopbrand\/|\/view\/category\/|\/sell\/opc\/s\/)/.test(u.pathname))return;
       (result[codes[0]] ||= new Set()).add(canonicalPage(u.href));
     }catch{}
   };
@@ -26,7 +26,7 @@ export function discoverSeries(shop,documents){
   }
   return Object.fromEntries(Object.entries(result).map(([k,v])=>[k,[...v]]));
 }
-const numberOf=url=>{const u=new URL(url);return Number(u.searchParams.get('page')||u.pathname.match(/\/page(\d+)\//)?.[1]||1);};
+const numberOf=pageNumber;
 export function auditList(shop,root,pages,htmlByUrl){
   const key=listKey(root),saved=Object.entries(pages).filter(([url,p])=>p.shopId===shop.id&&listKey(url)===key);
   const errors=[],known=new Set([1]),fetched=new Set(saved.map(([url])=>numberOf(url)));

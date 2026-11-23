@@ -7,6 +7,9 @@ import samurai from './sources/samurai.mjs';
 import parseYuyutei from './sources/yuyutei.mjs';
 import fullahead from './sources/fullahead.mjs';
 import parseOnehappy from './sources/onehappy.mjs';
+import tierone from './sources/tierone.mjs';
+import fukufuku from './sources/fukufuku.mjs';
+import torecolo from './sources/torecolo.mjs';
 export function clean(value = '') {
   return String(value).replace(/<[^>]*>/g, ' ').replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&(amp|lt|gt|quot|apos|nbsp|yen);/g, (_, k) => ({amp:'&',lt:'<',gt:'>',quot:'"',apos:"'",nbsp:' ',yen:'¥'}[k]))
@@ -49,7 +52,7 @@ function onehappy(html, pageUrl) {
     return { title, model:'', price: money(match(b, /class="product-card__price-(?:regular|sale)"[^>]*>([\s\S]*?)<\/span>/)), stock: stockOf(b), url: absolute(match(b, /href="([^"<>]*\/view\/item\/[^"<>]+)"/), pageUrl) };
   });
 }
-export const adapters = {cart,makeshop,cardrush,raftel,mercard,samurai,yuyutei:parseYuyutei,fullahead,onehappy:parseOnehappy};
+export const adapters = {cart,makeshop,cardrush,raftel,mercard,samurai,yuyutei:parseYuyutei,fullahead,onehappy:parseOnehappy,tierone,fukufuku,torecolo};
 export function parsePage(shop, html, pageUrl) {
   if (/安全な接続を確認|Just a moment|cf-chl-|captcha/i.test(html)) throw new Error('アクセス確認画面を検出');
   const adapter = adapters[shop.adapter];
@@ -61,7 +64,7 @@ export function parsePage(shop, html, pageUrl) {
     if (!href) continue;
     const u = new URL(href), current = new URL(pageUrl);
     // Only pagination within this exact list; never follow arbitrary detail or cart links.
-    const isPagination = /^\d+$/.test(u.searchParams.get('page')||'') || /\/page\d+\//.test(u.pathname);
+    const isPagination = /^\d+$/.test(u.searchParams.get('page')||u.searchParams.get('pageno')||'') || /\/page\d+\//.test(u.pathname) || /^\/shop\/c\/c\d+_p\d+\/$/.test(u.pathname);
     if(isPagination && listKey(href)===listKey(current.href))nextPages.push(canonicalPage(href));
   }
   const sourceSeries=Object.entries(shop.seriesSeeds||{}).find(([,seeds])=>seeds.some(seed=>listKey(new URL(seed,shop.origin).href)===listKey(pageUrl)))?.[0];
