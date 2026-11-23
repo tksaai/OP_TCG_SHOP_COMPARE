@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T11:24:37.047Z",
-  "snapshotGeneratedAt": "2026-11-23T11:24:36.157Z",
+  "generatedAt": "2026-11-23T12:49:07.687Z",
+  "snapshotGeneratedAt": "2026-11-23T12:49:06.988Z",
   "scope": "手元の弾マスターに登録されているOP01〜18、EB01〜05、PRB01〜02、ST01〜36の61シリーズ。プロモ・ドン・未登録の新商品は対象外。",
   "catalogSource": "https://www.onepiece-cardgame.com/cardlist/",
   "notes": [
@@ -158,7 +158,7 @@
       "label": "ブースターパック 新たなる皇帝【OP-09】",
       "registeredShops": 7,
       "knownPagesCoveredShops": 0,
-      "offers": 329
+      "offers": 389
     },
     {
       "id": "OP10",
@@ -846,7 +846,7 @@
       "shopId": "cardrush",
       "shopName": "カードラッシュ",
       "status": "partial",
-      "fresh": true,
+      "fresh": false,
       "offerCount": 203,
       "cardNumbers": 125,
       "registeredRoots": [
@@ -1902,7 +1902,7 @@
       "shopId": "yuyutei",
       "shopName": "遊々亭",
       "status": "partial",
-      "fresh": true,
+      "fresh": false,
       "offerCount": 159,
       "cardNumbers": 125,
       "registeredRoots": [
@@ -2737,7 +2737,7 @@
       "shopId": "fullahead",
       "shopName": "フルアヘッド",
       "status": "partial",
-      "fresh": true,
+      "fresh": false,
       "offerCount": 159,
       "cardNumbers": 125,
       "registeredRoots": [
@@ -4228,8 +4228,8 @@
       "shopName": "トレカラフテル",
       "status": "partial",
       "fresh": true,
-      "offerCount": 75,
-      "cardNumbers": 41,
+      "offerCount": 135,
+      "cardNumbers": 99,
       "registeredRoots": [
         "https://www.tcg-raftel.com/product-list/187"
       ],
@@ -4240,9 +4240,8 @@
         {
           "root": "https://www.tcg-raftel.com/product-list/187",
           "knownPageCount": 3,
-          "savedPageCount": 1,
+          "savedPageCount": 2,
           "missingPages": [
-            2,
             3
           ],
           "errors": [],
@@ -5215,7 +5214,7 @@
       "shopId": "mercard",
       "shopName": "メルカード",
       "status": "partial",
-      "fresh": true,
+      "fresh": false,
       "offerCount": 149,
       "cardNumbers": 118,
       "registeredRoots": [
@@ -6799,7 +6798,7 @@
       "shopId": "samurai",
       "shopName": "トレカ侍",
       "status": "partial",
-      "fresh": true,
+      "fresh": false,
       "offerCount": 156,
       "cardNumbers": 123,
       "registeredRoots": [
