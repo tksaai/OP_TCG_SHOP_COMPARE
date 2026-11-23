@@ -1,10 +1,7 @@
 {
   "schemaVersion": 1,
-  "savedAt": "2026-11-23T11:24:37.767Z",
-  "lease": {
-    "runId": "45177800127",
-    "until": "2026-11-24T14:49:02.333Z"
-  },
+  "savedAt": "2026-11-23T12:49:08.253Z",
+  "lease": null,
   "files": {
     ".cache/http/http.json": {
       "hosts": {
@@ -81,8 +78,8 @@
         },
         "https://www.tcg-raftel.com": {
           "windowStart": 1795278317648.9937,
-          "count": 19,
-          "last": 1795433041507,
+          "count": 20,
+          "last": 1795438145707,
           "cooldown": 1795326456696,
           "requests": [
             1795365774590,
@@ -103,7 +100,8 @@
             1795433009913,
             1795433020082,
             1795433030654,
-            1795433041507
+            1795433041507,
+            1795438145707
           ]
         },
         "https://www.mercardop.jp": {
@@ -797,6 +795,11 @@
         },
         "https://www.onehappy.co.jp/view/category/ct219?page=2": {
           "checkedAt": 1795433076070,
+          "etag": null,
+          "modified": null
+        },
+        "https://www.tcg-raftel.com/product-list/187?page=2": {
+          "checkedAt": 1795438146840,
           "etag": null,
           "modified": null
         }
@@ -66328,6 +66331,612 @@
             "sourceSeries": "OP09"
           }
         ]
+      },
+      "https://www.tcg-raftel.com/product-list/187?page=2": {
+        "shopId": "raftel",
+        "observedAt": "2026-11-23T12:49:06.840Z",
+        "offers": [
+          {
+            "title": "クロスギルド 【R】【青】【OP09-057】",
+            "model": "14754850",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3436",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3436",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "トラファルガー・ロー 【R】【紫】【OP09-069】",
+            "model": "14754794",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3451",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3451",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ロロノア・ゾロ 【R】【紫】【OP09-076】",
+            "model": "14754756",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3460",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3460",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ヴァン・オーガー 【R】【黒】【OP09-083】",
+            "model": "14754720",
+            "price": 80,
+            "url": "https://www.tcg-raftel.com/product/3468",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3468",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ジーザス・バージェス 【R】【黒】【OP09-086】",
+            "model": "14754707",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3471",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3471",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ドクQ 【R】【黒】【OP09-090】",
+            "model": "14754690",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3475",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3475",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ラフィット 【R】【黒】【OP09-095】",
+            "model": "14754653",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3482",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3482",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "おれの時代だァ!!!! 【R】【黒】【OP09-096】",
+            "model": "14754650",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3483",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3483",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "クザン 【R】【黄】【OP09-101】",
+            "model": "14754638",
+            "price": 80,
+            "url": "https://www.tcg-raftel.com/product/3488",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3488",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "クローバー博士 【R】【黄】【OP09-102】",
+            "model": "14754636",
+            "price": 80,
+            "url": "https://www.tcg-raftel.com/product/3489",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3489",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "サボ 【R】【黄】【OP09-104】",
+            "model": "14754623",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3492",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3492",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ニコ・ロビン 【R】【黄】【OP09-107】",
+            "model": "14754610",
+            "price": 120,
+            "url": "https://www.tcg-raftel.com/product/3495",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3495",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "デレシ!! 【R】【黄】【OP09-117】",
+            "model": "14754512",
+            "price": 120,
+            "url": "https://www.tcg-raftel.com/product/3506",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3506",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ビルディング・スネイク 【UC】【赤】【OP09-008】",
+            "model": "14755109",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3376",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3376",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ホンゴウ 【UC】【赤】【OP09-011】",
+            "model": "14755094",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3380",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3380",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ライムジュース 【UC】【赤】【OP09-014】",
+            "model": "14755081",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3383",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3383",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ワイヤー 【UC】【赤】【OP09-017】",
+            "model": "14755068",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3386",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3386",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "失せろ 【UC】【赤】【OP09-018】",
+            "model": "14755064",
+            "price": 100,
+            "url": "https://www.tcg-raftel.com/product/3387",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3387",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "クロコダイル 【UC】【緑】【OP09-025】",
+            "model": "14755024",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3396",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3396",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "サボ 【UC】【緑】【OP09-027】",
+            "model": "14755016",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3398",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3398",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "トラファルガー・ロー 【UC】【緑】【OP09-030】",
+            "model": "14754949",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3401",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3401",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ドンキホーテ・ロシナンテ 【UC】【緑】【OP09-032】",
+            "model": "14754941",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3403",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3403",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ポートガス・D・エース 【UC】【緑】【OP09-035】",
+            "model": "14754925",
+            "price": 80,
+            "url": "https://www.tcg-raftel.com/product/3407",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3407",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "雷光槍フリップ煩悩鳳ショット 【UC】【緑】【OP09-040】",
+            "model": "14754900",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3413",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3413",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "アルビダ 【UC】【青】【OP09-043】",
+            "model": "14754890",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3417",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3417",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "イゾウ 【UC】【青】【OP09-044】",
+            "model": "14754888",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3418",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3418",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "カバジ 【UC】【青】【OP09-045】",
+            "model": "14754886",
+            "price": 10,
+            "url": "https://www.tcg-raftel.com/product/3419",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3419",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "モージ 【UC】【青】【OP09-053】",
+            "model": "14754858",
+            "price": 10,
+            "url": "https://www.tcg-raftel.com/product/3432",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3432",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "湯けむり殺人事件 【UC】【青】【OP09-059】",
+            "model": "14754846",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3438",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3438",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "キラー 【UC】【紫】【OP09-064】",
+            "model": "14754820",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3445",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3445",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ジャンバール 【UC】【紫】【OP09-066】",
+            "model": "14754808",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3448",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3448",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "トニートニー・チョッパー 【UC】【紫】【OP09-068】",
+            "model": "14754799",
+            "price": 80,
+            "url": "https://www.tcg-raftel.com/product/3450",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3450",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ナミ 【UC】【紫】【OP09-070】",
+            "model": "14754786",
+            "price": 10,
+            "url": "https://www.tcg-raftel.com/product/3453",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3453",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ユースタス・キッド 【UC】【紫】【OP09-075】",
+            "model": "14754761",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3459",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3459",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ゴムゴムの雷 【トリガー効果記載なし】【UC】【紫】【OP09-077】",
+            "model": "14754752",
+            "price": 120,
+            "url": "https://www.tcg-raftel.com/product/3461",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3461",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "カタリーナ・デボン 【UC】【黒】【OP09-084】",
+            "model": "14754717",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3469",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3469",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "シリュウ 【UC】【黒】【OP09-088】",
+            "model": "14754699",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3473",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3473",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ストロンガー 【UC】【黒】【OP09-089】",
+            "model": "14754694",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3474",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3474",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "闇穴道 【UC】【黒】【OP09-098】",
+            "model": "14754644",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3485",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3485",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "カラス 【UC】【黄】【OP09-100】",
+            "model": "14754640",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3487",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3487",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "バーソロミュー・くま 【UC】【黄】【OP09-108】",
+            "model": "14754551",
+            "price": 80,
+            "url": "https://www.tcg-raftel.com/product/3497",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3497",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ハグワール・D・サウロ 【UC】【黄】【OP09-109】",
+            "model": "14754547",
+            "price": 80,
+            "url": "https://www.tcg-raftel.com/product/3498",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3498",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "アイス塊「両棘矛」 【UC】【黄】【OP09-115】",
+            "model": "14754520",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3504",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3504",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "シャチ＆ペンギン 【C】【赤】【OP09-003】",
+            "model": "14755145",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3369",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3369",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ハウリングガブ 【C】【赤】【OP09-006】",
+            "model": "14755119",
+            "price": 10,
+            "url": "https://www.tcg-raftel.com/product/3374",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3374",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ヒート 【C】【赤】【OP09-007】",
+            "model": "14755114",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3375",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3375",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ボンク・パンチ 【C】【赤】【OP09-010】",
+            "model": "14755098",
+            "price": 10,
+            "url": "https://www.tcg-raftel.com/product/3379",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3379",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "モンスター 【C】【赤】【OP09-012】",
+            "model": "14755089",
+            "price": 10,
+            "url": "https://www.tcg-raftel.com/product/3381",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3381",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ロックスター 【C】【赤】【OP09-016】",
+            "model": "14755072",
+            "price": 10,
+            "url": "https://www.tcg-raftel.com/product/3385",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3385",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "おれは友達を傷つける奴は許さない!!!! 【C】【赤】【OP09-019】",
+            "model": "14755059",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3388",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3388",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "レッド・フォース号 【C】【赤】【OP09-021】",
+            "model": "14755051",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3390",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3390",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ウソップ 【C】【緑】【OP09-024】",
+            "model": "14755029",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3395",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3395",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "サンジ 【C】【緑】【OP09-028】",
+            "model": "14754958",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3399",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3399",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "トニートニー・チョッパー 【C】【緑】【OP09-029】",
+            "model": "14754953",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3400",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3400",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ニコ・ロビン 【C】【緑】【OP09-033】",
+            "model": "14754937",
+            "price": 50,
+            "url": "https://www.tcg-raftel.com/product/3404",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3404",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "モンキー・D・ルフィ 【C】【緑】【OP09-036】",
+            "model": "14754920",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3408",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3408",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ロブ・ルッチ 【C】【緑】【OP09-038】",
+            "model": "14754907",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3411",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3411",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "魂のフランキー風速計BOXING喪剣 【C】【緑】【OP09-041】",
+            "model": "14754896",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3414",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3414",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "光月おでん 【C】【青】【OP09-047】",
+            "model": "14754880",
+            "price": 20,
+            "url": "https://www.tcg-raftel.com/product/3422",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3422",
+            "sourceSeries": "OP09"
+          },
+          {
+            "title": "ジョズ 【C】【青】【OP09-049】",
+            "model": "14754874",
+            "price": 30,
+            "url": "https://www.tcg-raftel.com/product/3425",
+            "stock": "in",
+            "stockQuantity": null,
+            "productId": "3425",
+            "sourceSeries": "OP09"
+          }
+        ]
       }
     },
     ".cache/queues.json": {
@@ -66487,8 +67096,6 @@
         "https://fullahead-onepiece-cardgame.com/shop/shopbrand.html?search=EB02-017"
       ],
       "raftel": [
-        "https://www.tcg-raftel.com/product-list/187?page=2",
-        "https://www.tcg-raftel.com/product-list/187?page=3",
         "https://www.tcg-raftel.com/product-list/372?page=2",
         "https://www.tcg-raftel.com/product-list/372?page=3",
         "https://www.tcg-raftel.com/product-list/372",
@@ -66499,11 +67106,13 @@
         "https://www.tcg-raftel.com/product-list?page=2",
         "https://www.tcg-raftel.com/product-list?page=3",
         "https://www.tcg-raftel.com/product-list?page=189",
-        "https://www.tcg-raftel.com/product-list?keyword=EB02-017",
-        "https://www.tcg-raftel.com/product-list?keyword=OP09-078",
         "https://www.tcg-raftel.com/product-list/223",
         "https://www.tcg-raftel.com/product-list/223?page=2",
-        "https://www.tcg-raftel.com/product-list/187"
+        "https://www.tcg-raftel.com/product-list/187",
+        "https://www.tcg-raftel.com/product-list?keyword=EB02-017",
+        "https://www.tcg-raftel.com/product-list?keyword=OP09-078",
+        "https://www.tcg-raftel.com/product-list/187?page=2",
+        "https://www.tcg-raftel.com/product-list/187?page=3"
       ],
       "mercard": [
         "https://www.mercardop.jp/product-list?keyword=OP09-078",
@@ -66565,7 +67174,6 @@
         "https://www.torezamunet.com/product-list?keyword=EB02-017"
       ],
       "onehappy": [
-        "https://www.onehappy.co.jp/view/category/ct219?page=4",
         "https://www.onehappy.co.jp/view/category/ct219?page=5",
         "https://www.onehappy.co.jp/view/category/ct263?page=2",
         "https://www.onehappy.co.jp/view/category/ct263?page=3",
@@ -66578,15 +67186,16 @@
         "https://www.onehappy.co.jp/view/category/ct689",
         "https://www.onehappy.co.jp/view/category/OP18_ALL",
         "https://www.onehappy.co.jp/view/category/OP18_ALL?page=2",
+        "https://www.onehappy.co.jp/view/category/ct219?page=2",
+        "https://www.onehappy.co.jp/view/category/ct219?page=3",
         "https://www.onehappy.co.jp/view/category/ct263",
         "https://www.onehappy.co.jp/view/category/ct219",
-        "https://www.onehappy.co.jp/view/category/ct219?page=2",
-        "https://www.onehappy.co.jp/view/category/ct219?page=3"
+        "https://www.onehappy.co.jp/view/category/ct219?page=4"
       ]
     },
     "public/data/prices.json": {
       "schemaVersion": 1,
-      "generatedAt": "2026-11-23T11:24:36.157Z",
+      "generatedAt": "2026-11-23T12:49:06.988Z",
       "policy": {
         "minIntervalMs": 10000,
         "cacheTtlHours": 3,
@@ -66943,12 +67552,12 @@
             "path": "/product-list",
             "parameter": "keyword"
           },
-          "status": "active",
-          "message": "型番・収録弾別の一覧を優先。売り切れ価格も保存",
-          "lastCheckedAt": "2026-11-23T11:24:02.071Z",
-          "pagesRead": 5,
+          "status": "partial",
+          "message": "24時間のアクセス上限に達しました",
+          "lastCheckedAt": "2026-11-23T12:49:06.840Z",
+          "pagesRead": 3,
           "queuedPages": 17,
-          "count": 596
+          "count": 656
         },
         {
           "id": "mercard",
@@ -67061,8 +67670,8 @@
           },
           "status": "partial",
           "message": "24時間のアクセス上限に達しました",
-          "lastCheckedAt": "2026-11-23T11:24:36.070Z",
-          "pagesRead": 3,
+          "lastCheckedAt": "2026-11-23T11:24:25.617Z",
+          "pagesRead": 2,
           "queuedPages": 17,
           "count": 491
         }
@@ -201535,6 +202144,1326 @@
           "shopId": "onehappy",
           "pageUrl": "https://www.onehappy.co.jp/view/category/ct219?page=2",
           "observedAt": "2026-11-23T11:24:36.070Z"
+        },
+        {
+          "title": "クロスギルド 【R】【青】【OP09-057】",
+          "model": "14754850",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3436",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3436",
+          "sourceSeries": "OP09",
+          "key": "OP09-057:normal:ja:standard",
+          "number": "OP09-057",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3436",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "トラファルガー・ロー 【R】【紫】【OP09-069】",
+          "model": "14754794",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3451",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3451",
+          "sourceSeries": "OP09",
+          "key": "OP09-069:normal:ja:standard",
+          "number": "OP09-069",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3451",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ロロノア・ゾロ 【R】【紫】【OP09-076】",
+          "model": "14754756",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3460",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3460",
+          "sourceSeries": "OP09",
+          "key": "OP09-076:normal:ja:standard",
+          "number": "OP09-076",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3460",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ヴァン・オーガー 【R】【黒】【OP09-083】",
+          "model": "14754720",
+          "price": 80,
+          "url": "https://www.tcg-raftel.com/product/3468",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3468",
+          "sourceSeries": "OP09",
+          "key": "OP09-083:normal:ja:standard",
+          "number": "OP09-083",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3468",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ジーザス・バージェス 【R】【黒】【OP09-086】",
+          "model": "14754707",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3471",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3471",
+          "sourceSeries": "OP09",
+          "key": "OP09-086:normal:ja:standard",
+          "number": "OP09-086",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3471",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ドクQ 【R】【黒】【OP09-090】",
+          "model": "14754690",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3475",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3475",
+          "sourceSeries": "OP09",
+          "key": "OP09-090:normal:ja:standard",
+          "number": "OP09-090",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3475",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ラフィット 【R】【黒】【OP09-095】",
+          "model": "14754653",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3482",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3482",
+          "sourceSeries": "OP09",
+          "key": "OP09-095:normal:ja:standard",
+          "number": "OP09-095",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3482",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "おれの時代だァ!!!! 【R】【黒】【OP09-096】",
+          "model": "14754650",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3483",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3483",
+          "sourceSeries": "OP09",
+          "key": "OP09-096:normal:ja:standard",
+          "number": "OP09-096",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3483",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "クザン 【R】【黄】【OP09-101】",
+          "model": "14754638",
+          "price": 80,
+          "url": "https://www.tcg-raftel.com/product/3488",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3488",
+          "sourceSeries": "OP09",
+          "key": "OP09-101:normal:ja:standard",
+          "number": "OP09-101",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3488",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "クローバー博士 【R】【黄】【OP09-102】",
+          "model": "14754636",
+          "price": 80,
+          "url": "https://www.tcg-raftel.com/product/3489",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3489",
+          "sourceSeries": "OP09",
+          "key": "OP09-102:normal:ja:standard",
+          "number": "OP09-102",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3489",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "サボ 【R】【黄】【OP09-104】",
+          "model": "14754623",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3492",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3492",
+          "sourceSeries": "OP09",
+          "key": "OP09-104:normal:ja:standard",
+          "number": "OP09-104",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3492",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ニコ・ロビン 【R】【黄】【OP09-107】",
+          "model": "14754610",
+          "price": 120,
+          "url": "https://www.tcg-raftel.com/product/3495",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3495",
+          "sourceSeries": "OP09",
+          "key": "OP09-107:normal:ja:standard",
+          "number": "OP09-107",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3495",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "デレシ!! 【R】【黄】【OP09-117】",
+          "model": "14754512",
+          "price": 120,
+          "url": "https://www.tcg-raftel.com/product/3506",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3506",
+          "sourceSeries": "OP09",
+          "key": "OP09-117:normal:ja:standard",
+          "number": "OP09-117",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3506",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ビルディング・スネイク 【UC】【赤】【OP09-008】",
+          "model": "14755109",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3376",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3376",
+          "sourceSeries": "OP09",
+          "key": "OP09-008:normal:ja:standard",
+          "number": "OP09-008",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3376",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ホンゴウ 【UC】【赤】【OP09-011】",
+          "model": "14755094",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3380",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3380",
+          "sourceSeries": "OP09",
+          "key": "OP09-011:normal:ja:standard",
+          "number": "OP09-011",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3380",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ライムジュース 【UC】【赤】【OP09-014】",
+          "model": "14755081",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3383",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3383",
+          "sourceSeries": "OP09",
+          "key": "OP09-014:normal:ja:standard",
+          "number": "OP09-014",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3383",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ワイヤー 【UC】【赤】【OP09-017】",
+          "model": "14755068",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3386",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3386",
+          "sourceSeries": "OP09",
+          "key": "OP09-017:normal:ja:standard",
+          "number": "OP09-017",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3386",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "失せろ 【UC】【赤】【OP09-018】",
+          "model": "14755064",
+          "price": 100,
+          "url": "https://www.tcg-raftel.com/product/3387",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3387",
+          "sourceSeries": "OP09",
+          "key": "OP09-018:normal:ja:standard",
+          "number": "OP09-018",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3387",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "クロコダイル 【UC】【緑】【OP09-025】",
+          "model": "14755024",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3396",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3396",
+          "sourceSeries": "OP09",
+          "key": "OP09-025:normal:ja:standard",
+          "number": "OP09-025",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3396",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "サボ 【UC】【緑】【OP09-027】",
+          "model": "14755016",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3398",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3398",
+          "sourceSeries": "OP09",
+          "key": "OP09-027:normal:ja:standard",
+          "number": "OP09-027",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3398",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "トラファルガー・ロー 【UC】【緑】【OP09-030】",
+          "model": "14754949",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3401",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3401",
+          "sourceSeries": "OP09",
+          "key": "OP09-030:normal:ja:standard",
+          "number": "OP09-030",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3401",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ドンキホーテ・ロシナンテ 【UC】【緑】【OP09-032】",
+          "model": "14754941",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3403",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3403",
+          "sourceSeries": "OP09",
+          "key": "OP09-032:normal:ja:standard",
+          "number": "OP09-032",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3403",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ポートガス・D・エース 【UC】【緑】【OP09-035】",
+          "model": "14754925",
+          "price": 80,
+          "url": "https://www.tcg-raftel.com/product/3407",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3407",
+          "sourceSeries": "OP09",
+          "key": "OP09-035:normal:ja:standard",
+          "number": "OP09-035",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3407",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "雷光槍フリップ煩悩鳳ショット 【UC】【緑】【OP09-040】",
+          "model": "14754900",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3413",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3413",
+          "sourceSeries": "OP09",
+          "key": "OP09-040:normal:ja:standard",
+          "number": "OP09-040",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3413",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "アルビダ 【UC】【青】【OP09-043】",
+          "model": "14754890",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3417",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3417",
+          "sourceSeries": "OP09",
+          "key": "OP09-043:normal:ja:standard",
+          "number": "OP09-043",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3417",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "イゾウ 【UC】【青】【OP09-044】",
+          "model": "14754888",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3418",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3418",
+          "sourceSeries": "OP09",
+          "key": "OP09-044:normal:ja:standard",
+          "number": "OP09-044",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3418",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "カバジ 【UC】【青】【OP09-045】",
+          "model": "14754886",
+          "price": 10,
+          "url": "https://www.tcg-raftel.com/product/3419",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3419",
+          "sourceSeries": "OP09",
+          "key": "OP09-045:normal:ja:standard",
+          "number": "OP09-045",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3419",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "モージ 【UC】【青】【OP09-053】",
+          "model": "14754858",
+          "price": 10,
+          "url": "https://www.tcg-raftel.com/product/3432",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3432",
+          "sourceSeries": "OP09",
+          "key": "OP09-053:normal:ja:standard",
+          "number": "OP09-053",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3432",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "湯けむり殺人事件 【UC】【青】【OP09-059】",
+          "model": "14754846",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3438",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3438",
+          "sourceSeries": "OP09",
+          "key": "OP09-059:normal:ja:standard",
+          "number": "OP09-059",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3438",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "キラー 【UC】【紫】【OP09-064】",
+          "model": "14754820",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3445",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3445",
+          "sourceSeries": "OP09",
+          "key": "OP09-064:normal:ja:standard",
+          "number": "OP09-064",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3445",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ジャンバール 【UC】【紫】【OP09-066】",
+          "model": "14754808",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3448",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3448",
+          "sourceSeries": "OP09",
+          "key": "OP09-066:normal:ja:standard",
+          "number": "OP09-066",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3448",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "トニートニー・チョッパー 【UC】【紫】【OP09-068】",
+          "model": "14754799",
+          "price": 80,
+          "url": "https://www.tcg-raftel.com/product/3450",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3450",
+          "sourceSeries": "OP09",
+          "key": "OP09-068:normal:ja:standard",
+          "number": "OP09-068",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3450",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ナミ 【UC】【紫】【OP09-070】",
+          "model": "14754786",
+          "price": 10,
+          "url": "https://www.tcg-raftel.com/product/3453",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3453",
+          "sourceSeries": "OP09",
+          "key": "OP09-070:normal:ja:standard",
+          "number": "OP09-070",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3453",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ユースタス・キッド 【UC】【紫】【OP09-075】",
+          "model": "14754761",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3459",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3459",
+          "sourceSeries": "OP09",
+          "key": "OP09-075:normal:ja:standard",
+          "number": "OP09-075",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3459",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ゴムゴムの雷 【トリガー効果記載なし】【UC】【紫】【OP09-077】",
+          "model": "14754752",
+          "price": 120,
+          "url": "https://www.tcg-raftel.com/product/3461",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3461",
+          "sourceSeries": "OP09",
+          "key": "OP09-077:normal:ja:standard",
+          "number": "OP09-077",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3461",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "カタリーナ・デボン 【UC】【黒】【OP09-084】",
+          "model": "14754717",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3469",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3469",
+          "sourceSeries": "OP09",
+          "key": "OP09-084:normal:ja:standard",
+          "number": "OP09-084",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3469",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "シリュウ 【UC】【黒】【OP09-088】",
+          "model": "14754699",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3473",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3473",
+          "sourceSeries": "OP09",
+          "key": "OP09-088:normal:ja:standard",
+          "number": "OP09-088",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3473",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ストロンガー 【UC】【黒】【OP09-089】",
+          "model": "14754694",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3474",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3474",
+          "sourceSeries": "OP09",
+          "key": "OP09-089:normal:ja:standard",
+          "number": "OP09-089",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3474",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "闇穴道 【UC】【黒】【OP09-098】",
+          "model": "14754644",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3485",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3485",
+          "sourceSeries": "OP09",
+          "key": "OP09-098:normal:ja:standard",
+          "number": "OP09-098",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3485",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "カラス 【UC】【黄】【OP09-100】",
+          "model": "14754640",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3487",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3487",
+          "sourceSeries": "OP09",
+          "key": "OP09-100:normal:ja:standard",
+          "number": "OP09-100",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3487",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "バーソロミュー・くま 【UC】【黄】【OP09-108】",
+          "model": "14754551",
+          "price": 80,
+          "url": "https://www.tcg-raftel.com/product/3497",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3497",
+          "sourceSeries": "OP09",
+          "key": "OP09-108:normal:ja:standard",
+          "number": "OP09-108",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3497",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ハグワール・D・サウロ 【UC】【黄】【OP09-109】",
+          "model": "14754547",
+          "price": 80,
+          "url": "https://www.tcg-raftel.com/product/3498",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3498",
+          "sourceSeries": "OP09",
+          "key": "OP09-109:normal:ja:standard",
+          "number": "OP09-109",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3498",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "アイス塊「両棘矛」 【UC】【黄】【OP09-115】",
+          "model": "14754520",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3504",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3504",
+          "sourceSeries": "OP09",
+          "key": "OP09-115:normal:ja:standard",
+          "number": "OP09-115",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3504",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "シャチ＆ペンギン 【C】【赤】【OP09-003】",
+          "model": "14755145",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3369",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3369",
+          "sourceSeries": "OP09",
+          "key": "OP09-003:normal:ja:standard",
+          "number": "OP09-003",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3369",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ハウリングガブ 【C】【赤】【OP09-006】",
+          "model": "14755119",
+          "price": 10,
+          "url": "https://www.tcg-raftel.com/product/3374",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3374",
+          "sourceSeries": "OP09",
+          "key": "OP09-006:normal:ja:standard",
+          "number": "OP09-006",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3374",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ヒート 【C】【赤】【OP09-007】",
+          "model": "14755114",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3375",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3375",
+          "sourceSeries": "OP09",
+          "key": "OP09-007:normal:ja:standard",
+          "number": "OP09-007",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3375",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ボンク・パンチ 【C】【赤】【OP09-010】",
+          "model": "14755098",
+          "price": 10,
+          "url": "https://www.tcg-raftel.com/product/3379",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3379",
+          "sourceSeries": "OP09",
+          "key": "OP09-010:normal:ja:standard",
+          "number": "OP09-010",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3379",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "モンスター 【C】【赤】【OP09-012】",
+          "model": "14755089",
+          "price": 10,
+          "url": "https://www.tcg-raftel.com/product/3381",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3381",
+          "sourceSeries": "OP09",
+          "key": "OP09-012:normal:ja:standard",
+          "number": "OP09-012",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3381",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ロックスター 【C】【赤】【OP09-016】",
+          "model": "14755072",
+          "price": 10,
+          "url": "https://www.tcg-raftel.com/product/3385",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3385",
+          "sourceSeries": "OP09",
+          "key": "OP09-016:normal:ja:standard",
+          "number": "OP09-016",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3385",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "おれは友達を傷つける奴は許さない!!!! 【C】【赤】【OP09-019】",
+          "model": "14755059",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3388",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3388",
+          "sourceSeries": "OP09",
+          "key": "OP09-019:normal:ja:standard",
+          "number": "OP09-019",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3388",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "レッド・フォース号 【C】【赤】【OP09-021】",
+          "model": "14755051",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3390",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3390",
+          "sourceSeries": "OP09",
+          "key": "OP09-021:normal:ja:standard",
+          "number": "OP09-021",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3390",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ウソップ 【C】【緑】【OP09-024】",
+          "model": "14755029",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3395",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3395",
+          "sourceSeries": "OP09",
+          "key": "OP09-024:normal:ja:standard",
+          "number": "OP09-024",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3395",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "サンジ 【C】【緑】【OP09-028】",
+          "model": "14754958",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3399",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3399",
+          "sourceSeries": "OP09",
+          "key": "OP09-028:normal:ja:standard",
+          "number": "OP09-028",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3399",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "トニートニー・チョッパー 【C】【緑】【OP09-029】",
+          "model": "14754953",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3400",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3400",
+          "sourceSeries": "OP09",
+          "key": "OP09-029:normal:ja:standard",
+          "number": "OP09-029",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3400",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ニコ・ロビン 【C】【緑】【OP09-033】",
+          "model": "14754937",
+          "price": 50,
+          "url": "https://www.tcg-raftel.com/product/3404",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3404",
+          "sourceSeries": "OP09",
+          "key": "OP09-033:normal:ja:standard",
+          "number": "OP09-033",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3404",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "モンキー・D・ルフィ 【C】【緑】【OP09-036】",
+          "model": "14754920",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3408",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3408",
+          "sourceSeries": "OP09",
+          "key": "OP09-036:normal:ja:standard",
+          "number": "OP09-036",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3408",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ロブ・ルッチ 【C】【緑】【OP09-038】",
+          "model": "14754907",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3411",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3411",
+          "sourceSeries": "OP09",
+          "key": "OP09-038:normal:ja:standard",
+          "number": "OP09-038",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3411",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "魂のフランキー風速計BOXING喪剣 【C】【緑】【OP09-041】",
+          "model": "14754896",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3414",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3414",
+          "sourceSeries": "OP09",
+          "key": "OP09-041:normal:ja:standard",
+          "number": "OP09-041",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3414",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "光月おでん 【C】【青】【OP09-047】",
+          "model": "14754880",
+          "price": 20,
+          "url": "https://www.tcg-raftel.com/product/3422",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3422",
+          "sourceSeries": "OP09",
+          "key": "OP09-047:normal:ja:standard",
+          "number": "OP09-047",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3422",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
+        },
+        {
+          "title": "ジョズ 【C】【青】【OP09-049】",
+          "model": "14754874",
+          "price": 30,
+          "url": "https://www.tcg-raftel.com/product/3425",
+          "stock": "in",
+          "stockQuantity": null,
+          "productId": "3425",
+          "sourceSeries": "OP09",
+          "key": "OP09-049:normal:ja:standard",
+          "number": "OP09-049",
+          "variant": "normal",
+          "edition": "OP09",
+          "condition": "standard",
+          "language": "ja",
+          "verified": true,
+          "label": "通常版",
+          "id": "raftel:3425",
+          "shopId": "raftel",
+          "pageUrl": "https://www.tcg-raftel.com/product-list/187?page=2",
+          "observedAt": "2026-11-23T12:49:06.840Z"
         }
       ]
     },
@@ -301180,16 +303109,916 @@
               "in"
             ]
           ]
+        },
+        "raftel:3436": {
+          "key": "OP09-057:normal:ja:standard",
+          "number": "OP09-057",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "クロスギルド 【R】【青】【OP09-057】",
+          "url": "https://www.tcg-raftel.com/product/3436",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3451": {
+          "key": "OP09-069:normal:ja:standard",
+          "number": "OP09-069",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "トラファルガー・ロー 【R】【紫】【OP09-069】",
+          "url": "https://www.tcg-raftel.com/product/3451",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3460": {
+          "key": "OP09-076:normal:ja:standard",
+          "number": "OP09-076",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ロロノア・ゾロ 【R】【紫】【OP09-076】",
+          "url": "https://www.tcg-raftel.com/product/3460",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3468": {
+          "key": "OP09-083:normal:ja:standard",
+          "number": "OP09-083",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ヴァン・オーガー 【R】【黒】【OP09-083】",
+          "url": "https://www.tcg-raftel.com/product/3468",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              80,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3471": {
+          "key": "OP09-086:normal:ja:standard",
+          "number": "OP09-086",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ジーザス・バージェス 【R】【黒】【OP09-086】",
+          "url": "https://www.tcg-raftel.com/product/3471",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3475": {
+          "key": "OP09-090:normal:ja:standard",
+          "number": "OP09-090",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ドクQ 【R】【黒】【OP09-090】",
+          "url": "https://www.tcg-raftel.com/product/3475",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3482": {
+          "key": "OP09-095:normal:ja:standard",
+          "number": "OP09-095",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ラフィット 【R】【黒】【OP09-095】",
+          "url": "https://www.tcg-raftel.com/product/3482",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3483": {
+          "key": "OP09-096:normal:ja:standard",
+          "number": "OP09-096",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "おれの時代だァ!!!! 【R】【黒】【OP09-096】",
+          "url": "https://www.tcg-raftel.com/product/3483",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3488": {
+          "key": "OP09-101:normal:ja:standard",
+          "number": "OP09-101",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "クザン 【R】【黄】【OP09-101】",
+          "url": "https://www.tcg-raftel.com/product/3488",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              80,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3489": {
+          "key": "OP09-102:normal:ja:standard",
+          "number": "OP09-102",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "クローバー博士 【R】【黄】【OP09-102】",
+          "url": "https://www.tcg-raftel.com/product/3489",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              80,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3492": {
+          "key": "OP09-104:normal:ja:standard",
+          "number": "OP09-104",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "サボ 【R】【黄】【OP09-104】",
+          "url": "https://www.tcg-raftel.com/product/3492",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3495": {
+          "key": "OP09-107:normal:ja:standard",
+          "number": "OP09-107",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ニコ・ロビン 【R】【黄】【OP09-107】",
+          "url": "https://www.tcg-raftel.com/product/3495",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              120,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3506": {
+          "key": "OP09-117:normal:ja:standard",
+          "number": "OP09-117",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "デレシ!! 【R】【黄】【OP09-117】",
+          "url": "https://www.tcg-raftel.com/product/3506",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              120,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3376": {
+          "key": "OP09-008:normal:ja:standard",
+          "number": "OP09-008",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ビルディング・スネイク 【UC】【赤】【OP09-008】",
+          "url": "https://www.tcg-raftel.com/product/3376",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3380": {
+          "key": "OP09-011:normal:ja:standard",
+          "number": "OP09-011",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ホンゴウ 【UC】【赤】【OP09-011】",
+          "url": "https://www.tcg-raftel.com/product/3380",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3383": {
+          "key": "OP09-014:normal:ja:standard",
+          "number": "OP09-014",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ライムジュース 【UC】【赤】【OP09-014】",
+          "url": "https://www.tcg-raftel.com/product/3383",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3386": {
+          "key": "OP09-017:normal:ja:standard",
+          "number": "OP09-017",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ワイヤー 【UC】【赤】【OP09-017】",
+          "url": "https://www.tcg-raftel.com/product/3386",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3387": {
+          "key": "OP09-018:normal:ja:standard",
+          "number": "OP09-018",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "失せろ 【UC】【赤】【OP09-018】",
+          "url": "https://www.tcg-raftel.com/product/3387",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              100,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3396": {
+          "key": "OP09-025:normal:ja:standard",
+          "number": "OP09-025",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "クロコダイル 【UC】【緑】【OP09-025】",
+          "url": "https://www.tcg-raftel.com/product/3396",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3398": {
+          "key": "OP09-027:normal:ja:standard",
+          "number": "OP09-027",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "サボ 【UC】【緑】【OP09-027】",
+          "url": "https://www.tcg-raftel.com/product/3398",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3401": {
+          "key": "OP09-030:normal:ja:standard",
+          "number": "OP09-030",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "トラファルガー・ロー 【UC】【緑】【OP09-030】",
+          "url": "https://www.tcg-raftel.com/product/3401",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3403": {
+          "key": "OP09-032:normal:ja:standard",
+          "number": "OP09-032",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ドンキホーテ・ロシナンテ 【UC】【緑】【OP09-032】",
+          "url": "https://www.tcg-raftel.com/product/3403",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3407": {
+          "key": "OP09-035:normal:ja:standard",
+          "number": "OP09-035",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ポートガス・D・エース 【UC】【緑】【OP09-035】",
+          "url": "https://www.tcg-raftel.com/product/3407",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              80,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3413": {
+          "key": "OP09-040:normal:ja:standard",
+          "number": "OP09-040",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "雷光槍フリップ煩悩鳳ショット 【UC】【緑】【OP09-040】",
+          "url": "https://www.tcg-raftel.com/product/3413",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3417": {
+          "key": "OP09-043:normal:ja:standard",
+          "number": "OP09-043",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "アルビダ 【UC】【青】【OP09-043】",
+          "url": "https://www.tcg-raftel.com/product/3417",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3418": {
+          "key": "OP09-044:normal:ja:standard",
+          "number": "OP09-044",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "イゾウ 【UC】【青】【OP09-044】",
+          "url": "https://www.tcg-raftel.com/product/3418",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3419": {
+          "key": "OP09-045:normal:ja:standard",
+          "number": "OP09-045",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "カバジ 【UC】【青】【OP09-045】",
+          "url": "https://www.tcg-raftel.com/product/3419",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              10,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3432": {
+          "key": "OP09-053:normal:ja:standard",
+          "number": "OP09-053",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "モージ 【UC】【青】【OP09-053】",
+          "url": "https://www.tcg-raftel.com/product/3432",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              10,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3438": {
+          "key": "OP09-059:normal:ja:standard",
+          "number": "OP09-059",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "湯けむり殺人事件 【UC】【青】【OP09-059】",
+          "url": "https://www.tcg-raftel.com/product/3438",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3445": {
+          "key": "OP09-064:normal:ja:standard",
+          "number": "OP09-064",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "キラー 【UC】【紫】【OP09-064】",
+          "url": "https://www.tcg-raftel.com/product/3445",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3448": {
+          "key": "OP09-066:normal:ja:standard",
+          "number": "OP09-066",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ジャンバール 【UC】【紫】【OP09-066】",
+          "url": "https://www.tcg-raftel.com/product/3448",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3450": {
+          "key": "OP09-068:normal:ja:standard",
+          "number": "OP09-068",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "トニートニー・チョッパー 【UC】【紫】【OP09-068】",
+          "url": "https://www.tcg-raftel.com/product/3450",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              80,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3453": {
+          "key": "OP09-070:normal:ja:standard",
+          "number": "OP09-070",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ナミ 【UC】【紫】【OP09-070】",
+          "url": "https://www.tcg-raftel.com/product/3453",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              10,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3459": {
+          "key": "OP09-075:normal:ja:standard",
+          "number": "OP09-075",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ユースタス・キッド 【UC】【紫】【OP09-075】",
+          "url": "https://www.tcg-raftel.com/product/3459",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3461": {
+          "key": "OP09-077:normal:ja:standard",
+          "number": "OP09-077",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ゴムゴムの雷 【トリガー効果記載なし】【UC】【紫】【OP09-077】",
+          "url": "https://www.tcg-raftel.com/product/3461",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              120,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3469": {
+          "key": "OP09-084:normal:ja:standard",
+          "number": "OP09-084",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "カタリーナ・デボン 【UC】【黒】【OP09-084】",
+          "url": "https://www.tcg-raftel.com/product/3469",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3473": {
+          "key": "OP09-088:normal:ja:standard",
+          "number": "OP09-088",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "シリュウ 【UC】【黒】【OP09-088】",
+          "url": "https://www.tcg-raftel.com/product/3473",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3474": {
+          "key": "OP09-089:normal:ja:standard",
+          "number": "OP09-089",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ストロンガー 【UC】【黒】【OP09-089】",
+          "url": "https://www.tcg-raftel.com/product/3474",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3485": {
+          "key": "OP09-098:normal:ja:standard",
+          "number": "OP09-098",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "闇穴道 【UC】【黒】【OP09-098】",
+          "url": "https://www.tcg-raftel.com/product/3485",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3487": {
+          "key": "OP09-100:normal:ja:standard",
+          "number": "OP09-100",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "カラス 【UC】【黄】【OP09-100】",
+          "url": "https://www.tcg-raftel.com/product/3487",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3497": {
+          "key": "OP09-108:normal:ja:standard",
+          "number": "OP09-108",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "バーソロミュー・くま 【UC】【黄】【OP09-108】",
+          "url": "https://www.tcg-raftel.com/product/3497",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              80,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3498": {
+          "key": "OP09-109:normal:ja:standard",
+          "number": "OP09-109",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ハグワール・D・サウロ 【UC】【黄】【OP09-109】",
+          "url": "https://www.tcg-raftel.com/product/3498",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              80,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3504": {
+          "key": "OP09-115:normal:ja:standard",
+          "number": "OP09-115",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "アイス塊「両棘矛」 【UC】【黄】【OP09-115】",
+          "url": "https://www.tcg-raftel.com/product/3504",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3369": {
+          "key": "OP09-003:normal:ja:standard",
+          "number": "OP09-003",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "シャチ＆ペンギン 【C】【赤】【OP09-003】",
+          "url": "https://www.tcg-raftel.com/product/3369",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3374": {
+          "key": "OP09-006:normal:ja:standard",
+          "number": "OP09-006",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ハウリングガブ 【C】【赤】【OP09-006】",
+          "url": "https://www.tcg-raftel.com/product/3374",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              10,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3375": {
+          "key": "OP09-007:normal:ja:standard",
+          "number": "OP09-007",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ヒート 【C】【赤】【OP09-007】",
+          "url": "https://www.tcg-raftel.com/product/3375",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3379": {
+          "key": "OP09-010:normal:ja:standard",
+          "number": "OP09-010",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ボンク・パンチ 【C】【赤】【OP09-010】",
+          "url": "https://www.tcg-raftel.com/product/3379",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              10,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3381": {
+          "key": "OP09-012:normal:ja:standard",
+          "number": "OP09-012",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "モンスター 【C】【赤】【OP09-012】",
+          "url": "https://www.tcg-raftel.com/product/3381",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              10,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3385": {
+          "key": "OP09-016:normal:ja:standard",
+          "number": "OP09-016",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ロックスター 【C】【赤】【OP09-016】",
+          "url": "https://www.tcg-raftel.com/product/3385",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              10,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3388": {
+          "key": "OP09-019:normal:ja:standard",
+          "number": "OP09-019",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "おれは友達を傷つける奴は許さない!!!! 【C】【赤】【OP09-019】",
+          "url": "https://www.tcg-raftel.com/product/3388",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3390": {
+          "key": "OP09-021:normal:ja:standard",
+          "number": "OP09-021",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "レッド・フォース号 【C】【赤】【OP09-021】",
+          "url": "https://www.tcg-raftel.com/product/3390",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3395": {
+          "key": "OP09-024:normal:ja:standard",
+          "number": "OP09-024",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ウソップ 【C】【緑】【OP09-024】",
+          "url": "https://www.tcg-raftel.com/product/3395",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3399": {
+          "key": "OP09-028:normal:ja:standard",
+          "number": "OP09-028",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "サンジ 【C】【緑】【OP09-028】",
+          "url": "https://www.tcg-raftel.com/product/3399",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3400": {
+          "key": "OP09-029:normal:ja:standard",
+          "number": "OP09-029",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "トニートニー・チョッパー 【C】【緑】【OP09-029】",
+          "url": "https://www.tcg-raftel.com/product/3400",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3404": {
+          "key": "OP09-033:normal:ja:standard",
+          "number": "OP09-033",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ニコ・ロビン 【C】【緑】【OP09-033】",
+          "url": "https://www.tcg-raftel.com/product/3404",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              50,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3408": {
+          "key": "OP09-036:normal:ja:standard",
+          "number": "OP09-036",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "モンキー・D・ルフィ 【C】【緑】【OP09-036】",
+          "url": "https://www.tcg-raftel.com/product/3408",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3411": {
+          "key": "OP09-038:normal:ja:standard",
+          "number": "OP09-038",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ロブ・ルッチ 【C】【緑】【OP09-038】",
+          "url": "https://www.tcg-raftel.com/product/3411",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3414": {
+          "key": "OP09-041:normal:ja:standard",
+          "number": "OP09-041",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "魂のフランキー風速計BOXING喪剣 【C】【緑】【OP09-041】",
+          "url": "https://www.tcg-raftel.com/product/3414",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3422": {
+          "key": "OP09-047:normal:ja:standard",
+          "number": "OP09-047",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "光月おでん 【C】【青】【OP09-047】",
+          "url": "https://www.tcg-raftel.com/product/3422",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              20,
+              "in"
+            ]
+          ]
+        },
+        "raftel:3425": {
+          "key": "OP09-049:normal:ja:standard",
+          "number": "OP09-049",
+          "edition": "OP09",
+          "shopId": "raftel",
+          "title": "ジョズ 【C】【青】【OP09-049】",
+          "url": "https://www.tcg-raftel.com/product/3425",
+          "points": [
+            [
+              "2026-11-23T12:49:06.840Z",
+              30,
+              "in"
+            ]
+          ]
         }
       },
       "firstObservedAt": "2026-11-21T16:23:47.606Z",
-      "lastObservedAt": "2026-11-23T11:24:36.070Z",
-      "generatedAt": "2026-11-23T11:24:36.689Z"
+      "lastObservedAt": "2026-11-23T12:49:06.840Z",
+      "generatedAt": "2026-11-23T12:49:07.346Z"
     },
     "public/data/coverage.json": {
       "schemaVersion": 1,
-      "generatedAt": "2026-11-23T11:24:37.047Z",
-      "snapshotGeneratedAt": "2026-11-23T11:24:36.157Z",
+      "generatedAt": "2026-11-23T12:49:07.687Z",
+      "snapshotGeneratedAt": "2026-11-23T12:49:06.988Z",
       "scope": "手元の弾マスターに登録されているOP01〜18、EB01〜05、PRB01〜02、ST01〜36の61シリーズ。プロモ・ドン・未登録の新商品は対象外。",
       "catalogSource": "https://www.onepiece-cardgame.com/cardlist/",
       "notes": [
@@ -301346,7 +304175,7 @@
           "label": "ブースターパック 新たなる皇帝【OP-09】",
           "registeredShops": 7,
           "knownPagesCoveredShops": 0,
-          "offers": 329
+          "offers": 389
         },
         {
           "id": "OP10",
@@ -302034,7 +304863,7 @@
           "shopId": "cardrush",
           "shopName": "カードラッシュ",
           "status": "partial",
-          "fresh": true,
+          "fresh": false,
           "offerCount": 203,
           "cardNumbers": 125,
           "registeredRoots": [
@@ -303090,7 +305919,7 @@
           "shopId": "yuyutei",
           "shopName": "遊々亭",
           "status": "partial",
-          "fresh": true,
+          "fresh": false,
           "offerCount": 159,
           "cardNumbers": 125,
           "registeredRoots": [
@@ -303925,7 +306754,7 @@
           "shopId": "fullahead",
           "shopName": "フルアヘッド",
           "status": "partial",
-          "fresh": true,
+          "fresh": false,
           "offerCount": 159,
           "cardNumbers": 125,
           "registeredRoots": [
@@ -305416,8 +308245,8 @@
           "shopName": "トレカラフテル",
           "status": "partial",
           "fresh": true,
-          "offerCount": 75,
-          "cardNumbers": 41,
+          "offerCount": 135,
+          "cardNumbers": 99,
           "registeredRoots": [
             "https://www.tcg-raftel.com/product-list/187"
           ],
@@ -305428,9 +308257,8 @@
             {
               "root": "https://www.tcg-raftel.com/product-list/187",
               "knownPageCount": 3,
-              "savedPageCount": 1,
+              "savedPageCount": 2,
               "missingPages": [
-                2,
                 3
               ],
               "errors": [],
@@ -306403,7 +309231,7 @@
           "shopId": "mercard",
           "shopName": "メルカード",
           "status": "partial",
-          "fresh": true,
+          "fresh": false,
           "offerCount": 149,
           "cardNumbers": 118,
           "registeredRoots": [
@@ -307987,7 +310815,7 @@
           "shopId": "samurai",
           "shopName": "トレカ侍",
           "status": "partial",
-          "fresh": true,
+          "fresh": false,
           "offerCount": 156,
           "cardNumbers": 123,
           "registeredRoots": [
