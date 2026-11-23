@@ -73,7 +73,7 @@ function render(){
   $('#coverage').textContent=`${state.data.scope} 36時間を超えた価格は最安値の対象外です。${variant!=='normal'?'「版・状態を要確認」は店舗をまたいで自動比較しません。':''}`;
   const shops=state.data.shops.filter(s=>state.selected.has(s.id));
   $('#results').innerHTML=count?rows.slice((state.page-1)*state.size,state.page*state.size).map(g=>row(g,shops)).join(''):`<div class="empty"><strong>${state.selected.size?'該当するカードがありません':'比較するショップを選んでください'}</strong><p>${state.view==='favorites'?'カード横の☆を押すと、ここに保存できます。<br>':'検索条件を減らすか、「在庫あり」を外してお試しください。<br>'}取得していないカードや古い価格は、最安値として表示しません。</p></div>`;
-  const searched=$('#search').value.trim().toUpperCase();if(!count&&CARD_NUMBER.test(searched))$('#results').insertAdjacentHTML('beforeend',shopLinks(state.data.shops,searched));
+  const searched=normalise($('#search').value).toUpperCase();if(state.view==='compare'&&CARD_NUMBER.test(searched))$('#results').insertAdjacentHTML('afterbegin',shopLinks(state.data.shops,searched,state.data,{open:true}));
   $('#pageInfo').textContent=`${count?((state.page-1)*state.size+1):0}–${Math.min(state.page*state.size,count)} / ${count} 件`;
   $('#prevButton').disabled=state.page<=1;$('#nextButton').disabled=state.page>=pages;
 }
@@ -94,7 +94,7 @@ function detail(key){
   const offers=[...g.offers].sort((a,b)=>a.price-b.price);
   $('#detailBody').innerHTML=`<p class="detail-note">${g.verified?'同じ通常版として照合した商品です。':'同一の版か確認できないため、この商品は他店の最安値と合算していません。商品名・イラスト・状態をリンク先でご確認ください。'}<br>価格は税込・送料別。取得日は価格を確認した日時です。価格や在庫は確認後に変わることがあります。</p>${offerTable(offers.map(o=>({shop:state.data.shops.find(s=>s.id===o.shopId),offer:o,fresh:isFresh(o,state.data.policy)})),{showTitle:true})}`;
   const historyContainer=document.createElement('section');historyContainer.className='history-panel';$('#detailBody').append(historyContainer);
-  historyContainer.insertAdjacentHTML('beforebegin',shopLinks(state.data.shops,g.number));
+  historyContainer.insertAdjacentHTML('beforebegin',shopLinks(state.data.shops,g.number,state.data));
   mountHistory(historyContainer,g,state.data.shops,state.data.policy,{imported:state.imported});
   $('#detailDialog').showModal();
 }
