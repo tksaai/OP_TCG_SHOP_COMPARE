@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T12:49:06.988Z",
+  "generatedAt": "2026-11-23T12:51:09.265Z",
   "policy": {
     "minIntervalMs": 10000,
     "cacheTtlHours": 3,
@@ -11,42 +11,41 @@
   },
   "scope": "型番検索・収録弾別・総合一覧の取得済み価格を比較。売り切れも保存。全在庫の網羅ではありません。",
   "watchCards": [
-    "EB02-017",
-    "OP09-078"
+    "OP18-021"
   ],
   "lookupStatus": [
     {
-      "number": "EB02-017",
+      "number": "OP18-021",
       "shopId": "cardrush",
-      "url": "https://www.cardrush-op.jp/product-list?keyword=EB02-017",
+      "url": "https://www.cardrush-op.jp/product-list?keyword=OP18-021",
       "kind": "search",
-      "status": "pending",
-      "count": 0,
+      "status": "found",
+      "count": 2,
       "soldOutCount": 0,
       "observedAt": null
     },
     {
-      "number": "EB02-017",
+      "number": "OP18-021",
       "shopId": "yuyutei",
-      "url": "https://yuyu-tei.jp/sell/opc/s/search?search_word=EB02-017",
+      "url": "https://yuyu-tei.jp/sell/opc/s/search?search_word=OP18-021",
       "kind": "search",
-      "status": "pending",
-      "count": 0,
-      "soldOutCount": 0,
+      "status": "found",
+      "count": 2,
+      "soldOutCount": 1,
       "observedAt": null
     },
     {
-      "number": "EB02-017",
+      "number": "OP18-021",
       "shopId": "fullahead",
-      "url": "https://fullahead-onepiece-cardgame.com/shop/shopbrand.html?search=EB02-017",
+      "url": "https://fullahead-onepiece-cardgame.com/shop/shopbrand.html?search=OP18-021",
       "kind": "search",
-      "status": "pending",
-      "count": 0,
+      "status": "found",
+      "count": 2,
       "soldOutCount": 0,
       "observedAt": null
     },
     {
-      "number": "EB02-017",
+      "number": "OP18-021",
       "shopId": "dorasuta",
       "url": null,
       "kind": null,
@@ -56,27 +55,27 @@
       "observedAt": null
     },
     {
-      "number": "EB02-017",
+      "number": "OP18-021",
       "shopId": "raftel",
-      "url": "https://www.tcg-raftel.com/product-list?keyword=EB02-017",
+      "url": "https://www.tcg-raftel.com/product-list?keyword=OP18-021",
       "kind": "search",
       "status": "found",
-      "count": 6,
-      "soldOutCount": 1,
-      "observedAt": "2026-11-23T11:23:20.178Z"
-    },
-    {
-      "number": "EB02-017",
-      "shopId": "mercard",
-      "url": "https://www.mercardop.jp/product-list?keyword=EB02-017",
-      "kind": "search",
-      "status": "pending",
-      "count": 0,
+      "count": 2,
       "soldOutCount": 0,
       "observedAt": null
     },
     {
-      "number": "EB02-017",
+      "number": "OP18-021",
+      "shopId": "mercard",
+      "url": "https://www.mercardop.jp/product-list?keyword=OP18-021",
+      "kind": "search",
+      "status": "found",
+      "count": 2,
+      "soldOutCount": 0,
+      "observedAt": null
+    },
+    {
+      "number": "OP18-021",
       "shopId": "hobby",
       "url": null,
       "kind": null,
@@ -86,114 +85,24 @@
       "observedAt": null
     },
     {
-      "number": "EB02-017",
+      "number": "OP18-021",
       "shopId": "samurai",
-      "url": "https://www.torezamunet.com/product-list?keyword=EB02-017",
+      "url": "https://www.torezamunet.com/product-list?keyword=OP18-021",
       "kind": "search",
       "status": "found",
-      "count": 1,
-      "soldOutCount": 1,
+      "count": 2,
+      "soldOutCount": 0,
       "observedAt": null
     },
     {
-      "number": "EB02-017",
+      "number": "OP18-021",
       "shopId": "onehappy",
-      "url": "https://www.onehappy.co.jp/view/category/ct263",
+      "url": "https://www.onehappy.co.jp/view/category/OP18_ALL",
       "kind": "series",
       "status": "found",
       "count": 2,
       "soldOutCount": 0,
-      "observedAt": "2026-11-23T11:24:14.675Z"
-    },
-    {
-      "number": "OP09-078",
-      "shopId": "cardrush",
-      "url": "https://www.cardrush-op.jp/product-list?keyword=OP09-078",
-      "kind": "search",
-      "status": "pending",
-      "count": 0,
-      "soldOutCount": 0,
-      "observedAt": null
-    },
-    {
-      "number": "OP09-078",
-      "shopId": "yuyutei",
-      "url": "https://yuyu-tei.jp/sell/opc/s/search?search_word=OP09-078",
-      "kind": "search",
-      "status": "pending",
-      "count": 0,
-      "soldOutCount": 0,
-      "observedAt": null
-    },
-    {
-      "number": "OP09-078",
-      "shopId": "fullahead",
-      "url": "https://fullahead-onepiece-cardgame.com/shop/shopbrand.html?search=OP09-078",
-      "kind": "search",
-      "status": "pending",
-      "count": 0,
-      "soldOutCount": 0,
-      "observedAt": null
-    },
-    {
-      "number": "OP09-078",
-      "shopId": "dorasuta",
-      "url": null,
-      "kind": null,
-      "status": "paused",
-      "count": 0,
-      "soldOutCount": 0,
-      "observedAt": null
-    },
-    {
-      "number": "OP09-078",
-      "shopId": "raftel",
-      "url": "https://www.tcg-raftel.com/product-list?keyword=OP09-078",
-      "kind": "search",
-      "status": "found",
-      "count": 4,
-      "soldOutCount": 1,
-      "observedAt": "2026-11-23T11:23:30.545Z"
-    },
-    {
-      "number": "OP09-078",
-      "shopId": "mercard",
-      "url": "https://www.mercardop.jp/product-list?keyword=OP09-078",
-      "kind": "search",
-      "status": "pending",
-      "count": 0,
-      "soldOutCount": 0,
-      "observedAt": null
-    },
-    {
-      "number": "OP09-078",
-      "shopId": "hobby",
-      "url": null,
-      "kind": null,
-      "status": "paused",
-      "count": 0,
-      "soldOutCount": 0,
-      "observedAt": null
-    },
-    {
-      "number": "OP09-078",
-      "shopId": "samurai",
-      "url": "https://www.torezamunet.com/product-list?keyword=OP09-078",
-      "kind": "search",
-      "status": "pending",
-      "count": 0,
-      "soldOutCount": 0,
-      "observedAt": null
-    },
-    {
-      "number": "OP09-078",
-      "shopId": "onehappy",
-      "url": "https://www.onehappy.co.jp/view/category/ct219",
-      "kind": "series",
-      "status": "found",
-      "count": 2,
-      "soldOutCount": 0,
-      "observedAt": "2026-11-23T11:24:25.617Z"
+      "observedAt": "2026-11-23T02:12:33.260Z"
     }
   ],
   "shops": [
@@ -230,7 +139,7 @@
       "message": "24時間のアクセス上限に達しました",
       "lastCheckedAt": "2026-11-23T02:09:41.206Z",
       "pagesRead": 0,
-      "queuedPages": 69,
+      "queuedPages": 70,
       "count": 2009
     },
     {
@@ -277,7 +186,7 @@
       "message": "取得休止中（2026-11-23T16:42:01.372Zまで）",
       "lastCheckedAt": "2026-11-21T23:46:54.974Z",
       "pagesRead": 0,
-      "queuedPages": 21,
+      "queuedPages": 22,
       "count": 328
     },
     {
@@ -313,7 +222,7 @@
       "message": "24時間のアクセス上限に達しました",
       "lastCheckedAt": "2026-11-23T02:10:24.487Z",
       "pagesRead": 0,
-      "queuedPages": 59,
+      "queuedPages": 60,
       "count": 1031
     },
     {
@@ -360,8 +269,8 @@
       "status": "partial",
       "message": "24時間のアクセス上限に達しました",
       "lastCheckedAt": "2026-11-23T12:49:06.840Z",
-      "pagesRead": 3,
-      "queuedPages": 17,
+      "pagesRead": 0,
+      "queuedPages": 18,
       "count": 656
     },
     {
@@ -397,7 +306,7 @@
       "message": "24時間のアクセス上限に達しました",
       "lastCheckedAt": "2026-11-23T02:11:29.392Z",
       "pagesRead": 0,
-      "queuedPages": 24,
+      "queuedPages": 25,
       "count": 799
     },
     {
@@ -445,7 +354,7 @@
       "message": "24時間のアクセス上限に達しました",
       "lastCheckedAt": "2026-11-23T02:11:50.980Z",
       "pagesRead": 0,
-      "queuedPages": 31,
+      "queuedPages": 32,
       "count": 1004
     },
     {
@@ -476,7 +385,7 @@
       "status": "partial",
       "message": "24時間のアクセス上限に達しました",
       "lastCheckedAt": "2026-11-23T11:24:25.617Z",
-      "pagesRead": 2,
+      "pagesRead": 0,
       "queuedPages": 17,
       "count": 491
     }
