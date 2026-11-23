@@ -4,6 +4,15 @@ on:
     # Every 3 hours, at :17 (JST 00:17, 03:17, ..., 21:17).
     - cron: '17 */3 * * *'
   workflow_dispatch:
+    inputs:
+      cards:
+        description: '優先する型番（カンマ区切り・最大20種類。空欄は設定済みカード）'
+        type: string
+        required: false
+      debug:
+        description: '対象一覧の解析確認用データを1日保存する'
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -49,6 +58,9 @@ jobs:
           git -C _collector-state push origin HEAD:collector-state
       - name: Collect with shared limits
         id: collect
+        env:
+          LOOKUP_CARDS: ${{ inputs.cards }}
+          CAPTURE_LOOKUP: ${{ inputs.debug }}
         run: npm run collect
       - name: Persist counters and observations even after failure
         if: ${{ always() && steps.reserve.outcome == 'success' }}
@@ -63,6 +75,14 @@ jobs:
         with:
           path: .cache/http
           key: shop-http-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() && inputs.debug && steps.reserve.outcome == 'success' }}
+        continue-on-error: true
+        with:
+          name: lookup-debug
+          path: .cache/lookup-debug
+          include-hidden-files: true
+          retention-days: 1
       - name: Build saved snapshot
         run: npm run build
       - name: Save price history to main

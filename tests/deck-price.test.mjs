@@ -48,3 +48,19 @@ test('no available prices means unpriced, not a zero-yen deck',()=>{
   const result=priceDeck(parseSimDeck('1xP-001\n4xEB01-001'),snapshot([]),{now});
   assert.equal(result.subtotal,null);assert.equal(result.total,null);assert.equal(result.missingQuantity,5);
 });
+test('sold-out references fill only missing copies without making them purchasable',()=>{
+  const result=priceDeck(parseSimDeck('4xOP01-016'),snapshot([
+    offer('OP01-016','a',100,{stockQuantity:1}),offer('OP01-016','b',150,{stock:'out',stockQuantity:0})
+  ]),{now});
+  assert.equal(result.total,null);assert.equal(result.subtotal,100);assert.equal(result.pricedQuantity,1);
+  assert.equal(result.referenceQuantity,3);assert.equal(result.referenceTotal,550);assert.equal(result.rows[0].reference.offer.shopId,'b');
+});
+test('reference quotes keep condition, print and freshness boundaries and missing-card totals',()=>{
+  const result=priceDeck(parseSimDeck('4xEB02-017\n1xOP09-078'),snapshot([
+    offer('EB02-017','b',1,{stock:'out',condition:'B'}),offer('EB02-017','c',2,{stock:'out',variant:'parallel'}),
+    offer('EB02-017','d',3,{stock:'out',observedAt:new Date(now-37*3600000).toISOString()}),
+    offer('EB02-017','a',180,{stock:'out'})
+  ]),{now});
+  assert.equal(result.subtotal,null);assert.equal(result.referenceSubtotal,720);assert.equal(result.referenceTotal,null);
+  assert.equal(result.rows[0].reference.offer.shopId,'a');assert.equal(result.rows[1].reference,null);
+});

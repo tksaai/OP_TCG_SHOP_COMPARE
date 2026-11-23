@@ -18,14 +18,20 @@ export function parseSimDeck(text){
 }
 
 export function priceDeck(entries,snapshot,{shopId='',now=Date.now()}={}){
-  const byNumber=new Map(),seen=new Set();
+  const byNumber=new Map(),references=new Map(),seen=new Set();
   for(const offer of snapshot.offers){
     if(shopId && offer.shopId!==shopId)continue;
     // Estimate original Japanese normal prints only; artwork-only Sim suffixes
     // are not silently converted to a normal-print price by the parser.
     if(!offer.verified || offer.variant!=='normal' || offer.language!=='ja' || offer.condition!=='standard' || offer.key!==`${offer.number}:normal:ja:standard`)continue;
-    if(offer.stock!=='in' || !isFresh(offer,snapshot.policy,now))continue;
+    if(!isFresh(offer,snapshot.policy,now))continue;
     if(seen.has(offer.id))continue;seen.add(offer.id);
+    if(offer.stock==='out'){
+      const old=references.get(offer.number);
+      if(!old||offer.price<old.price||(offer.price===old.price&&offer.observedAt>old.observedAt))references.set(offer.number,offer);
+      continue;
+    }
+    if(offer.stock!=='in')continue;
     if(!byNumber.has(offer.number))byNumber.set(offer.number,[]);
     byNumber.get(offer.number).push(offer);
   }
@@ -39,11 +45,16 @@ export function priceDeck(entries,snapshot,{shopId='',now=Date.now()}={}){
       if(!remaining)break;
     }
     const subtotal=allocations.reduce((n,a)=>n+a.subtotal,0);
-    return {...entry,allocations,subtotal:allocations.length?subtotal:null,pricedQuantity:entry.quantity-remaining,missingQuantity:remaining,
+    const refOffer=remaining?references.get(entry.number):null;
+    const reference=refOffer?{offer:refOffer,quantity:remaining,subtotal:refOffer.price*remaining}:null;
+    return {...entry,allocations,reference,subtotal:allocations.length?subtotal:null,pricedQuantity:entry.quantity-remaining,missingQuantity:remaining,
       reason:remaining?(candidates.length?'確認できる在庫数が不足':'通常版の新しい在庫あり価格がありません'):''};
   });
   const quantity=entries.reduce((n,e)=>n+e.quantity,0),pricedQuantity=rows.reduce((n,r)=>n+r.pricedQuantity,0);
   const subtotal=pricedQuantity?rows.reduce((n,r)=>n+(r.subtotal??0),0):null;
+  const referenceQuantity=rows.reduce((n,r)=>n+(r.reference?.quantity||0),0);
+  const referenceSubtotal=pricedQuantity+referenceQuantity?(subtotal||0)+rows.reduce((n,r)=>n+(r.reference?.subtotal||0),0):null;
   return {rows,quantity,pricedQuantity,missingQuantity:quantity-pricedQuantity,subtotal,total:pricedQuantity===quantity?subtotal:null,
+    referenceQuantity,referenceSubtotal,referenceTotal:pricedQuantity+referenceQuantity===quantity?referenceSubtotal:null,
     quantityUnconfirmed:rows.some(r=>r.allocations.some(a=>a.quantityUnconfirmed))};
 }

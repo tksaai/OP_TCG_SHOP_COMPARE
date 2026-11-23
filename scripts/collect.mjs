@@ -8,6 +8,7 @@ import {identify} from './lib/identity.mjs';
 import {mergeQueue,nextPage,addDiscovered} from './lib/crawl-plan.mjs';
 import {mergeHistory} from './lib/price-history.mjs';
 import {audit} from './audit-coverage.mjs';
+import {lookupTargets,promoteLookups,parseRequestedCards,lookupReport} from './lib/card-lookup.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export async function collect({only=null,maxPages=null,series=null,reparseOnly=false}={}) {
   const automation=await readJson(path.join(ROOT,'config/automation.json'),{});
@@ -18,6 +19,8 @@ export async function collect({only=null,maxPages=null,series=null,reparseOnly=f
   catch(e) {if(e.code==='EEXIST') throw new Error('収集処理はすでに実行中です。異常終了時はREADMEのロック解除手順を参照してください。');throw e;}
   try {
     const config=await readJson(path.join(ROOT,'config/shops.json'),null);
+    const requested=parseRequestedCards(process.env.LOOKUP_CARDS);
+    const watchCards=requested.length?requested:(config.watchCards||[]);
     if(series && !config.shops.some(s=>s.seriesSeeds?.[series]?.length))throw new Error(`未登録の収録シリーズ: ${series}`);
     const overrides=await readJson(path.join(ROOT,'config/identity-overrides.json'),{});
     const pages=await readJson(path.join(dir,'collected-pages.json'),{});
@@ -41,25 +44,33 @@ export async function collect({only=null,maxPages=null,series=null,reparseOnly=f
       if(only && shop.id!==only) continue;
       if(!shop.enabled) {statuses.set(shop.id,{...shop,status:'paused',message:shop.note});continue;}
       if(series && !shop.seriesSeeds?.[series]?.length)continue;
-      const seeds=shop.seeds.map(s=>new URL(s,shop.origin).href);
-      const queue=queues[shop.id]=mergeQueue(queues[shop.id]||[],seeds);
+      const targets=lookupTargets(shop,watchCards).sort((a,b)=>(client.state.pages[a]?.checkedAt||0)-(client.state.pages[b]?.checkedAt||0));
+      const seeds=[...targets,...shop.seeds.map(s=>new URL(s,shop.origin).href)];
+      const queue=queues[shop.id]=promoteLookups(mergeQueue(queues[shop.id]||[],seeds),targets);
       const roots=series?shop.seriesSeeds[series].map(s=>new URL(s,shop.origin).href):null;
       const visited=new Set();
       let read=0,errors=[],freshest=null;
       const limit=Math.min(maxPages || config.policy.maxPagesPerShopPerRun,config.policy.maxPagesPerShopPerRun);
       for(let i=0;i<limit;i++) {
-        const url=nextPage(queue,visited,roots);if(!url)break;
+        const url=nextPage(queue,visited,roots||(i<Math.min(2,targets.length)?[targets[i]]:null));if(!url)break;
         if(new URL(url).origin!==shop.origin) {errors.push('設定外のドメインを拒否');continue;}
         try {
           const result=await client.page(url);
+          if(process.env.CAPTURE_LOOKUP==='true' && targets.includes(url))await atomicJson(path.join(dir,'lookup-debug',`${shop.id}-${createHash('sha256').update(url).digest('hex').slice(0,12)}.json`),result);
           const parsed=parsePage(shop,result.body,url);
-          if(!parsed.offers.length) throw new Error('商品を検出できないため前回データを保持');
-          if(pages[url]?.offers.length>=20 && parsed.offers.length<pages[url].offers.length*0.5) throw new Error('取得件数が半分未満になったため前回データを保持');
-          pages[url]={shopId:shop.id,observedAt:new Date(result.checkedAt).toISOString(),offers:parsed.offers};read++;
+          const searchEmpty=targets.includes(url)&&Boolean(shop.cardSearch)&&!parsed.offers.length&&/該当する商品(?:は|が)(?:見つかりません|ありません)|検索結果[\s\S]{0,80}(?:0件|0 件)|商品が見つかりません/.test(result.body);
+          if(!parsed.offers.length&&!searchEmpty) throw new Error('商品を検出できないため前回データを保持');
+          if(!searchEmpty && pages[url]?.offers.length>=20 && parsed.offers.length<pages[url].offers.length*0.5) throw new Error('取得件数が半分未満になったため前回データを保持');
+          pages[url]={shopId:shop.id,observedAt:new Date(result.checkedAt).toISOString(),offers:parsed.offers,...(searchEmpty?{searchEmpty:true}:{})};read++;
           freshest=Math.max(freshest||0,result.checkedAt);
           addDiscovered(queue,parsed.nextPages);
           console.log(`${shop.name}: ${parsed.offers.length}件 ${result.cacheHit?'キャッシュ':'取得'} ${url}`);
-        } catch(e) {errors.push(e.message);console.warn(`${shop.name}: ${e.message}`);break;}
+        } catch(e) {
+          errors.push(e.message);console.warn(`${shop.name}: ${e.message}`);
+          const host=client.state.hosts[shop.origin];
+          if(host?.cooldown>Date.now() || /アクセス上限|robots|転送先/.test(e.message))break;
+          // A malformed/empty listing must not prevent checking the other card.
+        }
       }
       statuses.set(shop.id,{...shop,status:errors.length?'partial':'active',message:errors.join(' / ') || shop.note,lastCheckedAt:freshest?new Date(freshest).toISOString():statuses.get(shop.id)?.lastCheckedAt||null,pagesRead:read,queuedPages:queue.length});
       await atomicJson(path.join(dir,'collected-pages.json'),pages);await atomicJson(path.join(dir,'queues.json'),queues);
@@ -77,7 +88,7 @@ export async function collect({only=null,maxPages=null,series=null,reparseOnly=f
     // Explicit manual files use the same schema. No untrusted arbitrary URL is fetched.
     const manual=await readJson(path.join(ROOT,'config/manual-offers.json'),[]);
     for(const raw of manual){const shop=config.shops.find(s=>s.id===raw.shopId);if(!shop || !Number.isInteger(raw.price)||raw.price<=0||!['in','out','unknown'].includes(raw.stock)||!Number.isFinite(Date.parse(raw.observedAt))||Date.parse(raw.observedAt)>Date.now()+60000||new URL(raw.url).origin!==shop.origin)throw new Error('手動価格データが不正です');const idn=identify(raw,shop,raw.url,overrides);if(idn)offers.set(`manual:${shop.id}:${raw.url}`,{...raw,...idn,id:`manual:${shop.id}:${raw.url}`,manual:true});}
-    const snapshot={schemaVersion:1,generatedAt:new Date().toISOString(),policy:config.policy,scope:'OP18・OP17などの収集済み商品一覧を比較。全在庫の網羅ではありません。',shops:config.shops.map(s=>({...statuses.get(s.id),...s,count:[...offers.values()].filter(o=>o.shopId===s.id).length})),offers:[...offers.values()]};
+    const snapshot={schemaVersion:1,generatedAt:new Date().toISOString(),policy:config.policy,scope:'型番検索・収録弾別・総合一覧の取得済み価格を比較。売り切れも保存。全在庫の網羅ではありません。',watchCards,lookupStatus:lookupReport(config,watchCards,pages,[...offers.values()]),shops:config.shops.map(s=>({...statuses.get(s.id),...s,count:[...offers.values()].filter(o=>o.shopId===s.id).length})),offers:[...offers.values()]};
     const historyPath=path.join(ROOT,'public/data/history.json');
     let history=await readJson(historyPath,null);
     history=mergeHistory(history,previous,config,overrides);

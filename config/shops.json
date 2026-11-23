@@ -15,15 +15,27 @@
       "adapter": "cardrush",
       "enabled": true,
       "seeds": [
+        "/product-group/59",
+        "/product-group/53",
         "/product-group/143",
         "/product-group/134",
         "/product-list"
       ],
-      "note": "OP18・OP17・総合一覧から順次収集",
+      "note": "型番・収録弾別の一覧を優先。売り切れ価格も保存",
       "seriesSeeds": {
         "OP18": [
           "/product-group/143"
+        ],
+        "EB02": [
+          "/product-group/59"
+        ],
+        "OP09": [
+          "/product-group/53"
         ]
+      },
+      "cardSearch": {
+        "path": "/product-list",
+        "parameter": "keyword"
       }
     },
     {
@@ -53,11 +65,18 @@
         "/sell/opc/s/op02",
         "/sell/opc/s/op01"
       ],
-      "note": "ブースター別一覧を順番に巡回",
+      "note": "型番・収録弾別の一覧を優先。売り切れ価格も保存",
       "seriesSeeds": {
         "OP18": [
           "/sell/opc/s/op18"
+        ],
+        "OP09": [
+          "/sell/opc/s/op09"
         ]
+      },
+      "cardSearch": {
+        "path": "/sell/opc/s/search",
+        "parameter": "search_word"
       }
     },
     {
@@ -67,15 +86,27 @@
       "adapter": "fullahead",
       "enabled": true,
       "seeds": [
+        "/view/category/opc-eb02",
+        "/view/category/opc-op09",
         "/shopbrand/opc-op18/",
         "/shopbrand/opc-op17/",
         "/shopbrand/onepiece/"
       ],
-      "note": "OP18・OP17・総合一覧から順次収集",
+      "note": "型番・収録弾別の一覧を優先。売り切れ価格も保存",
       "seriesSeeds": {
         "OP18": [
           "/shopbrand/opc-op18/"
+        ],
+        "EB02": [
+          "/view/category/opc-eb02"
+        ],
+        "OP09": [
+          "/view/category/opc-op09"
         ]
+      },
+      "cardSearch": {
+        "path": "/shop/shopbrand.html",
+        "parameter": "search"
       }
     },
     {
@@ -94,15 +125,27 @@
       "adapter": "raftel",
       "enabled": true,
       "seeds": [
+        "/product-list/223",
+        "/product-list/187",
         "/product-list/402",
         "/product-list/372",
         "/product-list"
       ],
-      "note": "OP18・OP17・総合一覧から順次収集",
+      "note": "型番・収録弾別の一覧を優先。売り切れ価格も保存",
       "seriesSeeds": {
         "OP18": [
           "/product-list/402"
+        ],
+        "EB02": [
+          "/product-list/223"
+        ],
+        "OP09": [
+          "/product-list/187"
         ]
+      },
+      "cardSearch": {
+        "path": "/product-list",
+        "parameter": "keyword"
       }
     },
     {
@@ -112,15 +155,27 @@
       "adapter": "mercard",
       "enabled": true,
       "seeds": [
+        "/product-group/49",
+        "/product-group/41",
         "/product-group/88",
         "/product-group/75",
         "/product-list"
       ],
-      "note": "販売専用サイトを使用（買取価格は含まない）",
+      "note": "型番・収録弾別の一覧を優先。売り切れ価格も保存",
       "seriesSeeds": {
         "OP18": [
           "/product-group/88"
+        ],
+        "EB02": [
+          "/product-group/49"
+        ],
+        "OP09": [
+          "/product-group/41"
         ]
+      },
+      "cardSearch": {
+        "path": "/product-list",
+        "parameter": "keyword"
       }
     },
     {
@@ -139,15 +194,27 @@
       "adapter": "samurai",
       "enabled": true,
       "seeds": [
+        "/product-list/624",
+        "/product-list/590",
         "/product-list/691",
         "/product-list/686",
         "/product-list/346"
       ],
-      "note": "ワンピースのカテゴリのみ収集",
+      "note": "型番・収録弾別の一覧を優先。売り切れ価格も保存",
       "seriesSeeds": {
         "OP18": [
           "/product-list/691"
+        ],
+        "EB02": [
+          "/product-list/624"
+        ],
+        "OP09": [
+          "/product-list/590"
         ]
+      },
+      "cardSearch": {
+        "path": "/product-list",
+        "parameter": "keyword"
       }
     },
     {
@@ -157,16 +224,28 @@
       "adapter": "onehappy",
       "enabled": true,
       "seeds": [
+        "/view/category/ct263",
+        "/view/category/ct219",
         "/view/category/OP18_ALL",
         "/view/category/ct689",
         "/"
       ],
-      "note": "OP18・OP17・新着一覧から順次収集",
+      "note": "型番・収録弾別の一覧を優先。売り切れ価格も保存",
       "seriesSeeds": {
         "OP18": [
           "/view/category/OP18_ALL"
+        ],
+        "EB02": [
+          "/view/category/ct263"
+        ],
+        "OP09": [
+          "/view/category/ct219"
         ]
       }
     }
+  ],
+  "watchCards": [
+    "EB02-017",
+    "OP09-078"
   ]
 }
