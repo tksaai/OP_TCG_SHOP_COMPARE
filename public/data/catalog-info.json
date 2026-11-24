@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "https://tksaai.github.io/OP_TCG_DB",
   "sourceCards": 3017,
-  "excludedCards": 1,
+  "excludedCards": 263,
   "excludedNumbers": [
     "P"
   ],
@@ -257,6 +257,6 @@
       "label": "プロモーションカード"
     }
   ],
-  "syncedAt": "2026-11-24T10:57:58.378Z",
-  "manifestGeneratedAt": "2026-11-24T02:15:23.649Z"
+  "syncedAt": "2026-11-24T13:46:03.631Z",
+  "manifestGeneratedAt": "2026-11-24T13:35:14.773Z"
 }
