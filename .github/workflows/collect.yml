@@ -41,6 +41,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Sync OP_TCG_DB search catalog
+        continue-on-error: true
+        run: node scripts/sync-db-catalog.mjs
       - run: npm test
       - uses: actions/cache/restore@v4
         with:

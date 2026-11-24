@@ -9,6 +9,7 @@ import {mergeQueue,nextPage,addDiscovered} from './lib/crawl-plan.mjs';
 import {mergeHistory} from './lib/price-history.mjs';
 import {audit} from './audit-coverage.mjs';
 import {lookupTargets,promoteLookups,parseRequestedCards,lookupReport} from './lib/card-lookup.mjs';
+import {nextCatalogLookup} from './lib/catalog-lookup.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export async function collect({only=null,maxPages=null,series=null,reparseOnly=false}={}) {
   const automation=await readJson(path.join(ROOT,'config/automation.json'),{});
@@ -21,6 +22,7 @@ export async function collect({only=null,maxPages=null,series=null,reparseOnly=f
     const config=await readJson(path.join(ROOT,'config/shops.json'),null);
     const requested=parseRequestedCards(process.env.LOOKUP_CARDS);
     const watchCards=requested.length?requested:(config.watchCards||[]);
+    const catalog=await readJson(path.join(ROOT,'public/data/catalog.json'),{});
     if(series && !config.shops.some(s=>s.seriesSeeds?.[series]?.length))throw new Error(`未登録の収録シリーズ: ${series}`);
     const overrides=await readJson(path.join(ROOT,'config/identity-overrides.json'),{});
     const pages=await readJson(path.join(dir,'collected-pages.json'),{});
@@ -45,6 +47,9 @@ export async function collect({only=null,maxPages=null,series=null,reparseOnly=f
       if(!shop.enabled) {statuses.set(shop.id,{...shop,status:'paused',message:shop.note});continue;}
       if(series && !shop.seriesSeeds?.[series]?.length)continue;
       const targets=lookupTargets(shop,watchCards).sort((a,b)=>(client.state.pages[a]?.checkedAt||0)-(client.state.pages[b]?.checkedAt||0));
+      const catalogTarget=!series&&!requested.length?nextCatalogLookup(shop,catalog,client.state.pages,targets):null;
+      // Preserve the first two priority searches and reserve one existing slot for the DB.
+      if(catalogTarget){targets.splice(Math.min(2,targets.length),0,catalogTarget.url);console.log(`${shop.name}: DB巡回対象 ${catalogTarget.number}`);}
       const seeds=[...targets,...shop.seeds.map(s=>new URL(s,shop.origin).href)];
       const queue=queues[shop.id]=promoteLookups(mergeQueue(queues[shop.id]||[],seeds),targets);
       const roots=series?shop.seriesSeeds[series].map(s=>new URL(s,shop.origin).href):null;
@@ -52,7 +57,7 @@ export async function collect({only=null,maxPages=null,series=null,reparseOnly=f
       let read=0,errors=[],freshest=null;
       const limit=Math.min(maxPages || config.policy.maxPagesPerShopPerRun,config.policy.maxPagesPerShopPerRun);
       for(let i=0;i<limit;i++) {
-        const url=nextPage(queue,visited,roots||(i<Math.min(2,targets.length)?[targets[i]]:null));if(!url)break;
+        const url=nextPage(queue,visited,roots||(i<Math.min(catalogTarget?3:2,targets.length)?[targets[i]]:null));if(!url)break;
         if(new URL(url).origin!==shop.origin) {errors.push('設定外のドメインを拒否');continue;}
         try {
           const result=await client.page(url);

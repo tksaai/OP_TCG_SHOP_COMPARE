@@ -212,7 +212,7 @@
       ]
     },
     "cardrush:8732": {
-      "key": "PRB02-002:unverified:cardrush:8732",
+      "key": "PRB02-002:normal:ja:standard",
       "number": "PRB02-002",
       "edition": "PRB02",
       "shopId": "cardrush",
@@ -342,7 +342,7 @@
       ]
     },
     "cardrush:8738": {
-      "key": "PRB02-008:unverified:cardrush:8738",
+      "key": "PRB02-008:normal:ja:standard",
       "number": "PRB02-008",
       "edition": "PRB02",
       "shopId": "cardrush",
@@ -15462,7 +15462,7 @@
       ]
     },
     "cardrush:8731": {
-      "key": "PRB02-001:unverified:cardrush:8731",
+      "key": "PRB02-001:normal:ja:standard",
       "number": "PRB02-001",
       "edition": "PRB02",
       "shopId": "cardrush",
@@ -15477,7 +15477,7 @@
       ]
     },
     "cardrush:8733": {
-      "key": "PRB02-003:unverified:cardrush:8733",
+      "key": "PRB02-003:normal:ja:standard",
       "number": "PRB02-003",
       "edition": "PRB02",
       "shopId": "cardrush",
@@ -58992,7 +58992,7 @@
       ]
     },
     "mercard:3562": {
-      "key": "PRB01-001:unverified:mercard:3562",
+      "key": "PRB01-001:normal:ja:standard",
       "number": "PRB01-001",
       "edition": "PRB01",
       "shopId": "mercard",
@@ -124924,5 +124924,5 @@
   },
   "firstObservedAt": "2026-11-21T16:23:47.606Z",
   "lastObservedAt": "2026-11-24T02:22:57.397Z",
-  "generatedAt": "2026-11-24T02:22:57.875Z"
+  "generatedAt": "2026-11-24T02:31:00.423Z"
 }

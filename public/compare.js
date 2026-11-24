@@ -15,6 +15,11 @@ export function groupOffers(data,catalog={}) {
     if(!map.has(o.key)) map.set(o.key,{key:o.key,number:o.number,name:o.verified?(catalog[o.number]?.name||o.title):o.title,meta:catalog[o.number]||{},variant:o.variant,verified:o.verified,label:o.label,edition:o.edition,offers:[]});
     map.get(o.key).offers.push(o);
   }
+  for(const [number,meta] of Object.entries(catalog)){
+    if(!meta.db)continue;
+    const key=`${number}:normal:ja:standard`;
+    if(!map.has(key))map.set(key,{key,number,name:meta.name,meta,variant:'normal',verified:true,label:'通常版',edition:meta.edition||number.split('-')[0],offers:[],catalogOnly:true});
+  }
   return [...map.values()];
 }
 export function validateSnapshot(data) {

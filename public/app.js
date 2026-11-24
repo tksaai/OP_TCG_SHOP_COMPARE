@@ -5,10 +5,11 @@ import {offerTable} from './offer-view.js';
 import {mountDeck} from './deck-view.js';
 import {shopLinks} from './shop-links.js';
 import {CARD_NUMBER} from './shop-search.js';
+import {matchesCatalogGroup,catalogSeries} from './catalog-search.js';
 const $=s=>document.querySelector(s), escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const yen=n=>`¥${n.toLocaleString('ja-JP')}`;
 const date=s=>s?new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(s)):'未取得';
-const state={data:null,catalog:{},groups:[],selected:new Set(),favorites:new Set(),view:'compare',page:1,filtered:[],size:20,imported:false};
+const state={data:null,catalog:{},catalogInfo:{},groups:[],selected:new Set(),favorites:new Set(),view:'compare',page:1,filtered:[],size:20,imported:false};
 const deckView=mountDeck($('#deckView'),()=>({data:state.data,catalog:state.catalog,imported:state.imported}));
 try{state.favorites=new Set(JSON.parse(localStorage.getItem('op-compare-favorites')||'[]'));}catch{}
 let toastTimer;
@@ -18,14 +19,15 @@ function setData(data){
   state.data=validateSnapshot(data);state.groups=groupOffers(data,state.catalog);
   state.selected=new Set(data.shops.map(s=>s.id));state.page=1;
   $('#updatedAt').textContent=`${state.imported?'取込データ':'保存データ'}：${date(data.generatedAt)} JST`;
-  $('#edition').innerHTML='<option value="">すべてのシリーズ</option>'+[...new Set(state.groups.map(g=>g.edition))].sort().reverse().map(s=>`<option value="${escape(s)}">${escape(s)}</option>`).join('');
+  $('#edition').innerHTML='<option value="">すべてのシリーズ</option>'+catalogSeries(state.groups,state.catalogInfo).map(s=>`<option value="${escape(s.id)}">${escape(s.id)} · ${escape(s.label)}</option>`).join('');
   renderChips();renderSummary();renderShops();render();deckView.refresh();
 }
 async function load(){
   resetHistoryCache();
   $('#errorBox').hidden=true;$('#reloadButton').disabled=true;
   try{
-    const [response,catalog]=await Promise.all([fetch('data/prices.json',{cache:'no-cache'}),fetch('data/catalog.json').then(r=>r.ok?r.json():{}).catch(()=>({}))]);
+    const [response,catalog,info]=await Promise.all([fetch('data/prices.json',{cache:'no-cache'}),fetch('data/catalog.json',{cache:'no-cache'}).then(r=>r.ok?r.json():{}).catch(()=>({})),fetch('data/catalog-info.json',{cache:'no-cache'}).then(r=>r.ok?r.json():{}).catch(()=>({}))]);
+    state.catalogInfo=info;
     if(!response.ok)throw new Error('価格ファイルを読み込めません');state.catalog=catalog;
     const data=await response.json();state.imported=false;setData(data);
   }catch(e){showError(`データの読み込みに失敗しました。再読込をお試しください。${e.message}`);$('#resultCount').textContent='読み込みエラー';}
@@ -55,12 +57,9 @@ function render(){
   if(!state.data)return;
   const q=normalise($('#search').value),terms=q.split(/[,、]/).filter(Boolean),edition=$('#edition').value,variant=$('#variant').value;
   const rows=state.groups.filter(g=>{
-    const offers=offersFor(g);if(!offers.length)return false;
+    const offers=offersFor(g);if(!state.selected.size||!offers.length&&!g.catalogOnly)return false;
     if(state.view==='favorites'&&!state.favorites.has(g.key))return false;
-    if(edition&&g.edition!==edition)return false;
-    if(variant==='normal'&&(!g.verified||g.variant!=='normal'))return false;
-    if(variant==='parallel'&&g.variant==='normal'&&g.verified)return false;
-    if(terms.length&&!terms.every(t=>normalise(`${g.name} ${g.number} ${g.offers.map(o=>o.title).join(' ')}`).includes(t)))return false;
+    if(!matchesCatalogGroup(g,{terms,edition,variant}))return false;
     const best=bestOffers(offers,state.data.policy);
     if($('#stockOnly').checked&&!best.length)return false;
     if($('#comparableOnly').checked&&(!g.verified||best.length<2))return false;
@@ -70,7 +69,7 @@ function render(){
   rows.sort((a,b)=>(sort==='low'?a.min-b.min:sort==='gap'?b.gap-a.gap:sort==='number'?0:b.best.length-a.best.length)||a.number.localeCompare(b.number)||a.key.localeCompare(b.key));
   state.filtered=rows;const count=rows.length,pages=Math.max(1,Math.ceil(count/state.size));state.page=Math.min(state.page,pages);
   $('#resultCount').textContent=`${count.toLocaleString()} 件`;
-  $('#coverage').textContent=`${state.data.scope} 36時間を超えた価格は最安値の対象外です。${variant!=='normal'?'「版・状態を要確認」は店舗をまたいで自動比較しません。':''}`;
+  $('#coverage').textContent=`OP_TCG_DBのカードリストを含めて検索しています。価格未取得は0円や売り切れではありません。${edition?"シリーズは再録先も含む収録カードの絞り込みです。同じ型番の元の通常版も表示します。価格は商品ごとの版で区別します。":""} ${state.data.scope} 36時間を超えた価格は最安値の対象外です。${variant!=='normal'?'「版・状態を要確認」は店舗をまたいで自動比較しません。':''}`;
   const shops=state.data.shops.filter(s=>state.selected.has(s.id));
   $('#results').innerHTML=count?rows.slice((state.page-1)*state.size,state.page*state.size).map(g=>row(g,shops)).join(''):`<div class="empty"><strong>${state.selected.size?'該当するカードがありません':'比較するショップを選んでください'}</strong><p>${state.view==='favorites'?'カード横の☆を押すと、ここに保存できます。<br>':'検索条件を減らすか、「在庫あり」を外してお試しください。<br>'}取得していないカードや古い価格は、最安値として表示しません。</p></div>`;
   const searched=normalise($('#search').value).toUpperCase();if(state.view==='compare'&&CARD_NUMBER.test(searched))$('#results').insertAdjacentHTML('afterbegin',shopLinks(state.data.shops,searched,state.data,{open:true}));
@@ -86,15 +85,15 @@ function shopEntry(g,s){
 function row(g,shops){
   const reference=g.selectedOffers.filter(o=>o.stock==='out'&&isFresh(o,state.data.policy)).sort((a,b)=>a.price-b.price)[0];
   const image=g.verified&&g.variant==='normal'&&g.meta.image?`<img class="thumb" src="${escape(g.meta.image)}" alt="${escape(g.name)} 通常版" loading="lazy" width="46" height="65">`:`<span class="thumb no-image">${escape(g.edition)}<br>${g.verified?'CARD':'版確認'}</span>`;
-  return `<article class="comparison-card"><header class="comparison-card-heading"><div class="product">${image}<div class="card-info"><div class="card-number">${escape(g.number)}${g.meta.rarity?` ・ ${escape(g.meta.rarity)}`:''}</div><button class="card-title" data-detail="${escape(g.key)}">${escape(g.name)}</button><span class="card-tag ${g.verified?'':'warn'}">${g.verified?'通常版':'版・状態を要確認'}</span></div><button class="favorite ${state.favorites.has(g.key)?'on':''}" data-favorite="${escape(g.key)}" aria-label="${escape(g.name)}をお気に入り${state.favorites.has(g.key)?'から削除':'に追加'}" aria-pressed="${state.favorites.has(g.key)}">${state.favorites.has(g.key)?'★':'☆'}</button></div><div class="card-price-summary"><span>${g.best.length?'在庫あり最安':reference?'売り切れ参考価格':'在庫あり最安'}</span>${g.best.length?`<strong>${yen(g.min)}</strong><span>${g.best.length}店で在庫あり</span>${g.gap?`<span>最大 ${yen(g.gap)} の差</span>`:''}`:reference?`<strong>${yen(reference.price)}</strong><span>購入不可・参考</span>`:'<span>比較対象なし</span>'}</div></header>${offerTable(shops.map(s=>shopEntry(g,s)))}</article>`;
+  return `<article class="comparison-card"><header class="comparison-card-heading"><div class="product">${image}<div class="card-info"><div class="card-number">${escape(g.number)}${g.meta.rarity?` ・ ${escape(g.meta.rarity)}`:''}</div><button class="card-title" data-detail="${escape(g.key)}">${escape(g.name)}</button><span class="card-tag ${g.verified?'':'warn'}">${g.catalogOnly?'DB登録・通常版価格未取得':g.verified?'通常版':'版・状態を要確認'}</span></div><button class="favorite ${state.favorites.has(g.key)?'on':''}" data-favorite="${escape(g.key)}" aria-label="${escape(g.name)}をお気に入り${state.favorites.has(g.key)?'から削除':'に追加'}" aria-pressed="${state.favorites.has(g.key)}">${state.favorites.has(g.key)?'★':'☆'}</button></div><div class="card-price-summary"><span>${g.best.length?'在庫あり最安':reference?'売り切れ参考価格':'在庫あり最安'}</span>${g.best.length?`<strong>${yen(g.min)}</strong><span>${g.best.length}店で在庫あり</span>${g.gap?`<span>最大 ${yen(g.gap)} の差</span>`:''}`:reference?`<strong>${yen(reference.price)}</strong><span>購入不可・参考</span>`:`<span>${g.catalogOnly?'価格未取得':'比較対象なし'}</span>`}</div></header>${g.catalogOnly?'<p class="detail-note catalog-note">OP_TCG_DB登録カードです。通常版の価格はまだ取得していません。カード名を押すと店舗別の掲載商品・検索リンクを確認できます。</p>':''}${$('#edition').value&&g.edition!==$('#edition').value?`<p class="detail-note catalog-note">${escape($('#edition').value)}にも収録される型番です。この欄は${escape(g.edition)} / ${g.verified?'通常版':'商品名に記載された版'}の価格です。</p>`:''}${offerTable(shops.map(s=>shopEntry(g,s)))}</article>`;
 }
 function detail(key){
   const g=state.groups.find(g=>g.key===key);if(!g)return;
   $('#detailHeading').innerHTML=`<span class="card-number">${escape(g.number)} / ${g.verified?'通常版':'版・状態を要確認'}</span><h2>${escape(g.name)}</h2>`;
   const offers=[...g.offers].sort((a,b)=>a.price-b.price);
-  $('#detailBody').innerHTML=`<p class="detail-note">${g.verified?'同じ通常版として照合した商品です。':'同一の版か確認できないため、この商品は他店の最安値と合算していません。商品名・イラスト・状態をリンク先でご確認ください。'}<br>価格は税込・送料別。取得日は価格を確認した日時です。価格や在庫は確認後に変わることがあります。</p>${offerTable(offers.map(o=>({shop:state.data.shops.find(s=>s.id===o.shopId),offer:o,fresh:isFresh(o,state.data.policy)})),{showTitle:true})}`;
+  $('#detailBody').innerHTML=`<p class="detail-note">${g.catalogOnly?'OP_TCG_DB登録カードです。通常版の価格は未取得です。価格を0円や売り切れとは扱いません。':g.verified?'同じ通常版として照合した商品です。':'同一の版か確認できないため、この商品は他店の最安値と合算していません。商品名・イラスト・状態をリンク先でご確認ください。'}<br>価格は税込・送料別。取得日は価格を確認した日時です。価格や在庫は確認後に変わることがあります。</p>${offerTable(offers.map(o=>({shop:state.data.shops.find(s=>s.id===o.shopId),offer:o,fresh:isFresh(o,state.data.policy)})),{showTitle:true})}`;
   const historyContainer=document.createElement('section');historyContainer.className='history-panel';$('#detailBody').append(historyContainer);
-  historyContainer.insertAdjacentHTML('beforebegin',shopLinks(state.data.shops,g.number,state.data));
+  historyContainer.insertAdjacentHTML('beforebegin',shopLinks(state.data.shops,g.number,state.data,{open:g.catalogOnly}));
   mountHistory(historyContainer,g,state.data.shops,state.data.policy,{imported:state.imported});
   $('#detailDialog').showModal();
 }

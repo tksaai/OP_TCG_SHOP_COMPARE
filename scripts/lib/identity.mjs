@@ -5,7 +5,8 @@ export function identify(offer, shop, pageUrl, overrides = {}) {
   if (!number || /\d+枚セット|デッキ販売|オリパ|未開封BOX|未開封パック|PSA|ARS\d|鑑定済|福袋/i.test(raw)) return null;
   const condition = offer.conditionHint || raw.match(/状態\s*([ABC][+-]?)/i)?.[1]?.toUpperCase() || 'standard';
   const language = /英語|English|海外|中国|Asia/i.test(raw) ? 'foreign' : 'ja';
-  const variant = /スーパー|コミック|漫画絵/i.test(raw) ? 'super' : /パラレル|\bP-(?:L|SR|SEC|R|UC|C)\b|\b(?:SR|SEC|L|R)\/P\b/.test(raw) ? 'parallel' : /\b(?:SP|TR)\b|スペシャル|トレジャー|プロモ|再録|PRB|特別|金箔|金文字|foil|JUDGE|CS\d|ロゴ|ベストセレクション|プレミアム|フルアート|アニメ|周年|手配書|赤白版|修正|エラッタ|未開封|大会|優勝|フラッグ|チャンピオン|フルパラ/i.test(raw) ? 'special' : 'normal';
+  const printText=raw.replace(/\bPRB\d{2}-\d{3}\b/gi,''); // PRB's own card number is not a reprint marker.
+  const variant = /スーパー|コミック|漫画絵/i.test(raw) ? 'super' : /パラレル|\bP-(?:L|SR|SEC|R|UC|C)\b|\b(?:SR|SEC|L|R)\/P\b/.test(raw) ? 'parallel' : /\b(?:SP|TR)\b|スペシャル|トレジャー|プロモ|再録|PRB|特別|金箔|金文字|foil|JUDGE|CS\d|ロゴ|ベストセレクション|プレミアム|フルアート|アニメ|周年|手配書|赤白版|修正|エラッタ|未開封|大会|優勝|フラッグ|チャンピオン|フルパラ/i.test(printText) ? 'special' : 'normal';
   const cardSeries = number.split('-')[0];
   // Autogroup only unambiguous original normal prints. Explicit reprint series remain isolated.
   const sourceEdition = offer.sourceSeries||pageUrl.match(/\/(?:s|card)\/((?:op|eb|st|prb)\d+)/i)?.[1]?.toUpperCase();
