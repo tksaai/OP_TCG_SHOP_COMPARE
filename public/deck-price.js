@@ -17,13 +17,15 @@ export function parseSimDeck(text){
   return [...counts].map(([number,quantity])=>({number,quantity}));
 }
 
-export function priceDeck(entries,snapshot,{shopId='',now=Date.now()}={}){
+export function priceDeck(entries,snapshot,{shopId='',now=Date.now(),selectedOffers={}}={}){
   const byNumber=new Map(),references=new Map(),seen=new Set();
   for(const offer of snapshot.offers){
     if(shopId && offer.shopId!==shopId)continue;
     // Estimate original Japanese normal prints only; artwork-only Sim suffixes
     // are not silently converted to a normal-print price by the parser.
-    if(!offer.verified || offer.variant!=='normal' || offer.language!=='ja' || offer.condition!=='standard' || offer.key!==`${offer.number}:normal:ja:standard`)continue;
+    const selectedId=selectedOffers[offer.number];
+    if(selectedId){if(offer.id!==selectedId)continue;}
+    else if(!offer.verified || offer.variant!=='normal' || offer.language!=='ja' || offer.condition!=='standard' || offer.key!==`${offer.number}:normal:ja:standard`)continue;
     if(!isFresh(offer,snapshot.policy,now))continue;
     if(seen.has(offer.id))continue;seen.add(offer.id);
     if(offer.stock==='out'){
@@ -47,8 +49,13 @@ export function priceDeck(entries,snapshot,{shopId='',now=Date.now()}={}){
     const subtotal=allocations.reduce((n,a)=>n+a.subtotal,0);
     const refOffer=remaining?references.get(entry.number):null;
     const reference=refOffer?{offer:refOffer,quantity:remaining,subtotal:refOffer.price*remaining}:null;
-    return {...entry,allocations,reference,subtotal:allocations.length?subtotal:null,pricedQuantity:entry.quantity-remaining,missingQuantity:remaining,
-      reason:remaining?(candidates.length?'確認できる在庫数が不足':'通常版の新しい在庫あり価格がありません'):''};
+    const selectedOfferId=selectedOffers[entry.number]||null;
+    const selectedOffer=selectedOfferId?snapshot.offers.find(o=>o.id===selectedOfferId&&o.number===entry.number):null;
+    let reason=remaining?(candidates.length?'確認できる在庫数が不足':'通常版の新しい在庫あり価格がありません'):'';
+    if(remaining&&selectedOfferId){
+      reason=!selectedOffer?'選択商品が保存データにありません':shopId&&selectedOffer.shopId!==shopId?'選択商品は別の店舗の商品です':!isFresh(selectedOffer,snapshot.policy,now)?'選択商品の価格が期限切れです':selectedOffer.stock==='out'?'選択商品は売り切れです':selectedOffer.stock!=='in'?'選択商品の在庫が未確認です':'選択商品の在庫数が不足しています';
+    }
+    return {...entry,allocations,reference,selectedOfferId,selectedOffer,subtotal:allocations.length?subtotal:null,pricedQuantity:entry.quantity-remaining,missingQuantity:remaining,reason};
   });
   const quantity=entries.reduce((n,e)=>n+e.quantity,0),pricedQuantity=rows.reduce((n,r)=>n+r.pricedQuantity,0);
   const subtotal=pricedQuantity?rows.reduce((n,r)=>n+(r.subtotal??0),0):null;
@@ -57,4 +64,16 @@ export function priceDeck(entries,snapshot,{shopId='',now=Date.now()}={}){
   return {rows,quantity,pricedQuantity,missingQuantity:quantity-pricedQuantity,subtotal,total:pricedQuantity===quantity?subtotal:null,
     referenceQuantity,referenceSubtotal,referenceTotal:pricedQuantity+referenceQuantity===quantity?referenceSubtotal:null,
     quantityUnconfirmed:rows.some(r=>r.allocations.some(a=>a.quantityUnconfirmed))};
+}
+
+export function compareDeckStores(entries,snapshot,{now=Date.now(),selectedOffers={}}={}){
+  const knownStock={...snapshot,offers:snapshot.offers.filter(o=>Number.isSafeInteger(o.stockQuantity)&&o.stockQuantity>=0)};
+  const quotes=snapshot.shops.map(shop=>({shop,
+    quote:priceDeck(entries,snapshot,{shopId:shop.id,now,selectedOffers}),
+    confirmedQuote:priceDeck(entries,knownStock,{shopId:shop.id,now,selectedOffers})}));
+  quotes.sort((a,b)=>a.quote.missingQuantity-b.quote.missingQuantity||(a.quote.subtotal??Infinity)-(b.quote.subtotal??Infinity)||a.shop.id.localeCompare(b.shop.id));
+  const confirmed=quotes.filter(x=>x.confirmedQuote.quantity>0&&x.confirmedQuote.total!==null).map(x=>({shop:x.shop,quote:x.confirmedQuote}));
+  const unconfirmed=quotes.filter(x=>x.quote.quantity>0&&x.quote.total!==null&&x.quote.quantityUnconfirmed);
+  const cheapest=rows=>{const minimum=Math.min(...rows.map(x=>x.quote.total));return rows.filter(x=>x.quote.total===minimum);};
+  return {quotes,winners:cheapest(confirmed),referenceWinners:cheapest(unconfirmed),completeShopCount:confirmed.length};
 }
