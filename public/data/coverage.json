@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T12:55:31.348Z",
-  "snapshotGeneratedAt": "2026-11-23T12:55:30.528Z",
+  "generatedAt": "2026-11-24T02:22:58.192Z",
+  "snapshotGeneratedAt": "2026-11-24T02:22:57.462Z",
   "scope": "手元の弾マスターに登録されているOP01〜18、EB01〜05、PRB01〜02、ST01〜36の61シリーズ。プロモ・ドン・未登録の新商品は対象外。",
   "catalogSource": "https://www.onepiece-cardgame.com/cardlist/",
   "notes": [
@@ -73,8 +73,8 @@
       "id": "EB02",
       "label": "エクストラブースター Anime 25th collection【EB-02】",
       "registeredShops": 9,
-      "knownPagesCoveredShops": 2,
-      "offers": 330
+      "knownPagesCoveredShops": 4,
+      "offers": 738
     },
     {
       "id": "EB03",
@@ -130,7 +130,7 @@
       "label": "ブースターパック 新時代の主役【OP-05】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 184
+      "offers": 183
     },
     {
       "id": "OP06",
@@ -144,21 +144,21 @@
       "label": "ブースターパック 500年後の未来【OP-07】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 181
+      "offers": 180
     },
     {
       "id": "OP08",
       "label": "ブースターパック 二つの伝説【OP-08】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 158
+      "offers": 157
     },
     {
       "id": "OP09",
       "label": "ブースターパック 新たなる皇帝【OP-09】",
       "registeredShops": 10,
       "knownPagesCoveredShops": 1,
-      "offers": 458
+      "offers": 871
     },
     {
       "id": "OP10",
@@ -179,7 +179,7 @@
       "label": "ブースターパック 師弟の絆【OP-12】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 151
+      "offers": 150
     },
     {
       "id": "OP13",
@@ -221,7 +221,7 @@
       "label": "ブースターパック 神の支配【OP-18】",
       "registeredShops": 10,
       "knownPagesCoveredShops": 5,
-      "offers": 1577
+      "offers": 1538
     },
     {
       "id": "PRB01",
@@ -452,7 +452,7 @@
       "label": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 7
+      "offers": 6
     },
     {
       "id": "ST32",
@@ -509,10 +509,10 @@
       "series": "EB02",
       "shopId": "cardrush",
       "shopName": "カードラッシュ",
-      "status": "not_collected",
-      "fresh": false,
-      "offerCount": 45,
-      "cardNumbers": 30,
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 213,
+      "cardNumbers": 85,
       "registeredRoots": [
         "https://www.cardrush-op.jp/product-group/59"
       ],
@@ -522,13 +522,13 @@
       "lists": [
         {
           "root": "https://www.cardrush-op.jp/product-group/59",
-          "knownPageCount": 1,
-          "savedPageCount": 0,
+          "knownPageCount": 3,
+          "savedPageCount": 2,
           "missingPages": [
-            1
+            3
           ],
           "errors": [],
-          "oldestObservedAt": null,
+          "oldestObservedAt": "2026-11-24T02:15:50.370Z",
           "knownPagesComplete": false
         }
       ]
@@ -637,8 +637,8 @@
       "shopName": "カードラッシュ",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 65,
-      "cardNumbers": 47,
+      "offerCount": 64,
+      "cardNumbers": 46,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.cardrush-op.jp/product-group/31"
@@ -665,8 +665,8 @@
       "shopName": "カードラッシュ",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 93,
-      "cardNumbers": 71,
+      "offerCount": 92,
+      "cardNumbers": 70,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.cardrush-op.jp/product-group/41"
@@ -679,7 +679,7 @@
       "shopName": "カードラッシュ",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 70,
+      "offerCount": 69,
       "cardNumbers": 49,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -693,8 +693,8 @@
       "shopName": "カードラッシュ",
       "status": "not_collected",
       "fresh": false,
-      "offerCount": 76,
-      "cardNumbers": 40,
+      "offerCount": 84,
+      "cardNumbers": 41,
       "registeredRoots": [
         "https://www.cardrush-op.jp/product-group/53"
       ],
@@ -847,7 +847,7 @@
       "shopName": "カードラッシュ",
       "status": "partial",
       "fresh": false,
-      "offerCount": 203,
+      "offerCount": 204,
       "cardNumbers": 125,
       "registeredRoots": [
         "https://www.cardrush-op.jp/product-group/143"
@@ -4284,8 +4284,8 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 4,
-      "cardNumbers": 3,
+      "offerCount": 3,
+      "cardNumbers": 2,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.tcg-raftel.com/product-list/250"
@@ -4369,7 +4369,7 @@
           "savedPageCount": 3,
           "missingPages": [],
           "errors": [],
-          "oldestObservedAt": "2026-11-22T18:24:16.067Z",
+          "oldestObservedAt": "2026-11-22T18:24:36.797Z",
           "knownPagesComplete": true
         }
       ]
@@ -4380,7 +4380,7 @@
       "shopName": "トレカラフテル",
       "status": "known_pages_covered",
       "fresh": true,
-      "offerCount": 158,
+      "offerCount": 159,
       "cardNumbers": 124,
       "registeredRoots": [
         "https://www.tcg-raftel.com/product-list/402"
@@ -4795,8 +4795,8 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 1,
-      "cardNumbers": 1,
+      "offerCount": 0,
+      "cardNumbers": 0,
       "registeredRoots": [],
       "discoveredRoots": [],
       "lists": []
@@ -4879,10 +4879,10 @@
       "series": "EB02",
       "shopId": "mercard",
       "shopName": "メルカード",
-      "status": "not_collected",
-      "fresh": false,
-      "offerCount": 5,
-      "cardNumbers": 2,
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 89,
+      "cardNumbers": 61,
       "registeredRoots": [
         "https://www.mercardop.jp/product-group/49"
       ],
@@ -4892,14 +4892,12 @@
       "lists": [
         {
           "root": "https://www.mercardop.jp/product-group/49",
-          "knownPageCount": 1,
-          "savedPageCount": 0,
-          "missingPages": [
-            1
-          ],
+          "knownPageCount": 2,
+          "savedPageCount": 2,
+          "missingPages": [],
           "errors": [],
-          "oldestObservedAt": null,
-          "knownPagesComplete": false
+          "oldestObservedAt": "2026-11-24T02:18:18.638Z",
+          "knownPagesComplete": true
         }
       ]
     },
@@ -5063,8 +5061,8 @@
       "shopName": "メルカード",
       "status": "not_collected",
       "fresh": false,
-      "offerCount": 26,
-      "cardNumbers": 8,
+      "offerCount": 32,
+      "cardNumbers": 9,
       "registeredRoots": [
         "https://www.mercardop.jp/product-group/41"
       ],
@@ -5215,7 +5213,7 @@
       "shopName": "メルカード",
       "status": "partial",
       "fresh": false,
-      "offerCount": 149,
+      "offerCount": 151,
       "cardNumbers": 118,
       "registeredRoots": [
         "https://www.mercardop.jp/product-group/88"
@@ -6461,27 +6459,26 @@
       "series": "EB02",
       "shopId": "samurai",
       "shopName": "トレカ侍",
-      "status": "not_collected",
-      "fresh": false,
-      "offerCount": 5,
-      "cardNumbers": 5,
+      "status": "known_pages_covered",
+      "fresh": true,
+      "offerCount": 110,
+      "cardNumbers": 87,
       "registeredRoots": [
         "https://www.torezamunet.com/product-list/624"
       ],
       "discoveredRoots": [
-        "https://www.torezamunet.com/product-list/624"
+        "https://www.torezamunet.com/product-list/624",
+        "https://www.torezamunet.com/product-list?keyword=EB02-017&main_category=346&sub_category=624"
       ],
       "lists": [
         {
           "root": "https://www.torezamunet.com/product-list/624",
-          "knownPageCount": 1,
-          "savedPageCount": 0,
-          "missingPages": [
-            1
-          ],
+          "knownPageCount": 2,
+          "savedPageCount": 2,
+          "missingPages": [],
           "errors": [],
-          "oldestObservedAt": null,
-          "knownPagesComplete": false
+          "oldestObservedAt": "2026-11-24T02:19:11.302Z",
+          "knownPagesComplete": true
         }
       ]
     },
@@ -6645,13 +6642,14 @@
       "shopName": "トレカ侍",
       "status": "not_collected",
       "fresh": false,
-      "offerCount": 8,
-      "cardNumbers": 8,
+      "offerCount": 10,
+      "cardNumbers": 9,
       "registeredRoots": [
         "https://www.torezamunet.com/product-list/590"
       ],
       "discoveredRoots": [
-        "https://www.torezamunet.com/product-list/590"
+        "https://www.torezamunet.com/product-list/590",
+        "https://www.torezamunet.com/product-list?keyword=OP09-078&main_category=346&sub_category=590"
       ],
       "lists": [
         {
@@ -6805,7 +6803,8 @@
         "https://www.torezamunet.com/product-list/691"
       ],
       "discoveredRoots": [
-        "https://www.torezamunet.com/product-list/691"
+        "https://www.torezamunet.com/product-list/691",
+        "https://www.torezamunet.com/product-list?keyword=OP18-021&main_category=346&sub_category=691"
       ],
       "lists": [
         {
@@ -7309,8 +7308,8 @@
       "shopName": "ワンハッピー",
       "status": "partial",
       "fresh": true,
-      "offerCount": 48,
-      "cardNumbers": 37,
+      "offerCount": 95,
+      "cardNumbers": 70,
       "registeredRoots": [
         "https://www.onehappy.co.jp/view/category/ct263"
       ],
@@ -7321,13 +7320,12 @@
         {
           "root": "https://www.onehappy.co.jp/view/category/ct263",
           "knownPageCount": 3,
-          "savedPageCount": 1,
+          "savedPageCount": 2,
           "missingPages": [
-            2,
             3
           ],
           "errors": [],
-          "oldestObservedAt": "2026-11-23T11:24:14.675Z",
+          "oldestObservedAt": "2026-11-24T02:19:43.421Z",
           "knownPagesComplete": false
         }
       ]
@@ -7492,7 +7490,7 @@
       "shopName": "ワンハッピー",
       "status": "partial",
       "fresh": true,
-      "offerCount": 96,
+      "offerCount": 99,
       "cardNumbers": 65,
       "registeredRoots": [
         "https://www.onehappy.co.jp/view/category/ct219"
@@ -7504,14 +7502,13 @@
         {
           "root": "https://www.onehappy.co.jp/view/category/ct219",
           "knownPageCount": 5,
-          "savedPageCount": 2,
+          "savedPageCount": 3,
           "missingPages": [
             3,
-            4,
-            5
+            4
           ],
           "errors": [],
-          "oldestObservedAt": "2026-11-23T11:24:25.617Z",
+          "oldestObservedAt": "2026-11-23T11:24:36.070Z",
           "knownPagesComplete": false
         }
       ]
@@ -7646,8 +7643,8 @@
       "shopName": "ワンハッピー",
       "status": "known_pages_covered",
       "fresh": true,
-      "offerCount": 160,
-      "cardNumbers": 125,
+      "offerCount": 136,
+      "cardNumbers": 119,
       "registeredRoots": [
         "https://www.onehappy.co.jp/view/category/OP18_ALL"
       ],
@@ -8399,10 +8396,10 @@
       "series": "OP09",
       "shopId": "tierone",
       "shopName": "ティアワン",
-      "status": "not_collected",
-      "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 191,
+      "cardNumbers": 126,
       "registeredRoots": [
         "https://tier-one-onepiece.jp/view/category/op09"
       ],
@@ -8412,13 +8409,13 @@
       "lists": [
         {
           "root": "https://tier-one-onepiece.jp/view/category/op09",
-          "knownPageCount": 1,
-          "savedPageCount": 0,
+          "knownPageCount": 5,
+          "savedPageCount": 4,
           "missingPages": [
-            1
+            5
           ],
           "errors": [],
-          "oldestObservedAt": null,
+          "oldestObservedAt": "2026-11-24T02:20:27.053Z",
           "knownPagesComplete": false
         }
       ]
@@ -8541,7 +8538,7 @@
       "shopName": "ティアワン",
       "status": "known_pages_covered",
       "fresh": true,
-      "offerCount": 175,
+      "offerCount": 173,
       "cardNumbers": 125,
       "registeredRoots": [
         "https://tier-one-onepiece.jp/view/category/op18"
@@ -8556,7 +8553,7 @@
           "savedPageCount": 4,
           "missingPages": [],
           "errors": [],
-          "oldestObservedAt": "2026-11-23T12:53:12.416Z",
+          "oldestObservedAt": "2026-11-23T12:53:22.897Z",
           "knownPagesComplete": true
         }
       ]
@@ -9111,7 +9108,7 @@
       "shopName": "福福トレカ",
       "status": "known_pages_covered",
       "fresh": true,
-      "offerCount": 69,
+      "offerCount": 73,
       "cardNumbers": 48,
       "registeredRoots": [
         "https://onepiece.fukufukutoreka.com/products/list?category_id=405"
@@ -9126,7 +9123,7 @@
           "savedPageCount": 1,
           "missingPages": [],
           "errors": [],
-          "oldestObservedAt": "2026-11-23T12:54:26.674Z",
+          "oldestObservedAt": "2026-11-24T02:22:03.050Z",
           "knownPagesComplete": true
         }
       ]
@@ -9269,7 +9266,7 @@
       "shopName": "福福トレカ",
       "status": "known_pages_covered",
       "fresh": true,
-      "offerCount": 69,
+      "offerCount": 73,
       "cardNumbers": 38,
       "registeredRoots": [
         "https://onepiece.fukufukutoreka.com/products/list?category_id=397"
@@ -9406,7 +9403,7 @@
           "savedPageCount": 1,
           "missingPages": [],
           "errors": [],
-          "oldestObservedAt": "2026-11-23T12:54:16.421Z",
+          "oldestObservedAt": "2026-11-24T02:21:52.372Z",
           "knownPagesComplete": true
         }
       ]
@@ -10045,10 +10042,10 @@
       "series": "OP09",
       "shopId": "torecolo",
       "shopName": "トレコロ",
-      "status": "not_collected",
-      "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "status": "partial",
+      "fresh": true,
+      "offerCount": 199,
+      "cardNumbers": 126,
       "registeredRoots": [
         "https://www.torecolo.jp/shop/c/c10732080/"
       ],
@@ -10058,13 +10055,13 @@
       "lists": [
         {
           "root": "https://www.torecolo.jp/shop/c/c10732080/",
-          "knownPageCount": 1,
-          "savedPageCount": 0,
+          "knownPageCount": 5,
+          "savedPageCount": 4,
           "missingPages": [
-            1
+            5
           ],
           "errors": [],
-          "oldestObservedAt": null,
+          "oldestObservedAt": "2026-11-24T02:22:15.395Z",
           "knownPagesComplete": false
         }
       ]
@@ -10171,7 +10168,7 @@
       "shopName": "トレコロ",
       "status": "known_pages_covered",
       "fresh": true,
-      "offerCount": 188,
+      "offerCount": 171,
       "cardNumbers": 123,
       "registeredRoots": [
         "https://www.torecolo.jp/shop/c/c10732066/"
@@ -10186,7 +10183,7 @@
           "savedPageCount": 4,
           "missingPages": [],
           "errors": [],
-          "oldestObservedAt": "2026-11-23T12:54:48.733Z",
+          "oldestObservedAt": "2026-11-23T12:54:59.853Z",
           "knownPagesComplete": true
         }
       ]
