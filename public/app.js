@@ -9,7 +9,7 @@ const $=s=>document.querySelector(s), escape=s=>String(s??'').replace(/[&<>"']/g
 const yen=n=>`¥${n.toLocaleString('ja-JP')}`;
 const date=s=>s?new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(s)):'未取得';
 const state={data:null,catalog:{},groups:[],selected:new Set(),favorites:new Set(),view:'compare',page:1,filtered:[],size:20,imported:false};
-const deckView=mountDeck($('#deckView'),()=>({data:state.data,catalog:state.catalog}));
+const deckView=mountDeck($('#deckView'),()=>({data:state.data,catalog:state.catalog,imported:state.imported}));
 try{state.favorites=new Set(JSON.parse(localStorage.getItem('op-compare-favorites')||'[]'));}catch{}
 let toastTimer;
 function toast(t){$('#toast').textContent=t;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,4000);}

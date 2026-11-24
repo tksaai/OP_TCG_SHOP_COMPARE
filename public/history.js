@@ -6,8 +6,8 @@ export function validateHistory(data){
   }
   return data;
 }
-export function trendsFor(history,key,{from=-Infinity,to=Date.now(),shopId='',staleAfterHours=36}={}){
-  const products=Object.entries(history.products).filter(([,p])=>p.key===key&&(!shopId||p.shopId===shopId));
+export function trendsFor(history,key,{from=-Infinity,to=Date.now(),shopId='',staleAfterHours=36,productId=''}={}){
+  const products=Object.entries(history.products).filter(([id,p])=>(!key||p.key===key)&&(!productId||id===productId)&&(!shopId||p.shopId===shopId));
   const events=new Map(),records=[];
   for(const [id,p]of products)for(const point of p.points){
     const time=Date.parse(point[0]);if(time>to)continue;
