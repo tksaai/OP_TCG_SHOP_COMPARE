@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T12:33:57.686Z",
-  "snapshotGeneratedAt": "2026-11-27T12:33:56.117Z",
+  "generatedAt": "2026-11-27T23:37:13.467Z",
+  "snapshotGeneratedAt": "2026-11-27T23:37:12.146Z",
   "scope": "手元の弾マスターに登録されているOP01〜18、EB01〜05、PRB01〜02、ST01〜36の61シリーズ。プロモ・ドン・未登録の新商品は対象外。",
   "catalogSource": "https://www.onepiece-cardgame.com/cardlist/",
   "notes": [
@@ -102,35 +102,35 @@
       "label": "ブースターパック ROMANCE DAWN【OP-01】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 243
+      "offers": 248
     },
     {
       "id": "OP02",
       "label": "ブースターパック 頂上決戦【OP-02】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 189
+      "offers": 194
     },
     {
       "id": "OP03",
       "label": "ブースターパック 強大な敵【OP-03】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 194
+      "offers": 205
     },
     {
       "id": "OP04",
       "label": "ブースターパック 謀略の王国【OP-04】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 168
+      "offers": 175
     },
     {
       "id": "OP05",
       "label": "ブースターパック 新時代の主役【OP-05】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 201
+      "offers": 211
     },
     {
       "id": "OP06",
@@ -151,21 +151,21 @@
       "label": "ブースターパック 二つの伝説【OP-08】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 222
+      "offers": 223
     },
     {
       "id": "OP09",
       "label": "ブースターパック 新たなる皇帝【OP-09】",
       "registeredShops": 10,
       "knownPagesCoveredShops": 7,
-      "offers": 1603
+      "offers": 1606
     },
     {
       "id": "OP10",
       "label": "ブースターパック 王族の血統【OP-10】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 138
+      "offers": 139
     },
     {
       "id": "OP11",
@@ -179,7 +179,7 @@
       "label": "ブースターパック 師弟の絆【OP-12】",
       "registeredShops": 1,
       "knownPagesCoveredShops": 0,
-      "offers": 203
+      "offers": 202
     },
     {
       "id": "OP13",
@@ -221,7 +221,7 @@
       "label": "ブースターパック 神の支配【OP-18】",
       "registeredShops": 10,
       "knownPagesCoveredShops": 6,
-      "offers": 1533
+      "offers": 1537
     },
     {
       "id": "PRB01",
@@ -235,14 +235,14 @@
       "label": "プレミアムブースター ONE PIECE CARD THE BEST vol.2【PRB-02】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 30
+      "offers": 40
     },
     {
       "id": "ST01",
       "label": "スタートデッキ 麦わらの一味【ST-01】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 97
+      "offers": 100
     },
     {
       "id": "ST02",
@@ -263,14 +263,14 @@
       "label": "スタートデッキ 百獣海賊団【ST-04】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 17
+      "offers": 19
     },
     {
       "id": "ST05",
       "label": "スタートデッキ ONE PIECE FILM edition【ST-05】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 16
+      "offers": 18
     },
     {
       "id": "ST06",
@@ -291,7 +291,7 @@
       "label": "スタートデッキ Side モンキー・D・ルフィ【ST-08】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 20
+      "offers": 21
     },
     {
       "id": "ST09",
@@ -305,7 +305,7 @@
       "label": "アルティメットデッキ “三船長”集結【ST-10】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 28
+      "offers": 29
     },
     {
       "id": "ST11",
@@ -326,7 +326,7 @@
       "label": "アルティメットデッキ 3兄弟の絆【ST-13】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 103
+      "offers": 104
     },
     {
       "id": "ST14",
@@ -340,28 +340,28 @@
       "label": "スタートデッキ 赤 エドワード・ニューゲート【ST-15】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 19
+      "offers": 22
     },
     {
       "id": "ST16",
       "label": "スタートデッキ 緑 ウタ【ST-16】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 12
+      "offers": 13
     },
     {
       "id": "ST17",
       "label": "スタートデッキ 青 ドンキホーテ・ドフラミンゴ【ST-17】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 26
+      "offers": 27
     },
     {
       "id": "ST18",
       "label": "スタートデッキ 紫 モンキー・D・ルフィ【ST-18】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 21
+      "offers": 22
     },
     {
       "id": "ST19",
@@ -438,7 +438,7 @@
       "label": "スタートデッキ EGGHEAD【ST-29】",
       "registeredShops": 0,
       "knownPagesCoveredShops": 0,
-      "offers": 27
+      "offers": 28
     },
     {
       "id": "ST30",
@@ -2467,8 +2467,8 @@
       "shopName": "フルアヘッド",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 49,
-      "cardNumbers": 44,
+      "offerCount": 54,
+      "cardNumbers": 49,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://fullahead-onepiece-cardgame.com/view/category/opc-op01"
@@ -2481,8 +2481,8 @@
       "shopName": "フルアヘッド",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 56,
-      "cardNumbers": 48,
+      "offerCount": 61,
+      "cardNumbers": 51,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://fullahead-onepiece-cardgame.com/view/category/opc-op02"
@@ -2495,8 +2495,8 @@
       "shopName": "フルアヘッド",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 56,
-      "cardNumbers": 45,
+      "offerCount": 67,
+      "cardNumbers": 52,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://fullahead-onepiece-cardgame.com/view/category/opc-op03"
@@ -2509,8 +2509,8 @@
       "shopName": "フルアヘッド",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 51,
-      "cardNumbers": 39,
+      "offerCount": 58,
+      "cardNumbers": 43,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://fullahead-onepiece-cardgame.com/view/category/opc-op04"
@@ -2523,8 +2523,8 @@
       "shopName": "フルアヘッド",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 75,
-      "cardNumbers": 62,
+      "offerCount": 85,
+      "cardNumbers": 66,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://fullahead-onepiece-cardgame.com/view/category/opc-op05"
@@ -2780,8 +2780,8 @@
       "shopName": "フルアヘッド",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "offerCount": 6,
+      "cardNumbers": 6,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://fullahead-onepiece-cardgame.com/view/category/opc-prb02"
@@ -2990,8 +2990,8 @@
       "shopName": "フルアヘッド",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "offerCount": 1,
+      "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://fullahead-onepiece-cardgame.com/view/category/opc-st15"
@@ -3004,8 +3004,8 @@
       "shopName": "フルアヘッド",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "offerCount": 1,
+      "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://fullahead-onepiece-cardgame.com/view/category/opc-st16"
@@ -3018,8 +3018,8 @@
       "shopName": "フルアヘッド",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 1,
-      "cardNumbers": 1,
+      "offerCount": 2,
+      "cardNumbers": 2,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://fullahead-onepiece-cardgame.com/view/category/opc-st17"
@@ -3032,7 +3032,7 @@
       "shopName": "フルアヘッド",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 1,
+      "offerCount": 2,
       "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4210,7 +4210,7 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 23,
+      "offerCount": 24,
       "cardNumbers": 8,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -4224,7 +4224,7 @@
       "shopName": "トレカラフテル",
       "status": "partial",
       "fresh": false,
-      "offerCount": 146,
+      "offerCount": 149,
       "cardNumbers": 99,
       "registeredRoots": [
         "https://www.tcg-raftel.com/product-list/187"
@@ -4431,7 +4431,7 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 20,
+      "offerCount": 23,
       "cardNumbers": 5,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -4467,7 +4467,7 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 6,
+      "offerCount": 8,
       "cardNumbers": 3,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -4479,7 +4479,7 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 3,
+      "offerCount": 5,
       "cardNumbers": 2,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -4515,7 +4515,7 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 4,
+      "offerCount": 5,
       "cardNumbers": 2,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -4539,7 +4539,7 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 6,
+      "offerCount": 7,
       "cardNumbers": 4,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -4575,7 +4575,7 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 19,
+      "offerCount": 20,
       "cardNumbers": 2,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -4767,7 +4767,7 @@
       "shopName": "トレカラフテル",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 9,
+      "offerCount": 10,
       "cardNumbers": 2,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -5083,7 +5083,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 25,
+      "offerCount": 26,
       "cardNumbers": 7,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -5111,7 +5111,7 @@
       "shopName": "メルカード",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 28,
+      "offerCount": 26,
       "cardNumbers": 10,
       "registeredRoots": [],
       "discoveredRoots": [
@@ -6465,7 +6465,8 @@
         "https://www.torezamunet.com/product-list?keyword=EB02-017&main_category=346&sub_category=624",
         "https://www.torezamunet.com/product-list?keyword=P-001&main_category=346&sub_category=624",
         "https://www.torezamunet.com/product-list?keyword=EB01-001&main_category=346&sub_category=624",
-        "https://www.torezamunet.com/product-list?keyword=P-002&main_category=346&sub_category=624"
+        "https://www.torezamunet.com/product-list?keyword=P-002&main_category=346&sub_category=624",
+        "https://www.torezamunet.com/product-list?keyword=EB02-001&main_category=346&sub_category=624"
       ],
       "lists": [
         {
@@ -6723,8 +6724,8 @@
       "shopName": "トレカ侍",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 11,
-      "cardNumbers": 9,
+      "offerCount": 12,
+      "cardNumbers": 10,
       "registeredRoots": [],
       "discoveredRoots": [
         "https://www.torezamunet.com/product-list/656",
@@ -7066,7 +7067,7 @@
       "shopName": "トレカ侍",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 3,
+      "offerCount": 5,
       "cardNumbers": 3,
       "registeredRoots": [],
       "discoveredRoots": [],
@@ -7535,7 +7536,7 @@
       "shopId": "onehappy",
       "shopName": "ワンハッピー",
       "status": "known_pages_covered",
-      "fresh": true,
+      "fresh": false,
       "offerCount": 194,
       "cardNumbers": 126,
       "registeredRoots": [
@@ -7686,8 +7687,8 @@
       "shopName": "ワンハッピー",
       "status": "known_pages_covered",
       "fresh": false,
-      "offerCount": 145,
-      "cardNumbers": 113,
+      "offerCount": 149,
+      "cardNumbers": 114,
       "registeredRoots": [
         "https://www.onehappy.co.jp/view/category/OP18_ALL"
       ],
@@ -7701,7 +7702,7 @@
           "savedPageCount": 4,
           "missingPages": [],
           "errors": [],
-          "oldestObservedAt": "2026-11-25T00:01:03.698Z",
+          "oldestObservedAt": "2026-11-26T03:41:04.079Z",
           "knownPagesComplete": true
         }
       ]
@@ -8453,7 +8454,7 @@
           "savedPageCount": 5,
           "missingPages": [],
           "errors": [],
-          "oldestObservedAt": "2026-11-25T19:25:38.202Z",
+          "oldestObservedAt": "2026-11-26T03:42:07.975Z",
           "knownPagesComplete": true
         }
       ]
@@ -9145,7 +9146,7 @@
       "shopId": "fukufuku",
       "shopName": "福福トレカ",
       "status": "known_pages_covered",
-      "fresh": false,
+      "fresh": true,
       "offerCount": 73,
       "cardNumbers": 49,
       "registeredRoots": [
@@ -9161,7 +9162,7 @@
           "savedPageCount": 1,
           "missingPages": [],
           "errors": [],
-          "oldestObservedAt": "2026-11-25T08:45:58.526Z",
+          "oldestObservedAt": "2026-11-27T23:36:17.547Z",
           "knownPagesComplete": true
         }
       ]
@@ -9303,7 +9304,7 @@
       "shopId": "fukufuku",
       "shopName": "福福トレカ",
       "status": "known_pages_covered",
-      "fresh": true,
+      "fresh": false,
       "offerCount": 73,
       "cardNumbers": 38,
       "registeredRoots": [
@@ -9464,8 +9465,8 @@
       "shopName": "福福トレカ",
       "status": "not_configured",
       "fresh": false,
-      "offerCount": 0,
-      "cardNumbers": 0,
+      "offerCount": 4,
+      "cardNumbers": 1,
       "registeredRoots": [],
       "discoveredRoots": [],
       "lists": []
@@ -10093,7 +10094,7 @@
           "savedPageCount": 5,
           "missingPages": [],
           "errors": [],
-          "oldestObservedAt": "2026-11-25T19:27:26.995Z",
+          "oldestObservedAt": "2026-11-26T03:43:45.933Z",
           "knownPagesComplete": true
         }
       ]
